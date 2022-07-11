@@ -1,0 +1,18 @@
+blastp -query QUS53100.fa -subject ../Genome/genome_pep.fa -outfmt 6 -out QUS53100.tsv
+
+blastp -query QGY72664.fa -subject ../Genome/genome_pep.fa -outfmt 6 -out QGY72664.tsv
+
+blastp -query QQS74306.fa -subject ../Genome/genome_pep.fa -outfmt 6 -out QQS74306.tsv
+
+blastp -query ambo_caff.fa -subject ../Genome/Piper_nigrum.pep -outfmt 6 -out ambo_caff.tsv
+
+blastp -query ambo_caff.fa -subject ../Genome/Piper_nigrum.pep -outfmt 6 -out ambo_caff.tsv
+
+blastp -query zea_tyr.fa -subject ../Genome/Piper_nigrum.pep -outfmt 6 -out zea_tyr.tsv
+
+blastp -query ambo_prim_am_ox.fa -subject ../Genome/Piper_nigrum.pep -outfmt 6 -out ambo_prim_am_ox.tsv
+
+
+
+
+blastp -query exons.fa -subject mRNA.fasta -outfmt 6 -out mRNA.tsv
