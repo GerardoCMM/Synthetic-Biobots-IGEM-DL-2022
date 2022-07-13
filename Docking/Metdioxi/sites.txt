@@ -1,5 +1,9 @@
 heme binding site [chemical binding site]
 
+Comment:based on the structure of Salvia miltiorrhiza CYP76AH1 with bound heme (5YM3), defined at 4A contacts
+
+Protoporphyrin IX containing fe
+
 Feature 1                                             #                          #   #       #   
 query         82 YDRAMTIWVGswgPMIVVSDADLAWEVLVTKSPDFAGRVlsklshlf--nadyntvvAYDAGPQWQSLRRGLQHGPLgpa 159
 CAE04891      71 YGPIVKLQMGv-rTLVVISSAELVHEALVEKGREFATRPaespirsif-ssgkftvnSAVYGPEWRSLRRNMVSGMLsaa 148 Japanese rice
