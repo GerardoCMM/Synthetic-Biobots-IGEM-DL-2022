@@ -29,7 +29,10 @@ dxd = DEXSeqDataSetFromHTSeq(
   design= ~ sample + exon + condition:exon,
   flattenedfile=flattenedFile ) # Loading files and experimental design
 
-genesForSubset = c(rownames(difInf40Counts), "Pn8.2617","Pn3.4770") # Using only differentially expressed genes and genes of importance for the pathway
+extra = c("Pn8.2617", "Pn2.84", "Pn1.1317", "Pn3.4770", "Pn16.1237",
+          "Pn4.3222", "Pn2.2377", "Pn12.1813")
+
+genesForSubset = c(rownames(difInf40Counts), extra) # Using only differentially expressed genes and genes of importance for the pathway
 
 dxd = dxd[geneIDs( dxd ) %in% genesForSubset,]
 
@@ -59,23 +62,23 @@ plotMA( dxr1, cex = 1, colNonSig = "cyan3") # Plotting mean expression of exonic
 
 ### Visualization
 
-plotDEXSeq( dxr1, "Pn3.4770", legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 1 Expression
+plotDEXSeq( dxr1, "Pn1.1317", legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 1 Expression
 
-plotDEXSeq( dxr1, "Pn3.4770", displayTranscripts=TRUE, legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 2 Expression with transcripts
+plotDEXSeq( dxr1, "Pn1.1317", displayTranscripts=TRUE, legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 2 Expression with transcripts
 
-plotDEXSeq( dxr1, "Pn3.4770", expression=FALSE, norCounts=TRUE,
+plotDEXSeq( dxr1, "Pn1.1317", expression=FALSE, norCounts=TRUE,
             legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 3 Normalized counts
 
-plotDEXSeq( dxr1, "Pn3.4770", splicing = TRUE, norCounts=FALSE,expression=FALSE,
+plotDEXSeq( dxr1, "Pn1.1317", splicing = TRUE, norCounts=FALSE,expression=FALSE,
             legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 4 Exon usage
 
-plotDEXSeq( dxr1, "Pn3.4770", splicing = TRUE, displayTranscripts=TRUE, norCounts=FALSE,expression=FALSE,
+plotDEXSeq( dxr1, "Pn1.1317", splicing = TRUE, displayTranscripts=TRUE, norCounts=FALSE,expression=FALSE,
             legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 5 Exon usage with transcripts
 
-plotDEXSeq( dxr1, "Pn3.4770", splicing = TRUE, norCounts=FALSE,
+plotDEXSeq( dxr1, "Pn1.1317", splicing = TRUE, norCounts=FALSE,
             legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 6 Expression and exon usage
 
-plotDEXSeq( dxr1, "Pn3.4770", splicing = TRUE, displayTranscripts=TRUE, norCounts=FALSE,
+plotDEXSeq( dxr1, "Pn1.1317", splicing = TRUE, displayTranscripts=TRUE, norCounts=FALSE,
             legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 7 Expression and exon usage with transcripts
 
 
