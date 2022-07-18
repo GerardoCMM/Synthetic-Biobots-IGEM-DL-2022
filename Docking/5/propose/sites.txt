@@ -1,0 +1,125 @@
+heme binding site [chemical binding site]
+
+Feature 1                           #   #             #                                    #     
+query         44 KHGPLMILHFGsvPNLIVSSEELAREVLKTYDLIFSDRPtsi----------------------------itdLLs---- 91 
+P93531        62 KYGPLMHLQLGevSAVVVTSPEMAKQVLKTHDIAFASRPkllamdiicynrrdiafspygdywrqmrkicimeVLsaksv 141 Chaco potato
+KMZ68920      67 RYGSFMHLKMGeiSQIVVSSSDVAEEFLKTHDVNFAYRSgifaskiltydnsdivfapygeywrqmrkivileLLsarkv 146 Zostera marina
+XP_020702753  67 KYGPLIHVNIGqiRTMFVCDADTASQILKAQDQIFCSRAqltspkrftyggkdigfcpyndhwkqlrrlcnteVFsvgrv 146 Dendrobium cate...
+XP_003516584  68 IYGPLMHLQLGeiSAVVVSSPNMAKEITKTHDVAFVQRPqiisaqilsyggldvvfapygdywrqmrkvfvseLLsakrv 147 soybean
+XP_003529310  74 KYGPLMLLHFGkvPVLVVSSADAAREVMRTHDLVFSDRPqrkindillygskdlasskygeywrqirslsvshLLstkrv 153 soybean
+XP_003532742  86 QHGPLMHLQLGekPHIIVSSADIAKEIMKTHDAIFANRPhllasksfaydssdiafssygkawrqlkkiciseLLnakhv 165 soybean
+XP_003525259  16 RYGPIMSLRLGqvPHVVVSSSEAAEDFLKAHDAVFASRPrleaskyfgygskglafseygpywrymrkvctlrLLtaskv 95  soybean
+Q9LTM0        61 IHGPVMQLQLGyvPLVVISSNQAAEEVLKTHDLDCCSRPetiasktisynfkdigfapygeewralrklavieLFslkkf 140 thale cress
+Feature 1                                                                                        
+query         92 ----------------------------------------------sVSFGkry---yeaKGSatGFPQMLGELSALAG- 121
+P93531       142 rsfssirhdevvrlidsiqp---cftsgelvnfteriiwftssmtcrSAFGqv-----lkEQE--VFIKLIREVISLAEg 211 Chaco potato
+KMZ68920     147 kyfnrlrreevckmidiltk---aattgtpvnltqmflilnnnivirSGFGtn-----lkHQK--EFLIFMKEQVDLLVg 216 Zostera marina
+XP_020702753 147 qsfhsfrreevdalvntisk---tsargdtvnvsqmafyyinnlifrEVFGkrlspdgecGWS--PLQGLVSEVAAAMGq 221 Dendrobium cate...
+XP_003516584 148 qsfsfiredetakfidsir-----asegspinltrkvfslvsasvsrAAIGnk-----skDQD--EFMYWLQKVIGSVGg 215 soybean
+XP_003529310 154 qsfrgvreeetarmmdnire---ccsdslhvnltdmcaaitndvacrVALGkry---rggGER--EFQSLLLEFGELLGa 225 soybean
+XP_003532742 166 qslrhireeevsklvshvy-----anegsiinltkeiesvtiaiiarAANGki-----ckDQE--AFMSTMEQMLVLLGg 233 soybean
+XP_003525259  96 dsfaplrkrelelavkslqesaaakegevvvdlsevvhnvveeivykMVLGss-----khDEF--DLKGLIQNAMNLTGa 168 soybean
+Q9LTM0       141 nsfryireeendllvkklse---asekqspvnlkkalftlsasivcrLAFGqnlhesefiDED--SMEDLASRSEKIQAk 215 thale cress
+Feature 1                                            #                                           
+query        122 ------------------------------------MAIKEHLDQNRVdvdyrgtqdlvnil------ldiqkkgehdfn 159
+P93531       212 fdvadifpsykflhgfg-gakqkllnahrkvdsiveDVIKEHKKNLATrksddaiggedlvda----lvrlmndkslqfp 286 Chaco potato
+KMZ68920     217 fnisnyfptlekflvwltglrkrtektrknledilnTVIDEHHQKSKNynnsamtdkegnnyld--illnlqkkndfgfe 294 Zostera marina
+XP_020702753 222 lgnadlfpwlgwldllt-gwrakldkiyekmnlmyeENIREHLARISEgkgdsenlldvl----------lhlyakegss 290 Dendrobium cate...
+XP_003516584 216 fdladlfpsmksihfit-gskaklekllnrvdkvleNIVREHLERQIRakdgrvevededlvd---vllriqqadtldik 291 soybean
+XP_003529310 226 vsigdyvpwldwlmskvsglfdraqevakhldqfidEVIEDHVRNGRNgdvdvdskqqndfvd---vllsmeknnttgsp 302 soybean
+XP_003532742 234 fsiadfypsikvlpllt-gmkskleraqrendkileNMVKDHKENENKngvthedfidill--------ktqkrddleip 304 soybean
+XP_003525259 169 fnlsdyvpwlrafdlqg--lnrsykriskaldevmeKIIKEHEHGSDVqneqhhrhrdfidillslmhqpidpydeqnhi 246 soybean
+Q9LTM0       216 fafsnffpggwildkit-gqskslneifadldgffnQVLDDHLKPGRKvletpdvvdvmid-------mmnkqsqdgsfk 287 thale cress
+Feature 1                    #  ##                                                               
+query        160 lDNDGIKAIILDNFVAGTE--SMDIVWAMAELMRHPrVLNKVQQEIREVVNrrgg----vaedDIKQMDYLKSVVKETFG 233
+P93531       287 iNNDNIKAVIIDLFAAGTEtsSTTTVWAMAEMLKNPsVFAKAQAKVREAFRdkvt----fdenDVEELKYLKLVIKETMR 362 Chaco potato
+KMZ68920     295 fTISNVKAIILDMFIAGTEttSTTLEWVISELVKNPeIMKKVTYEVRKTFKiigteaddydnsFSKEMSYMQNVIKETLR 374 Zostera marina
+XP_020702753 291 lTMDQIKGLLTNMFTAGIDtsSVTIEMAMTQLIKNPeALKKVQEEVRRVVGdkgt----veesDIQHLPYLKQVIKETLR 366 Dendrobium cate...
+XP_003516584 292 mTTRHVKALILDVFAAGIDtsASTLEWAMTEMMKNSrVREKAQAELRKVFGekki----ihesDIEQLTYLKLVIKETLR 367 soybean
+XP_003529310 303 iDRTVIKALILDMFVAGTDttHTALEWTMSELLKHPmVMHKLQDEVRSVVGnrth----vtedDLGQMNYLKAVIKESLR 378 soybean
+XP_003532742 305 lTHNNVKALIWDMFVGGTAapAAVTVWAMSELIKNPkAMEKAQTEVRKVFNvkgy----vdetELGQCQYLNSIIKETMR 380 soybean
+XP_003525259 247 iDKTNIKAILLDMIAGAFEtsATVVEWTFSELLRHPrVMKNLQDELDNVVGrdkm----veenDLAKLSYLDIVIKETLR 322 soybean
+Q9LTM0       288 lTTDHIKGIISDIFLAGVNtsATTILWAMTELIRNPrVMKKVQDEVRTVLGekrdr---iteqDLNQLNYFKLVIKETFR 364 thale cress
+Feature 1           #   ####                                                             ####  ##
+query        234 LRPAgpLLVPGLSRQEVKLqGYSIPAKTRVVVNAWAIGRDpn-lwECPEEFLPERFMennavdfrghhFQLIPFGAGRRI 312
+P93531       363 LHAPvpLLVPRECREETEInGYTIPVKTKVMVNVWALGRDpk-ywDDAESFKPERFEqcsid-fignnFEYLPFGGGRRI 440 Chaco potato
+KMZ68920     375 LHPPapLLVPHECKEKCQInGYDIDKKTSIIVNAWAIGRDpn-kwEDSEVFKPERFMgnpid-fkgshFDLIPFGSGKRI 452 Zostera marina
+XP_020702753 367 LSPPgpLLPPRASMKDAKVnGYDIPAKTMIYVDAYSIGRDpk-ywEDPEIFRPERFEnssin-fkgnnSAFIPFGAGRRI 444 Dendrobium cate...
+XP_003516584 368 LHPPtpLLIPRECSEETIIgGYEIPVKTKVMINVWAICRDpk-ywTDAERFVPERFEdssid-fkgnnFEYLPFGAGRRI 445 soybean
+XP_003529310 379 LHPPlpLIVPRKCMEDIKVkGYDIAAGTQVLVNAWVIARDps-swNQPLEFKPERFLsssvd-fkghdFELIPFGAGRRG 456 soybean
+XP_003532742 381 LHPPeaLLLPRENSEACVVnGYKIPAKSKVIINAWAIGREsk-ywNEAERFVPERFVddsyd-fsgtnFEYIPFGAGRRI 458 soybean
+XP_003525259 323 LYPPg-PLVPRESTEDAMVqGYFLKKKSRIIINIWAMGRDskiwsDNAEVFYPERFInknld-frgldLQYIPFGFGRRG 400 soybean
+Q9LTM0       365 LHPAapLLLPREAMAKIKIqGYDIPEKTQIMVNVYAIGRDpd-lwENPEEFKPERFVdssvd-yrglnFELLPFGSGRRI 442 thale cress
+Feature 1        ###  ##                                            
+query        313 CPEIQYATATIELVMVNLLYWFDWelp-cgvGEEVDMTEAFGiAV-KKISL 361
+P93531       441 CPGISFGLANVYLPLAQLLYHFDWklptgmePKDLDLTESAGiTAaRKGDL 491 Chaco potato
+KMZ68920     453 CPGITFALANVELFLATILYHFNWkmpngvpGEELDMTECVKgTLcRKHPL 503 Zostera marina
+XP_020702753 445 CPGITLSMANVELALSNMLYRFNWtlldgmtKEDIDMRPKPGlITpKLIPL 495 Dendrobium catenatum
+XP_003516584 446 CPGITFGLASIMLPLAQLLLHFNWelpdgmkPESIDMTERFGlAIgRKHDL 496 soybean
+XP_003529310 457 CPGITFATNIIEVVLANLVHQFDWslpggaaGEDLDMSETAGlAVhRKSPL 507 soybean
+XP_003532742 459 CPGAAFSMPYMLLSLANLLYHFDWklpngatIQELDMSESFGlTVkRVHDL 509 soybean
+XP_003525259 401 CPGIHLGLATVKIVVAQLVHCFSWelpggmtPGELDMSEKFGlSIpRVKHL 451 soybean
+Q9LTM0       443 CPGMTMGIATVELGLLNLLYFFDWglpegrtVKDIDLEEEGAiIIgKKVSL 493 thale cress
+
+putative chemical substrate binding pocket [chemical binding site]
+
+Feature 2                                                                                        
+query         44 KHGPLMILHFGsvPNLIVSSEELAREVLKTYDLIFSDRPtsi----------------------------itdLLs---- 91 
+P93531        62 KYGPLMHLQLGevSAVVVTSPEMAKQVLKTHDIAFASRPkllamdiicynrrdiafspygdywrqmrkicimeVLsaksv 141 Chaco potato
+KMZ68920      67 RYGSFMHLKMGeiSQIVVSSSDVAEEFLKTHDVNFAYRSgifaskiltydnsdivfapygeywrqmrkivileLLsarkv 146 Zostera marina
+XP_020702753  67 KYGPLIHVNIGqiRTMFVCDADTASQILKAQDQIFCSRAqltspkrftyggkdigfcpyndhwkqlrrlcnteVFsvgrv 146 Dendrobium cate...
+XP_003516584  68 IYGPLMHLQLGeiSAVVVSSPNMAKEITKTHDVAFVQRPqiisaqilsyggldvvfapygdywrqmrkvfvseLLsakrv 147 soybean
+XP_003529310  74 KYGPLMLLHFGkvPVLVVSSADAAREVMRTHDLVFSDRPqrkindillygskdlasskygeywrqirslsvshLLstkrv 153 soybean
+XP_003532742  86 QHGPLMHLQLGekPHIIVSSADIAKEIMKTHDAIFANRPhllasksfaydssdiafssygkawrqlkkiciseLLnakhv 165 soybean
+XP_003525259  16 RYGPIMSLRLGqvPHVVVSSSEAAEDFLKAHDAVFASRPrleaskyfgygskglafseygpywrymrkvctlrLLtaskv 95  soybean
+Q9LTM0        61 IHGPVMQLQLGyvPLVVISSNQAAEEVLKTHDLDCCSRPetiasktisynfkdigfapygeewralrklavieLFslkkf 140 thale cress
+Feature 2                                                                                 #   #  
+query         92 ----------------------------------------------sVSFGkry---yeaKGSatGFPQMLGELSALAG- 121
+P93531       142 rsfssirhdevvrlidsiqp---cftsgelvnfteriiwftssmtcrSAFGqv-----lkEQE--VFIKLIREVISLAEg 211 Chaco potato
+KMZ68920     147 kyfnrlrreevckmidiltk---aattgtpvnltqmflilnnnivirSGFGtn-----lkHQK--EFLIFMKEQVDLLVg 216 Zostera marina
+XP_020702753 147 qsfhsfrreevdalvntisk---tsargdtvnvsqmafyyinnlifrEVFGkrlspdgecGWS--PLQGLVSEVAAAMGq 221 Dendrobium cate...
+XP_003516584 148 qsfsfiredetakfidsir-----asegspinltrkvfslvsasvsrAAIGnk-----skDQD--EFMYWLQKVIGSVGg 215 soybean
+XP_003529310 154 qsfrgvreeetarmmdnire---ccsdslhvnltdmcaaitndvacrVALGkry---rggGER--EFQSLLLEFGELLGa 225 soybean
+XP_003532742 166 qslrhireeevsklvshvy-----anegsiinltkeiesvtiaiiarAANGki-----ckDQE--AFMSTMEQMLVLLGg 233 soybean
+XP_003525259  96 dsfaplrkrelelavkslqesaaakegevvvdlsevvhnvveeivykMVLGss-----khDEF--DLKGLIQNAMNLTGa 168 soybean
+Q9LTM0       141 nsfryireeendllvkklse---asekqspvnlkkalftlsasivcrLAFGqnlhesefiDED--SMEDLASRSEKIQAk 215 thale cress
+Feature 2                                                                                        
+query        122 ------------------------------------MAIKEHLDQNRVdvdyrgtqdlvnil------ldiqkkgehdfn 159
+P93531       212 fdvadifpsykflhgfg-gakqkllnahrkvdsiveDVIKEHKKNLATrksddaiggedlvda----lvrlmndkslqfp 286 Chaco potato
+KMZ68920     217 fnisnyfptlekflvwltglrkrtektrknledilnTVIDEHHQKSKNynnsamtdkegnnyld--illnlqkkndfgfe 294 Zostera marina
+XP_020702753 222 lgnadlfpwlgwldllt-gwrakldkiyekmnlmyeENIREHLARISEgkgdsenlldvl----------lhlyakegss 290 Dendrobium cate...
+XP_003516584 216 fdladlfpsmksihfit-gskaklekllnrvdkvleNIVREHLERQIRakdgrvevededlvd---vllriqqadtldik 291 soybean
+XP_003529310 226 vsigdyvpwldwlmskvsglfdraqevakhldqfidEVIEDHVRNGRNgdvdvdskqqndfvd---vllsmeknnttgsp 302 soybean
+XP_003532742 234 fsiadfypsikvlpllt-gmkskleraqrendkileNMVKDHKENENKngvthedfidill--------ktqkrddleip 304 soybean
+XP_003525259 169 fnlsdyvpwlrafdlqg--lnrsykriskaldevmeKIIKEHEHGSDVqneqhhrhrdfidillslmhqpidpydeqnhi 246 soybean
+Q9LTM0       216 fafsnffpggwildkit-gqskslneifadldgffnQVLDDHLKPGRKvletpdvvdvmid-------mmnkqsqdgsfk 287 thale cress
+Feature 2                   #  ##                                                                
+query        160 lDNDGIKAIILDNFVAGTE--SMDIVWAMAELMRHPrVLNKVQQEIREVVNrrgg----vaedDIKQMDYLKSVVKETFG 233
+P93531       287 iNNDNIKAVIIDLFAAGTEtsSTTTVWAMAEMLKNPsVFAKAQAKVREAFRdkvt----fdenDVEELKYLKLVIKETMR 362 Chaco potato
+KMZ68920     295 fTISNVKAIILDMFIAGTEttSTTLEWVISELVKNPeIMKKVTYEVRKTFKiigteaddydnsFSKEMSYMQNVIKETLR 374 Zostera marina
+XP_020702753 291 lTMDQIKGLLTNMFTAGIDtsSVTIEMAMTQLIKNPeALKKVQEEVRRVVGdkgt----veesDIQHLPYLKQVIKETLR 366 Dendrobium cate...
+XP_003516584 292 mTTRHVKALILDVFAAGIDtsASTLEWAMTEMMKNSrVREKAQAELRKVFGekki----ihesDIEQLTYLKLVIKETLR 367 soybean
+XP_003529310 303 iDRTVIKALILDMFVAGTDttHTALEWTMSELLKHPmVMHKLQDEVRSVVGnrth----vtedDLGQMNYLKAVIKESLR 378 soybean
+XP_003532742 305 lTHNNVKALIWDMFVGGTAapAAVTVWAMSELIKNPkAMEKAQTEVRKVFNvkgy----vdetELGQCQYLNSIIKETMR 380 soybean
+XP_003525259 247 iDKTNIKAILLDMIAGAFEtsATVVEWTFSELLRHPrVMKNLQDELDNVVGrdkm----veenDLAKLSYLDIVIKETLR 322 soybean
+Q9LTM0       288 lTTDHIKGIISDIFLAGVNtsATTILWAMTELIRNPrVMKKVQDEVRTVLGekrdr---iteqDLNQLNYFKLVIKETFR 364 thale cress
+Feature 2                #                                                                       
+query        234 LRPAgpLLVPGLSRQEVKLqGYSIPAKTRVVVNAWAIGRDpn-lwECPEEFLPERFMennavdfrghhFQLIPFGAGRRI 312
+P93531       363 LHAPvpLLVPRECREETEInGYTIPVKTKVMVNVWALGRDpk-ywDDAESFKPERFEqcsid-fignnFEYLPFGGGRRI 440 Chaco potato
+KMZ68920     375 LHPPapLLVPHECKEKCQInGYDIDKKTSIIVNAWAIGRDpn-kwEDSEVFKPERFMgnpid-fkgshFDLIPFGSGKRI 452 Zostera marina
+XP_020702753 367 LSPPgpLLPPRASMKDAKVnGYDIPAKTMIYVDAYSIGRDpk-ywEDPEIFRPERFEnssin-fkgnnSAFIPFGAGRRI 444 Dendrobium cate...
+XP_003516584 368 LHPPtpLLIPRECSEETIIgGYEIPVKTKVMINVWAICRDpk-ywTDAERFVPERFEdssid-fkgnnFEYLPFGAGRRI 445 soybean
+XP_003529310 379 LHPPlpLIVPRKCMEDIKVkGYDIAAGTQVLVNAWVIARDps-swNQPLEFKPERFLsssvd-fkghdFELIPFGAGRRG 456 soybean
+XP_003532742 381 LHPPeaLLLPRENSEACVVnGYKIPAKSKVIINAWAIGREsk-ywNEAERFVPERFVddsyd-fsgtnFEYIPFGAGRRI 458 soybean
+XP_003525259 323 LYPPg-PLVPRESTEDAMVqGYFLKKKSRIIINIWAMGRDskiwsDNAEVFYPERFInknld-frgldLQYIPFGFGRRG 400 soybean
+Q9LTM0       365 LHPAapLLLPREAMAKIKIqGYDIPEKTQIMVNVYAIGRDpd-lwENPEEFKPERFVdssvd-yrglnFELLPFGSGRRI 442 thale cress
+Feature 2                                                           
+query        313 CPEIQYATATIELVMVNLLYWFDWelp-cgvGEEVDMTEAFGiAV-KKISL 361
+P93531       441 CPGISFGLANVYLPLAQLLYHFDWklptgmePKDLDLTESAGiTAaRKGDL 491 Chaco potato
+KMZ68920     453 CPGITFALANVELFLATILYHFNWkmpngvpGEELDMTECVKgTLcRKHPL 503 Zostera marina
+XP_020702753 445 CPGITLSMANVELALSNMLYRFNWtlldgmtKEDIDMRPKPGlITpKLIPL 495 Dendrobium catenatum
+XP_003516584 446 CPGITFGLASIMLPLAQLLLHFNWelpdgmkPESIDMTERFGlAIgRKHDL 496 soybean
+XP_003529310 457 CPGITFATNIIEVVLANLVHQFDWslpggaaGEDLDMSETAGlAVhRKSPL 507 soybean
+XP_003532742 459 CPGAAFSMPYMLLSLANLLYHFDWklpngatIQELDMSESFGlTVkRVHDL 509 soybean
+XP_003525259 401 CPGIHLGLATVKIVVAQLVHCFSWelpggmtPGELDMSEKFGlSIpRVKHL 451 soybean
+Q9LTM0       443 CPGMTMGIATVELGLLNLLYFFDWglpegrtVKDIDLEEEGAiIIgKKVSL 493 thale cress

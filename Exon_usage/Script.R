@@ -62,23 +62,23 @@ plotMA( dxr1, cex = 1, colNonSig = "cyan3") # Plotting mean expression of exonic
 
 ### Visualization
 
-plotDEXSeq( dxr1, "Pn4.3222", legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 1 Expression
+plotDEXSeq( dxr1, "Pn16.1198", legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 1 Expression
 
-plotDEXSeq( dxr1, "Pn4.3222", displayTranscripts=TRUE, legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 2 Expression with transcripts
+plotDEXSeq( dxr1, "Pn16.1198", displayTranscripts=TRUE, legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 2 Expression with transcripts
 
-plotDEXSeq( dxr1, "Pn4.3222", expression=FALSE, norCounts=TRUE,
+plotDEXSeq( dxr1, "Pn16.1198", expression=FALSE, norCounts=TRUE,
             legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 3 Normalized counts
 
-plotDEXSeq( dxr1, "Pn4.3222", splicing = TRUE, norCounts=FALSE,expression=FALSE,
+plotDEXSeq( dxr1, "Pn16.1198", splicing = TRUE, norCounts=FALSE,expression=FALSE,
             legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 4 Exon usage
 
-plotDEXSeq( dxr1, "Pn4.3222", splicing = TRUE, displayTranscripts=TRUE, norCounts=FALSE,expression=FALSE,
+plotDEXSeq( dxr1, "Pn16.1198", splicing = TRUE, displayTranscripts=TRUE, norCounts=FALSE,expression=FALSE,
             legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 5 Exon usage with transcripts
 
-plotDEXSeq( dxr1, "Pn4.3222", splicing = TRUE, norCounts=FALSE,
+plotDEXSeq( dxr1, "Pn16.1198", splicing = TRUE, norCounts=FALSE,
             legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 6 Expression and exon usage
 
-plotDEXSeq( dxr1, "Pn4.3222", splicing = TRUE, displayTranscripts=TRUE, norCounts=FALSE,
+plotDEXSeq( dxr1, "Pn16.1198", splicing = TRUE, displayTranscripts=TRUE, norCounts=FALSE,
             legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 7 Expression and exon usage with transcripts
 
 
