@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../web/css/master.css"/>
     <link rel="stylesheet" href="../web/css/jquery.fancybox.css"/>
     <link rel="stylesheet" href="../web/css/jquery-ui.min.css"/>  
-    <title>5: Pn1.1178 | Models</title>
+    <title>5: Pn7.1626 | Models</title>
     <style>
       .noborder > thead > tr > th,
       .noborder > tbody > tr > td {
@@ -177,10 +177,10 @@
     </nav>
 
     <div class="container-fluid" style="padding-left:15px">
-      <h3 style="display:inline-block;" id="title_8G5dwy">5: Pn1.1178
+      <h3 style="display:inline-block;" id="title_JBEvfp">5: Pn7.1626
       </h3>
       <h3 style="display:inline-block; margin-left:8px;">
-        <small>Created: July 17, 2022, 9:33 p.m. at 21:33</small>
+        <small>Created: July 21, 2022, 8:13 p.m. at 20:13</small>
       </h3>
     </div>
       
@@ -263,21 +263,21 @@
             <a class="smng-help" href="/docs/help#oligo-state"></a>
           </dt>
           <dd>
-            Monomer<br>
+            Monomer<br>(matching prediction)
           </dd>
 
           <dt title="Global Model Quality Estimate">
             GMQE <a class="smng-help" href="/docs/help#GMQE"></a>
           </dt>
           <dd>
-            0.70
+            0.59
           </dd>
 
           <dt>
             QMEANDisCo Global: <a class="smng-help" href="/docs/help#qmean"></a>
           </dt>
           <dd>
-           <span id="avgLocalScore_01">0.66</span> <span class="qmError"> &plusmn; 0.05</span> 
+           <span id="avgLocalScore_01">0.62</span> <span class="qmError"> &plusmn; 0.05</span> 
           </dd>
         </dl>
       </div>
@@ -368,14 +368,14 @@ var html = ``;
     
 
     <div style="margin-top:12px"><small style="font-weight: bold;">Template</small>
-      <div class="pull-right"><span class="glyphicon glyphicon-chevron-down" style="opacity:.7; cursor:pointer;" onclick="$('#templates_01_739ac7bc9cc6efb159b2844a3394116aa676ac26').toggle();"></span></div>
+      <div class="pull-right"><span class="glyphicon glyphicon-chevron-down" style="opacity:.7; cursor:pointer;" onclick="$('#templates_01_e8521cdc3414453df0f845ab4ed1734ef6b878ff').toggle();"></span></div>
     </div>
     <div style="display: flex; flex-direction: row;">
       <div style="flex-grow: 3; overflow: auto;">
         
-                  <a href="models/01/templates/5ylw.1.A.pdb.gz" target="_blank">5ylw.1.A</a>
+                  <a href="models/01/templates/6b82.1.B.pdb.gz" target="_blank">6b82.1.B</a>
               </a>
-        Ferruginol synthase<br><small>CYP76AH1 from Salvia miltiorrhiza</small>
+        Cytochrome P450, family 17, subfamily A, polypeptide 1<br><small>Zebra Fish CYP-450 17A1 Mutant Abiraterone Complex</small>
       </div>
       <div style="flex-grow: 3;">
         <dl class="dl-models">
@@ -383,7 +383,7 @@ var html = ``;
             Seq Identity
           </dt>
           <dd>
-            32.58%
+            24.01%
           </dd>
           <dt>
             Coverage
@@ -392,11 +392,11 @@ var html = ``;
             <div template_count="1">
                 
                 <div id="range_01_0_0"
-                 seqlength="363"
-                 resFrom="14"
-                 resTo="362"
-                 seqSim="0.37"
-                 title="Model-Template: A 14-362"></div>
+                 seqlength="501"
+                 resFrom="39"
+                 resTo="501"
+                 seqSim="0.33"
+                 title="Model-Template: B 39-501"></div>
               </div>
           </dd>
         </dl>
@@ -405,33 +405,33 @@ var html = ``;
     </div>
 
 
-    <div id="templates_01_739ac7bc9cc6efb159b2844a3394116aa676ac26" style="overflow: auto; display:none;">
+    <div id="templates_01_e8521cdc3414453df0f845ab4ed1734ef6b878ff" style="overflow: auto; display:none;">
       <table class="table noborder table-condensed" >
         <tr>
           <td width=200><small><b>Biounit Oligo State</b></small></td>
-          <td>Monomer</td>
+          <td>Homo-dimer</td>
         </tr>
         <tr>
           <td><small><b>QSQE</b></small></td>
-          <td>0.00</td>
+          <td>0.10</td>
         </tr>
         <tr>
           <td>
             <small><b>Method</b></small>
           </td>
-          <td>X-ray, 1.70 &Aring;</td>
+          <td>X-ray, 3.03 &Aring;</td>
         </tr>
         <tr>
           <td><small><b>Seq Similarity</b></small></td>
-          <td>0.37</td>
+          <td>0.33</td>
         </tr>
         <tr>
           <td><small><b>Coverage</b></small></td>
-          <td>0.97</td>
+          <td>0.91</td>
         </tr>
         <tr>
           <td><small><b>Range</b></small></td>
-          <td>14-362</td>
+          <td>39-501</td>
         </tr>
         
       </table>
@@ -452,7 +452,63 @@ var html = ``;
             
             <tr>
               <td>
-                <div class="ligand_summary" title="PROTOPORPHYRIN IX CONTAINING FE" ligand_name="HEM"><a href="https://swissmodel.expasy.org//templates/5ylw.1?l=1" target="_blank">HEM </a></div>
+                <div class="ligand_summary" title="ACETATE ION" ligand_name="ACT"><a href="https://swissmodel.expasy.org//templates/6b82.1?l=3" target="_blank">ACT </a></div>
+              </td>
+              <td>&#10005; - Not biologically relevant.
+              </td>
+              <td style="word-break:break-all">ACETATE ION</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="ligand_summary" title="ACETATE ION" ligand_name="ACT"><a href="https://swissmodel.expasy.org//templates/6b82.1?l=7" target="_blank">ACT </a></div>
+              </td>
+              <td>&#10005; - Not biologically relevant.
+              </td>
+              <td style="word-break:break-all">ACETATE ION</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="ligand_summary" title="ACETATE ION" ligand_name="ACT"><a href="https://swissmodel.expasy.org//templates/6b82.1?l=8" target="_blank">ACT </a></div>
+              </td>
+              <td>&#10005; - Not biologically relevant.
+              </td>
+              <td style="word-break:break-all">ACETATE ION</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="ligand_summary" title="ACETATE ION" ligand_name="ACT"><a href="https://swissmodel.expasy.org//templates/6b82.1?l=9" target="_blank">ACT </a></div>
+              </td>
+              <td>&#10005; - Not biologically relevant.
+              </td>
+              <td style="word-break:break-all">ACETATE ION</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="ligand_summary" title="Abiraterone" ligand_name="AER"><a href="https://swissmodel.expasy.org//templates/6b82.1?l=2" target="_blank">AER </a></div>
+              </td>
+              <td>&#10005; - Binding site not conserved.
+              </td>
+              <td style="word-break:break-all">Abiraterone</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="ligand_summary" title="Abiraterone" ligand_name="AER"><a href="https://swissmodel.expasy.org//templates/6b82.1?l=5" target="_blank">AER </a></div>
+              </td>
+              <td>&#10005; - Binding site not conserved.
+              </td>
+              <td style="word-break:break-all">Abiraterone</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="ligand_summary" title="CHLORIDE ION" ligand_name="CL"><a href="https://swissmodel.expasy.org//templates/6b82.1?l=6" target="_blank">CL </a></div>
+              </td>
+              <td>&#10005; - Not in contact with model.
+              </td>
+              <td style="word-break:break-all">CHLORIDE ION</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="ligand_summary" title="PROTOPORPHYRIN IX CONTAINING FE" ligand_name="HEM"><a href="https://swissmodel.expasy.org//templates/6b82.1?l=1" target="_blank">HEM </a></div>
               </td>
               <td>&#10005; - Binding site not conserved.
               </td>
@@ -460,18 +516,18 @@ var html = ``;
             </tr>
             <tr>
               <td>
-                <div class="ligand_summary" title="MANGANESE (II) ION" ligand_name="MN"><a href="https://swissmodel.expasy.org//templates/5ylw.1?l=2" target="_blank">MN </a></div>
+                <div class="ligand_summary" title="PROTOPORPHYRIN IX CONTAINING FE" ligand_name="HEM"><a href="https://swissmodel.expasy.org//templates/6b82.1?l=4" target="_blank">HEM </a></div>
               </td>
-              <td>&#10005; - Not in contact with model.
+              <td>&#10005; - Binding site not conserved.
               </td>
-              <td style="word-break:break-all">MANGANESE (II) ION</td>
+              <td style="word-break:break-all">PROTOPORPHYRIN IX CONTAINING FE</td>
             </tr>
           </tbody>
        </table>
       </div>
       
 
-    </div><!-- end templates_01_739ac7bc9cc6efb159b2844a3394116aa676ac26 -->
+    </div><!-- end templates_01_e8521cdc3414453df0f845ab4ed1734ef6b878ff -->
     
 
 
@@ -481,20 +537,20 @@ var html = ``;
 </div>
 
 
-<div id="alignment_01_A" style="display:none; margin-bottom:12px">
+<div id="alignment_01_B" style="display:none; margin-bottom:12px">
 <table cellpadding="0" cellspacing="0" class="alignTblContainer">
     <tr>
         <td valign="top">
             <div class="hidden-print">
-                <a id="options_01_A" class="poponthis glyphicon glyphicon-cog" style="color:#333;opacity:.7;margin-right:2px"></a> 
+                <a id="options_01_B" class="poponthis glyphicon glyphicon-cog" style="color:#333;opacity:.7;margin-right:2px"></a> 
             </div>
         </td>
         <td valign="top">
-            <table class="alignNameTbl" id="alignNameTbl01_A" border="0" cellspacing="0" cellpadding="0"></table>
+            <table class="alignNameTbl" id="alignNameTbl01_B" border="0" cellspacing="0" cellpadding="0"></table>
         </td>
         <td valign="top">
-            <table class="alignTbl" id="alignTbl01_A" cols_cookie="mdl_cols" border="0" cellspacing="0" cellpadding="0" ></table>
-            <div id="alignTbl01_A_features" style="z-index:-1; position: absolute;"></div>
+            <table class="alignTbl" id="alignTbl01_B" cols_cookie="mdl_cols" border="0" cellspacing="0" cellpadding="0" ></table>
+            <div id="alignTbl01_B_features" style="z-index:-1; position: absolute;"></div>
         </td>
     </tr>
 </table><div id="offscreen_selection" style="position:absolute; top:-5000px;"></div>
@@ -503,7 +559,7 @@ var html = ``;
 
 
 <script>
-  modelData['01'] = {"model_id":"01","status":"COMPLETED","json_version":"0.1","sequence_similarity":0.3728043735027313,"sequence_identity":32.577903747558594,"coverage":0.9724518060684204,"major_issues":null,"built_with":"ProMod3 3.2.1","smtl_version":"2022-07-13","pdb_release":"2022-07-08","targets":[{"model_chains":[{"psipred":"CCEEEECCCCCCCCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHCCEEEEEECCCCEEEECCHHHHHHHHHHCCCCCCCCCCCHHHHHHCCCC-------CCEEEE-----------------------------------E-------------------------ECC----C-----CCCHHHH-----------------------------------HHHHHHHHHHHHHHHHHHCCCCCCCCCCCCHHHHHHHHHHCCCCCCCCCHHHHHHHHHHHHHHC--CCHHHHHHHHHHHHCCHHHHHHHHHHHHHHHHCCCCCCHHHHHCCHHHHHHHHHHHCCCCCCCCCCCCCCCCCEEEEEEECCCCEEEEEECCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHCEEECCCCCCCCEEEEEECCCCC---CCCCCCC","dssp":"-------------CCCCSCCBTTTBTGGGCCSCHHHHHHHHHHHHCSEEEEEETTEEEEEECSHHHHHIIIIITTTTSCBCCCCGGGGGGGGGGSCCCGGGCCCCCCCCSSCSHHHHHHHHHHHHHHHHHHHHCTTSCCCCSHHHHHHHHHHHCCSSCCCCHHHHHHHHHHHHHHCCHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHTTCSSCCGGGGGGCHHHHHHHHHHHHHCCSSTTCSCEECSSCEEETTEEECTTCEEEECHHHHHTCTTTSSSTTSCCGGGGTTCTTCSCSSSCTTCCTTCCGGGCCTTHHHHHHHHHHHHHHHHHHCCCCCSSCTHHHHHHHHCBCSSSBSSCCC","qmean":[null,null,null,null,null,null,null,null,null,null,null,null,null,0.68,0.77,0.77,0.74,0.7,0.64,0.65,0.65,0.61,0.63,0.7,0.75,0.71,0.72,0.64,0.66,0.69,0.65,0.65,0.64,0.72,0.74,0.7,0.74,0.76,0.78,0.74,0.74,0.75,0.7,0.72,0.73,0.8,0.79,0.79,0.77,0.78,0.76,0.73,0.72,0.75,0.71,0.74,0.76,0.77,0.8,0.81,0.81,0.81,0.79,0.73,0.74,0.78,0.81,0.7,0.72,0.77,0.75,0.71,0.73,0.72,0.73,0.73,0.73,0.73,0.73,0.69,0.62,0.69,0.59,0.54,0.49,0.45,0.48,0.46,0.41,0.41,0.48,0.56,0.56,0.53,0.27,0.36,0.33,0.5,0.53,0.4,0.33,0.35,0.37,0.39,0.36,0.36,0.32,0.31,0.25,0.26,0.28,0.25,0.46,0.65,0.6,0.6,0.6,0.68,0.64,0.68,0.7,0.62,0.71,0.67,0.66,0.63,0.66,0.66,0.68,0.65,0.65,0.57,0.61,0.58,0.53,0.48,0.48,0.49,0.67,0.63,0.59,0.65,0.69,0.68,0.68,0.71,0.7,0.69,0.71,0.69,0.68,0.69,0.67,0.69,0.43,0.3,0.45,0.51,0.55,0.56,0.63,0.68,0.65,0.66,0.66,0.65,0.65,0.64,0.64,0.57,0.56,0.52,0.48,0.58,0.62,0.61,0.55,0.7,0.73,0.7,0.77,0.78,0.75,0.72,0.83,0.77,0.78,0.76,0.79,0.73,0.68,0.74,0.78,0.7,0.8,0.78,0.76,0.76,0.81,0.75,0.75,0.75,0.75,0.66,0.7,0.73,0.71,0.66,0.53,0.53,0.64,0.7,0.72,0.71,0.67,0.68,0.67,0.68,0.65,0.68,0.72,0.74,0.77,0.8,0.76,0.79,0.83,0.83,0.76,0.78,0.83,0.79,0.83,0.79,0.7,0.74,0.72,0.73,0.76,0.74,0.71,0.7,0.75,0.77,0.75,0.73,0.63,0.68,0.68,0.74,0.67,0.71,0.69,0.71,0.71,0.72,0.73,0.73,0.74,0.67,0.75,0.72,0.8,0.8,0.8,0.79,0.81,0.75,0.81,0.78,0.81,0.71,0.75,0.76,0.72,0.73,0.7,0.69,0.8,0.78,0.71,0.73,0.79,0.8,0.81,0.74,0.7,0.71,0.69,0.58,0.62,0.6,0.67,0.49,0.45,0.5,0.59,0.71,0.63,0.66,0.71,0.71,0.73,0.75,0.77,0.74,0.77,0.76,0.76,0.65,0.63,0.72,0.72,0.68,0.63,0.71,0.66,0.67,0.76,0.77,0.76,0.75,0.79,0.77,0.78,0.79,0.78,0.79,0.75,0.77,0.76,0.73,0.67,0.69,0.66,0.57,0.57,0.62,0.6,0.63,0.66,0.45,0.27,0.38,0.29,0.67,0.61,0.58,0.65,0.6,0.65,0.64,0.59,0.31,0.32,0.36,0.6,0.58,0.57,0.61,0.67,0.65,null],"id":"A","templates":[{"id":"739ac7bc9cc6efb159b2844a3394116aa676ac26","pdb_id":"5ylw","chain":"A","method":"X-RAY DIFFRACTION","short_method":"X-ray","coverage":0.9724518060684204,"resolution":1.7000000476837158,"description":"Ferruginol synthase","assembly_id":1,"score":1.5671439170837402,"found_by":"HHblits","oligo_state":"monomer","comment":"e_value=3.4e-53, p_value=2.4e-57, score=411.8, ss_score=28.4, prob=100, gmqe_dist_const=0.8341227173805237, gmqe_reduced=0.1690089851617813, gmqe_cb_packing=0.011391900479793549, gmqe_torsion=-0.11404961347579956, gmqe_ss_agreement=0.5152916312217712, gmqe_coverage=0.9504132270812988, gmqe_seq_id=33.043479919433594, gmqe_seq_sim=0.3752656877040863, gmqe_n_insertions=3, gmqe_n_deletions=8, gmqe_seqres_length=363, gmqe_seqres_coverage=0.9724517906336089, gmqe_profile_aln_score=411.8, gmqe_avg_entropy=2.1869332790374756","offset":19,"oligo_state_bu":"monomer","oligo_state_bu_full":"monomer","is_whole_complex":"whole_complex","qualified_name":"5ylw.1.A","biounit_name":"5ylw.1","gmqe":0.7056641578674316,"sequence_identity":32.577903747558594,"sequence_similarity":0.3728043735027313,"alignment":{"target_sequence":"MRFLLKSMKHDPRQPPSPTKLLIIGNLRQIGSLPHRSLATLSQKHGPLMILHFGSVPNLIVSSEELAREVLKTYDLIFSDRPTSIITDLLSSVS-------FGKRYY-----------------------------------E-------------------------AKG----S-----ATGFPQM-----------------------------------LGELSALAGMAIKEHLDQNRVDVDYRGTQDLVNILLDIQKKGEHDFNLDNDGIKAIILDNFVAG--TESMDIVWAMAELMRHPRVLNKVQQEIREVVNRRGGVAEDDIKQMDYLKSVVKETFGLRPAGPLLVPGLSRQEVKLQGYSIPAKTRVVVNAWAIGRDPNLWECPEEFLPERFMENNAVDFRGHHFQLIPFGAGRRICPEIQYATATIELVMVNLLYWFDWELPCGVGEEVDMTEAFGIAV---KKISLLF","template_sequence":"-----LSFRRRRNLPPGPFPYPIVGNMLQLGANPHQVFAKLSKRYGPLMSIHLGSLYTVIVSSPEMAKEILHRHGQVFSGRTIAQAVHACDHDKISMGFLPVASEWRDMRKICKEQMFSNQSMEASQGLRRQKLQQLLDHVQKCSDSGRAVDIREAAFITTLNLMSATLFSSQATEFDSKATMEFKEIIEGVATIVGVPNFADYFPILRPFDPQGVKRRADVFFGKLLAKIEGYLNERLESKRANPNAPKKDDFLEIVVDIIQANE--FKLKTHHFTHLMLDLFVGGSDTNTTSIEWAMSELVMNPDKMARLKAELKSVAGDEKIVDESAMPKLPYLQAVIKEVMRIHPPGPLLLPRKAESDQEVNGYLIPKGTQILINAYAIGRDPSIWTDPETFDPERFLDNKIDF-KGQDYELLPFGSGRRVCPGMPLATRILHMATATLVHNFDWKLEDDSTA-AADHAGELFGVAVRRAVPLR-"},"annotation":{"dssp":"XXXXXXXXXXXXXXXXXXXXXXXXXXXCCCCCCCBTTTBTGGGCCSCHHHHHHHHHHHHCSEEEEEETTEEEEEECSHHHHHIIIIITTTTTCBCCCCGGGGGGGGGGTCTTTSCSSHHHHHHHHHIIIIITSHHHHHHTHHHHHHHHHHHHHHHHHHHHHTCCEEHHHHHHHHHHHHHHHHHHCCCCSSTTCHHHHHHHHHHHHHHHHHSSCCHHHHCGGGGGGCTTCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCTTSCCCCSHHHHHHHHHHHTCSSCCHHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHTTCSSCCGGGGGGCHHHHHHHHHHHHHCCSSTTCSCEECSSCEEETTEEECTTCEEEECHHHHHTCTTTSSSTTSCCGGGGTTCCCCSSSSCTTCCTTCCGGGCCTTHHHHHHHHHHHHHHHHHHCEEEESCCTTHHHHHHCEECSSSCEESSCCEEEEECXX","psipred":"CCHHHHHHHHHHHHHHHHHHHCCCCCCCCCCCCCCCCEECCCCCCCCCHHHHHHHHHHCCCEEEEEECCEEEEEECCHHHHHHHHHHCCCCCCCCCCCHHHHHHCCCCCEEEECCCCHHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHHHHHCCCCCCCCCCCHHHHHHHHHHHHHHHCCCCHHHHHHHCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCCHHHHHHHHHHHHCCCCCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHCHHHHHHHHHHHHHHCCCCCCCCCCCCCCCCHHHHHHHHHHHCCCCCCCCCCCCCCCCCCCCCEEECCCCEEEEECHHCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHCCCEEECCCCCCCCCCCCCCCCCEEEECCCEEEEEEECC","sspro":"CCCCHHHHHHHHHHHCCCHHCECCCCCCCCCCCCECCCECHHHCCCCCCCEEEEECCCCCCCCCEECCCCCEEEEECCCCHHHHHHHCCHEEECEECECCCCCCCHHHHHHHHHHHHHHHHHHCCCCHHHHHHCCCHHHHCCCCCHHHHHHHHCCHHHHCCECCCCCCCCCHCCCCEEHHCCCCHCCCHHHHCCHHHHCHHHHHHHHHHHHCHHHCCCCEEECCCCCCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHCCCCCCCHHHHHHCHHHHHCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHCCCCCCCCCHHHHCCHHHHHHHHHHHHHHCCCCCCCCEECCCCEEECCEEECCCCEEEECHHHHHCCCCCCCCCCCCCHHHHECCCCCECCCCCCCCCCCCHHHECCCCCCCCCCCCCCCCCCCCCHHHHHHCCCCCCCCCCEECCEEEEEEECCCCCCCCCCC"},"title":"CYP76AH1 from Salvia miltiorrhiza","residue_from":"14","residue_to":"362","trg_seq_length":363}],"residue_from":"14","residue_to":"362"}],"id":"A","target_sequence":"MRFLLKSMKHDPRQPPSPTKLLIIGNLRQIGSLPHRSLATLSQKHGPLMILHFGSVPNLIVSSEELAREVLKTYDLIFSDRPTSIITDLLSSVSFGKRYYEAKGSATGFPQMLGELSALAGMAIKEHLDQNRVDVDYRGTQDLVNILLDIQKKGEHDFNLDNDGIKAIILDNFVAGTESMDIVWAMAELMRHPRVLNKVQQEIREVVNRRGGVAEDDIKQMDYLKSVVKETFGLRPAGPLLVPGLSRQEVKLQGYSIPAKTRVVVNAWAIGRDPNLWECPEEFLPERFMENNAVDFRGHHFQLIPFGAGRRICPEIQYATATIELVMVNLLYWFDWELPCGVGEEVDMTEAFGIAVKKISLLF"}],"qsqe":0.0,"oligo_state":"monomer","oligo_based_on":"prediction","gmqe":0.6992511436431136,"qmean_global":{"qmean4_norm_score":0.6696577102563934,"qmean4_z_score":-3.0414882884143126,"qmean6_norm_score":0.6517270881272323,"qmean6_z_score":-3.088609479636012,"interaction_norm_score":-0.015573372055675326,"interaction_z_score":-1.71560538908986,"cbeta_norm_score":-0.003277592955023674,"cbeta_z_score":-2.7857050137055874,"packing_norm_score":-0.34143613480541185,"packing_z_score":-0.49229927431455967,"torsion_norm_score":-0.09608163180882516,"torsion_z_score":-2.3272615563069916,"ss_agreement_norm_score":0.5310639239377996,"ss_agreement_z_score":-0.9672822231809624,"acc_agreement_norm_score":0.5845272206303725,"acc_agreement_z_score":-1.0615952555610357,"avg_local_score":0.6632005969465214,"avg_local_score_error":0.051},"included_ligands":[],"excluded_ligands":[{"name":"HEM","description":"PROTOPORPHYRIN IX CONTAINING FE","ligands":[{"exclusion_reason":"Binding site not conserved.","number":"1"}]},{"name":"MN","description":"MANGANESE (II) ION","ligands":[{"exclusion_reason":"Not in contact with model.","number":"2"}]}],"plip_ligands":{}}
+  modelData['01'] = {"model_id":"01","status":"COMPLETED","json_version":"0.1","sequence_similarity":0.3281935751438141,"sequence_identity":24.00881004333496,"coverage":0.9061876535415649,"major_issues":null,"built_with":"ProMod3 3.2.1","smtl_version":"2022-07-20","pdb_release":"2022-07-15","targets":[{"model_chains":[{"psipred":"CCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHCCCCCCCCCCCCCCCCCCCCHHHHCCCCCCCHHHHHHHHHHHCCCCEEEEECCCCCEEEECCHHHHHHHHHHCHHHCCCCCCHHHHHHHHCCCCEEEEECCCHHHHHHHHHHCCCC-CCCCCCCCHHHHHHHHHHHHHHHHHHHHHHCCCCCEEHHHHHHHHHHHHHHHHHHCCCCCC-CHHHHHHHHHHHHHHHHHCCCCHHHHCCCCCCCCCEECCCCCCH--HHHHHHHHHHHHHHCC--CCCCCHHHHHHHCCC--------------CCHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHCCCCCCCCCCHHCCCCHHHHHHHHHHHCCCCCCCCCCCCCCCCEEECCCEECCCCEEEEECHHHHCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHHHCCEEECCCCCCCCCCCCCEEEEECCCCEEEEEEECC","dssp":"--------------------------------------CCCBCCCCBTTTBTGGGSSTTCSCHHHHHHHTHHHHCSEEEEEETTTEEEEEECCHHHHHIIIIITTTTTTBCCCCHHHHHHTTTTCSSSSCCSSHHHHHHHHHHHHTTSCSSSSCCHHHHHHHHHHHHHHHHHHHHSSTTCCCCCTTHHHHHHHHHHHHHHHHSCCCTTSHHHHHHHHHHHHHHHHSSSCCHHHHSGGGGGSCCSHHHHTCTHHHHHHHHHHHHHHHHSSCSCSSHHHHHHHTTCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHSCBTTBCCCCGGGGGGCHHHHHHHHHHHHHSCSCSBCCCEECCSSEEETTEEECTTCEEEEBHHHHHHCTTTSSSTTSCCGGGGBCTTSSSBTTTTTCSCTTCCTTCCGGGCCTTHHHHHHHHHHHHHHHHHHCEEEESTTCCCCCCCCEECSSSEECCCCCEEEECCC","qmean":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0.57,0.56,0.73,0.74,0.69,0.68,0.66,0.63,0.61,0.61,0.57,0.6,0.69,0.61,0.49,0.44,0.47,0.52,0.46,0.33,0.45,0.61,0.49,0.58,0.59,0.66,0.64,0.61,0.68,0.73,0.65,0.64,0.67,0.55,0.66,0.67,0.72,0.65,0.73,0.72,0.72,0.69,0.56,0.62,0.43,0.39,0.34,0.52,0.7,0.71,0.77,0.79,0.79,0.78,0.7,0.75,0.71,0.71,0.76,0.68,0.7,0.73,0.72,0.73,0.7,0.67,0.69,0.68,0.66,0.68,0.71,0.69,0.57,0.53,0.49,0.5,0.49,0.54,0.54,0.53,0.53,0.58,0.56,0.57,0.53,0.54,0.57,0.61,0.62,0.54,0.52,0.56,0.54,0.67,0.7,0.7,0.66,0.62,0.67,0.71,0.67,0.64,0.65,0.7,0.63,0.63,0.61,0.62,0.53,0.41,0.43,0.39,0.36,0.2,0.24,0.4,0.52,0.57,0.67,0.62,0.64,0.68,0.69,0.7,0.71,0.72,0.72,0.73,0.71,0.74,0.72,0.66,0.64,0.66,0.65,0.6,0.56,0.42,0.43,0.24,0.35,0.4,0.43,0.45,0.5,0.46,0.57,0.58,0.65,0.63,0.68,0.64,0.64,0.74,0.73,0.72,0.67,0.71,0.73,0.74,0.65,0.67,0.74,0.72,0.72,0.68,0.65,0.53,0.43,0.45,0.41,0.42,0.45,0.57,0.56,0.62,0.64,0.66,0.66,0.69,0.65,0.63,0.62,0.65,0.58,0.51,0.53,0.5,0.43,0.39,0.42,0.4,0.4,0.48,0.49,0.54,0.44,0.39,0.37,0.44,0.38,0.31,0.36,0.39,0.39,0.39,0.39,0.47,0.45,0.41,0.55,0.5,0.52,0.61,0.66,0.7,0.66,0.68,0.69,0.73,0.7,0.74,0.73,0.73,0.67,0.71,0.66,0.64,0.63,0.57,0.3,0.4,0.4,0.53,0.62,0.67,0.67,0.71,0.64,0.64,0.68,0.66,0.65,0.62,0.57,0.58,0.7,0.68,0.67,0.68,0.71,0.72,0.67,0.65,0.72,0.68,0.68,0.72,0.69,0.69,0.66,0.77,0.76,0.69,0.73,0.77,0.75,0.72,0.75,0.76,0.73,0.69,0.79,0.73,0.74,0.73,0.74,0.72,0.71,0.73,0.73,0.79,0.81,0.73,0.73,0.76,0.77,0.71,0.77,0.72,0.7,0.69,0.68,0.67,0.71,0.59,0.56,0.28,0.28,0.4,0.58,0.67,0.73,0.7,0.73,0.67,0.69,0.65,0.67,0.67,0.74,0.74,0.73,0.76,0.73,0.75,0.78,0.78,0.7,0.73,0.78,0.74,0.7,0.72,0.71,0.73,0.67,0.69,0.73,0.67,0.68,0.62,0.68,0.68,0.69,0.69,0.65,0.64,0.64,0.68,0.63,0.65,0.63,0.66,0.64,0.6,0.71,0.71,0.71,0.71,0.7,0.73,0.76,0.77,0.77,0.76,0.73,0.69,0.74,0.72,0.7,0.69,0.69,0.72,0.65,0.67,0.63,0.75,0.71,0.75,0.67,0.72,0.71,0.74,0.76,0.68,0.58,0.58,0.6,0.53,0.51,0.55,0.61,0.55,0.56,0.56,0.52,0.35,0.34,0.3,0.3,0.31,0.48,0.47,0.49,0.66,0.64,0.68,0.7,0.68,0.75,0.73,0.71,0.65,0.63,0.73,0.72,0.71,0.73,0.71,0.7,0.72,0.77,0.72,0.71,0.73,0.76,0.77,0.74,0.77,0.77,0.79,0.72,0.72,0.75,0.68,0.69,0.65,0.67,0.59,0.6,0.6,0.5,0.44,0.41,0.46,0.49,0.5,0.6,0.55,0.59,0.65,0.58,0.53,0.46,0.46,0.39,0.47,0.5,0.52,0.5,0.55,0.51,0.55,0.49,0.53,0.58,0.5,0.61,0.63,0.68,0.57,0.59],"id":"B","templates":[{"id":"e8521cdc3414453df0f845ab4ed1734ef6b878ff","pdb_id":"6b82","chain":"B","method":"X-RAY DIFFRACTION","short_method":"X-ray","coverage":0.9061876535415649,"resolution":3.0299999713897705,"description":"Cytochrome P450, family 17, subfamily A, polypeptide 1","assembly_id":1,"score":1.3793038129806519,"found_by":"HHblits","oligo_state":"homo-dimer","comment":"e_value=1.2e-60, p_value=7.8e-65, score=496.5, ss_score=38.7, prob=100, gmqe_dist_const=0.7029019594192505, gmqe_reduced=0.20154805481433868, gmqe_cb_packing=-0.033946067094802856, gmqe_torsion=0.0749681144952774, gmqe_ss_agreement=0.5494293570518494, gmqe_coverage=0.8982036113739014, gmqe_seq_id=24.22222137451172, gmqe_seq_sim=0.3287407457828522, gmqe_n_insertions=6, gmqe_n_deletions=5, gmqe_seqres_length=501, gmqe_seqres_coverage=0.906187624750499, gmqe_profile_aln_score=496.5, gmqe_avg_entropy=2.2524492740631104","offset":18,"oligo_state_bu":"homo-dimer","oligo_state_bu_full":"homo-dimer","is_whole_complex":"whole_complex","qualified_name":"6b82.1.B","biounit_name":"6b82.1","gmqe":0.6127243638038635,"sequence_identity":24.00881004333496,"sequence_similarity":0.3281935751438141,"alignment":{"target_sequence":"MEQARWVDPALFSAIVGIIFFILGVFLRGRSWRSTSSTEWPVGPPKLPIIGNLHQLSEGGELTHHRLAKLAQTYGRTMTIWVGSWRPMIVVSDADLAWEVLVSKAADFAGRDMSKVSHLINAECNTVSTYDAGPNWQSLRRGLQHGP-LGPAHLSAQAHFHEEDMKLMASEMVGAARKRGDGVVEPMAFIRRATIRFISRLCFGKNFND-EVFIEGLDNALDQTIRVTGHARIVDAFYFTRYLPIIRGPFIDTV--TVKTEIENLIRPLLSG--PAPTGSYLHFLLSTD--------------VPENIIIFRIFELYLLGVDSSASTITWALAFLVSNQPAQEKLHGELSQYCATHNIETVKADDVGKLPYLLGVVKETMRMKPIAPLAVPHKTLNQTKLDGKRVAAGTVVVVNLYAIHYNPKLWPEPEQFQPERFLESGGGVGGGSSEYMLQSYLPFGGGLRACAGMEVGKMQISMVIANLVKAFKWLPEVDGKMPDMAEDMTFVLMMKKPLVAKIVPRA","template_sequence":"----------------------------------PAGNRSPPSLPSLPIIGSLMSLVS-DSPPHIFFQDLQKKYGDLYSLMMGS-HKLLIVNNHHHAKEILIKKGKIFAGRPRTVTTDLLTRDGKDIAFADYSSTWKFHRKMVHGALCMFGEGSVSIEKIICREASSMCEVLT----ESQNSAVDLGPELTRAVTNVVCALCFNSSYKRGDAEFESMLQYSQGIVDTVAKDSLVDIFPWLQIFPNKDLRILRQCISIRDKLLQKKYEEHKVTYSDNVQRDLLDALLRAKRSSENNNSSTRDVGLTEDHVLMTVGEIFGAGVETTTTTLKWSIAYLVHNPQVQRKIQEELDSKIGKE--RHPQLSDRGNLPYLEATICEVMRIRPVSPLLIPHVALQDSSVGEYTVQKGTRVVINMWSLHHDEKEWKNPELFDPGRFLNEEGDGL----CCPSGSYLPFGAGVRVCLGEALAKMELFLFLAWILQRFTLEMPTGQPLPDLQGKF-GVVLQPKKFKVVAKVRA"},"annotation":{"dssp":"XXXXXXXXXXXXXXXXXXXXXXCCCCBCCCCSSSBSGGGCCCSSCHHHHHHHTHHHHCSEEEEEETTEEEEEECCHHHHHIIIIITTTTSCBCCCCHHHHHHTTTTCSSTTSCSSHHHHHHHHHHHHHHHHCSSSSCCHHHHHHHHHHHHHHHHHTTSSSCCCBTHHHHHHHHHHHHHHHHSCCCCTTCHHHHHHHHHHHHHHHHSSSCCHHHHSGGGGGSCCHHHHHHHHHHHHHHHHHHHHHHHHHHTCCTTCCCSHHHHHHHHHHHHHTTCSTTSSSCCSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHTCSSSCCCGGGGGGCHHHHHHHHHHHHHSCSCSBCCCEECSSSEEETTEEECTTCEEEEBHHHHHHCTTTSSSTTCCCGGGGBCSSSSSBBCCCTTCCTTCCGGGCCTTHHHHHHHHHHHHHHHHHHEEEECSTTCCCCCCCCBCSSSCBCCCCCBEEEECCXXXXXXXXXXXXXXXXX","psipred":"CCCCCCCCCCCCEECCCCCCCCCCCCCCCCCHHHCHHHHCCCCCCHHHHHHHHHHHHCCEEEEEECCEEEEEECCHHHHHHHHHCCCCCCCCCCCCHHHHHHCCCCCCEEEECCCHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHHHHCCCCCCCCHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHCCCCCCCCCCCCCCHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHCCCCCCCCCCCCCCCHHHHHHHHHHHHCCCCCCCCEEECCCCEEECCEEECCCCEEEEECCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHHHCEEECCCCCCCCCCCCCCCEEECCCCEEEEEEEEECCCCCHHHHHHCCCCCC","sspro":"CCCCCCCCCCCCCCCCCCCCCEECCCCCCCCCCCCCCCCCCCCCCCCCCCHHHHHHCCCCEECCCCCCEEEECCCCCCCEEEEEECCCHHCCCCCHHHHHHCCCCCCCCCHCCCCCCHHHHHHHHHHHHHCCCCCCCCECCECCHHHCCCHHHHHHHHHHCCCCCCCCHHHHHHHHHHHHHHHHHHHHHCCCCHHCCCCHHEECCCHHHHHHHCCCHHHHHHCCCCCCHHHHHHHHCCHCHHHHHHHHHHHHHHHHHHHHCCCCHCCCCEEEECCHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHCCCCCCCCCHHHHCCHHHHHHHHHHHHHHCCCCCCCCEECCCCEEECCEEECCCCEEEECHHHHHCCCCCCCCCCCCCHHHHECCCCCCCCCCCCCCCCCCCHHHCCCCHHHHHHHHHHHHHHHHHHEEEECCCCCECCCCCCEEEEECCHHHHHHHHHCCHHCCHHHHHHHHHHHCCC"},"title":"Zebra Fish CYP-450 17A1 Mutant Abiraterone Complex","residue_from":"39","residue_to":"501","trg_seq_length":501}],"residue_from":"39","residue_to":"501"}],"id":"B","target_sequence":"MEQARWVDPALFSAIVGIIFFILGVFLRGRSWRSTSSTEWPVGPPKLPIIGNLHQLSEGGELTHHRLAKLAQTYGRTMTIWVGSWRPMIVVSDADLAWEVLVSKAADFAGRDMSKVSHLINAECNTVSTYDAGPNWQSLRRGLQHGPLGPAHLSAQAHFHEEDMKLMASEMVGAARKRGDGVVEPMAFIRRATIRFISRLCFGKNFNDEVFIEGLDNALDQTIRVTGHARIVDAFYFTRYLPIIRGPFIDTVTVKTEIENLIRPLLSGPAPTGSYLHFLLSTDVPENIIIFRIFELYLLGVDSSASTITWALAFLVSNQPAQEKLHGELSQYCATHNIETVKADDVGKLPYLLGVVKETMRMKPIAPLAVPHKTLNQTKLDGKRVAAGTVVVVNLYAIHYNPKLWPEPEQFQPERFLESGGGVGGGSSEYMLQSYLPFGGGLRACAGMEVGKMQISMVIANLVKAFKWLPEVDGKMPDMAEDMTFVLMMKKPLVAKIVPRA"}],"qsqe":0.10464057201148519,"oligo_state":"monomer","oligo_based_on":"prediction","gmqe":0.592288811715938,"qmean_global":{"qmean4_norm_score":0.6459145852152385,"qmean4_z_score":-3.9034774284003033,"qmean6_norm_score":0.6537346877154856,"qmean6_z_score":-3.1168951681711174,"interaction_norm_score":-0.016394366987156943,"interaction_z_score":-1.5096900252754821,"cbeta_norm_score":-0.004930051049569845,"cbeta_z_score":-2.57037745503934,"packing_norm_score":-0.3414653690092338,"packing_z_score":-0.47733251704406154,"torsion_norm_score":-0.015018993007092207,"torsion_z_score":-3.3898663670098528,"ss_agreement_norm_score":0.6059345434239782,"ss_agreement_z_score":-0.10980214682469575,"acc_agreement_norm_score":0.6544276457883369,"acc_agreement_z_score":-0.5214742862553959,"avg_local_score":0.6211314188481613,"avg_local_score_error":0.053},"included_ligands":[],"excluded_ligands":[{"name":"ACT","description":"ACETATE ION","ligands":[{"exclusion_reason":"Not biologically relevant.","number":"3"},{"exclusion_reason":"Not biologically relevant.","number":"7"},{"exclusion_reason":"Not biologically relevant.","number":"8"},{"exclusion_reason":"Not biologically relevant.","number":"9"}]},{"name":"AER","description":"Abiraterone","ligands":[{"exclusion_reason":"Binding site not conserved.","number":"2"},{"exclusion_reason":"Binding site not conserved.","number":"5"}]},{"name":"CL","description":"CHLORIDE ION","ligands":[{"exclusion_reason":"Not in contact with model.","number":"6"}]},{"name":"HEM","description":"PROTOPORPHYRIN IX CONTAINING FE","ligands":[{"exclusion_reason":"Binding site not conserved.","number":"1"},{"exclusion_reason":"Binding site not conserved.","number":"4"}]}],"plip_ligands":{}}
   if(modelData['01'].targets[0].model_chains[0].qmeanbrane)
     document.getElementById('qmeanbraneLbl').style.display='inline';
 
@@ -1054,9 +1110,9 @@ function confirmDeleteModel(id)
         .off('click')
         .on('click',function()
           {
-            $.post("/interactive/8G5dwy/models/00/delete".replace('00',id),
+            $.post("/interactive/JBEvfp/models/00/delete".replace('00',id),
               { 
-                csrfmiddlewaretoken:'TkVTsT8JNa96GM7ikcSZo3CVHT8LtaFmnmteckfxasQAiQq1I3XFSrBEcYnWREe3' 
+                csrfmiddlewaretoken:'oK40P5CSzn9fKr3xuXBRxOSJ2ymYpzwySMClzwJGWFQJmvmgSOGx1cRsxDB9N35f' 
               },
               function(d,s)
               {          
@@ -1736,7 +1792,7 @@ function toggleCompareItem(evt)
             data: { 
                   'model_id':evt.target.id.substring(4),
                   'source': 'swissmodel',
-                  'csrfmiddlewaretoken':'TkVTsT8JNa96GM7ikcSZo3CVHT8LtaFmnmteckfxasQAiQq1I3XFSrBEcYnWREe3' 
+                  'csrfmiddlewaretoken':'oK40P5CSzn9fKr3xuXBRxOSJ2ymYpzwySMClzwJGWFQJmvmgSOGx1cRsxDB9N35f' 
                 },
             success: function(data) {
                 let locStore = localStorage.getItem('model');

@@ -17,7 +17,7 @@ countFiles <- c('./ERR4099794.tabular',
 
 #flattenedFile = "genome_flattened.gff"
 
-flattenedFile = "./Transcripts/genome_flattened_2.gff" # This file includes all the know transcripts for the proteins previously know
+flattenedFile = "./genome_flattened_2.gff" # This file includes all the know transcripts for the proteins previously know
 
 sampleTable <- data.frame(condition = factor(c(rep("fruit_20d",3),rep("fruit_40d",3),rep("leaf",3),rep("panicle",3))))
 
@@ -30,7 +30,7 @@ dxd = DEXSeqDataSetFromHTSeq(
   flattenedfile=flattenedFile ) # Loading files and experimental design
 
 extra = c("Pn8.2617", "Pn2.84", "Pn1.1317", "Pn3.4770", "Pn16.1237",
-          "Pn4.3222", "Pn2.2377", "Pn12.1813","Pn1.1178", "Pn16.1198")
+          "Pn4.3222", "Pn2.2377", "Pn12.1813","Pn7.1626", "Pn16.1198")
 
 genesForSubset = c(rownames(difInf40Counts), extra) # Using only differentially expressed genes and genes of importance for the pathway
 
@@ -62,23 +62,23 @@ plotMA( dxr1, cex = 1, colNonSig = "cyan3") # Plotting mean expression of exonic
 
 ### Visualization
 
-plotDEXSeq( dxr1, "Pn16.1198", legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 1 Expression
+plotDEXSeq( dxr1, "Pn7.1626", legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 1 Expression
 
-plotDEXSeq( dxr1, "Pn16.1198", displayTranscripts=TRUE, legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 2 Expression with transcripts
+plotDEXSeq( dxr1, "Pn7.1626", displayTranscripts=TRUE, legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 2 Expression with transcripts
 
-plotDEXSeq( dxr1, "Pn16.1198", expression=FALSE, norCounts=TRUE,
+plotDEXSeq( dxr1, "Pn7.1626", expression=FALSE, norCounts=TRUE,
             legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 3 Normalized counts
 
-plotDEXSeq( dxr1, "Pn16.1198", splicing = TRUE, norCounts=FALSE,expression=FALSE,
+plotDEXSeq( dxr1, "Pn7.1626", splicing = TRUE, norCounts=FALSE,expression=FALSE,
             legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 4 Exon usage
 
-plotDEXSeq( dxr1, "Pn16.1198", splicing = TRUE, displayTranscripts=TRUE, norCounts=FALSE,expression=FALSE,
+plotDEXSeq( dxr1, "Pn7.1626", splicing = TRUE, displayTranscripts=TRUE, norCounts=FALSE,expression=FALSE,
             legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 5 Exon usage with transcripts
 
-plotDEXSeq( dxr1, "Pn16.1198", splicing = TRUE, norCounts=FALSE,
+plotDEXSeq( dxr1, "Pn7.1626", splicing = TRUE, norCounts=FALSE,
             legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 6 Expression and exon usage
 
-plotDEXSeq( dxr1, "Pn16.1198", splicing = TRUE, displayTranscripts=TRUE, norCounts=FALSE,
+plotDEXSeq( dxr1, "Pn7.1626", splicing = TRUE, displayTranscripts=TRUE, norCounts=FALSE,
             legend=TRUE, cex.axis=1.2, cex=1.3, lwd=2 ) # 7 Expression and exon usage with transcripts
 
 
