@@ -69,12 +69,23 @@ p_8 = ["Pn6.2477","Pn1.2478","Pn3.1635","Pn8.2854","Pn6.1174","Pn40.54","Pn40.58
 
 enzymes = [p_1,p_2,p_3,p_4,p_5,p_6,p_7,p_8]
 
+color = "color=set1-8-qual-"
+
+origin = []
+
+for i,enzyme in enumerate(enzymes):
+    for gene in enzyme[0:1]:
+            for j,genename in enumerate(list(pos.loc[:,"name"])):
+                if gene==genename:
+                    origin.append(f"{pos.loc[j,'Chromosome']}\t{int(pos.loc[j,'init'])}\t{int(pos.loc[j,'end'])}")
+
+
 with open("links.txt", 'w') as f:
     sys.stdout = f # Change the standard output to the file we created.
-    for i,enzyme in enumerate(enzymes[0:1]):
+    for i,enzyme in enumerate(enzymes):
         for gene in enzyme[1:]:
             for j,genename in enumerate(list(pos.loc[:,"name"])):
                 if gene==genename:
-                    print(f"{pos.loc[j,'Chromosome']}\t{int(pos.loc[j,'init'])}\t{int(pos.loc[j,'end'])}{pos.loc[j,'Chromosome']}\t{int(pos.loc[j,'init'])}\t{int(pos.loc[j,'end'])}")
+                    print(f"{origin[i]}\t{pos.loc[j,'Chromosome']}\t{int(pos.loc[j,'init'])}\t{int(pos.loc[j,'end'])}\t{color}{8-i}")
 
     sys.stdout = original_stdout # Reset the standard output to its original value
