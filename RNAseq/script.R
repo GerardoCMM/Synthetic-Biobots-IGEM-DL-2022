@@ -2,7 +2,7 @@
 
 setwd("/home/gerardo/Documentos/Gera/SyntheticBiobots/2022/Metods/RNAseq") # Setting working directory
 
-library(tximport)
+library(tximport) # Importing libraries
 
 library(pheatmap)
 
