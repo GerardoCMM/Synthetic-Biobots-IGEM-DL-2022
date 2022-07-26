@@ -22,7 +22,7 @@ library(webr)
 
 library(dplyr)
 
-quantdata <- c('./ERR4099794.tabular',
+quantdata <- c('./ERR4099794.tabular', # Reading count data output of kallisto alignment
                './ERR4099795.tabular',
                './ERR4099796.tabular',
                './ERR4099797.tabular',
