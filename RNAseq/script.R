@@ -1,6 +1,6 @@
 # Differential expression analysis of Piper nigrum tissues
 
-setwd("/home/gerardo/Documentos/Gera/SyntheticBiobots/2022/Metods/RNAseq")
+setwd("/home/gerardo/Documentos/Gera/SyntheticBiobots/2022/Metods/RNAseq") # Setting working directory
 
 library(tximport)
 
