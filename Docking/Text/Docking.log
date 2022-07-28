@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2021.12.14)  28 JUL 2022 00:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2021.12.14)  28 JUL 2022 11:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -198,72 +198,437 @@ rs
 \f@nch@O@olf=\skip57
 \f@nch@O@orf=\skip58
 )
-(/home/gerardo/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/home/gerardo/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-)
-\Gm@cnth=\count266
-\Gm@cntv=\count267
-\c@Gm@tempcnt=\count268
-\Gm@bindingoffset=\dimen145
-\Gm@wd@mp=\dimen146
-\Gm@odd@mp=\dimen147
-\Gm@even@mp=\dimen148
-\Gm@layoutwidth=\dimen149
-\Gm@layoutheight=\dimen150
-\Gm@layouthoffset=\dimen151
-\Gm@layoutvoffset=\dimen152
-\Gm@dimlist=\toks17
-
-(/home/gerardo/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
 (/home/gerardo/.miktex/texmfs/install/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip59
 \bibsep=\skip60
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count269
+\c@NAT@ctr=\count266
+)
+(/home/gerardo/.miktex/texmfs/install/tex/latex/mol2chemfig/mol2chemfig.sty
+Package: mol2chemfig 2019/11/24 v1.5
+
+(/home/gerardo/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/home/gerardo/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/home/gerardo/.miktex/texmfs/install/tex/latex/chemfig/chemfig.sty
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.
+tex
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen145
+\pgfutil@tempdimb=\dimen146
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common-
+lists.tex))
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.d
+ef
+\pgfutil@abb=\box50
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.t
+ex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.te
+x
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeysfiltered
+.code.tex
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen147
+\pgf@y=\dimen148
+\pgf@xa=\dimen149
+\pgf@ya=\dimen150
+\pgf@xb=\dimen151
+\pgf@yb=\dimen152
+\pgf@xc=\dimen153
+\pgf@yc=\dimen154
+\pgf@xd=\dimen155
+\pgf@yd=\dimen156
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count267
+\c@pgf@countb=\count268
+\c@pgf@countc=\count269
+\c@pgf@countd=\count270
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
+\pgf@sys@id@count=\count271
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-pdftex
+.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-common
+-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpat
+h.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count272
+\pgfsyssoftpath@bigbuffer@items=\count273
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotoco
+l.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.t
+ex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+ (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.tex
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.tex
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.t
+ex
+\pgfmath@dimen=\dimen157
+\pgfmath@count=\count274
+\pgfmath@box=\box51
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.cod
+e.tex
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.bas
+ic.code.tex)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.tri
+gonometric.code.tex)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ran
+dom.code.tex)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.com
+parison.code.tex)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.bas
+e.code.tex)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.rou
+nd.code.tex)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.mis
+c.code.tex)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.int
+egerarithmetics.code.tex)))
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.te
+x
+\c@pgfmathroundto@lastzeros=\count275
+)) (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.
+code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen158
+\pgf@picmaxx=\dimen159
+\pgf@picminy=\dimen160
+\pgf@picmaxy=\dimen161
+\pgf@pathminx=\dimen162
+\pgf@pathmaxx=\dimen163
+\pgf@pathminy=\dimen164
+\pgf@pathmaxy=\dimen165
+\pgf@xx=\dimen166
+\pgf@xy=\dimen167
+\pgf@yx=\dimen168
+\pgf@yy=\dimen169
+\pgf@zx=\dimen170
+\pgf@zy=\dimen171
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathcon
+struct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen172
+\pgf@path@lasty=\dimen173
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathusa
+ge.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen174
+\pgf@shorten@start@additional=\dimen175
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes.
+code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box52
+\pgf@hbox=\box53
+\pgf@layerbox@main=\box54
+\pgf@picture@serial@count=\count276
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphic
+state.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen176
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransfo
+rmations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen177
+\pgf@pt@y=\dimen178
+\pgf@pt@temp=\dimen179
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.c
+ode.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobjects
+.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathpro
+cessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows.
+code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen180
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.c
+ode.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen181
+\pgf@sys@shading@range@num=\count277
+\pgf@shadingcount=\count278
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.c
+ode.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexterna
+l.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box55
+))
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers.
+code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretranspa
+rency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepattern
+s.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.cod
+e.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes.c
+ode.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box56
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.cod
+e.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versi
+on-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen182
+\pgf@nodesepend=\dimen183
+)
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versi
+on-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/utilities/pgffor.sty
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.te
+x)) (/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/math/pgfmath.sty
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex))
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen184
+\pgffor@skip=\dimen185
+\pgffor@stack=\toks27
+\pgffor@toks=\toks28
+))
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz.c
+ode.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryploth
+andlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count279
+\pgfplotmarksize=\dimen186
+)
+\tikz@lastx=\dimen187
+\tikz@lasty=\dimen188
+\tikz@lastxsaved=\dimen189
+\tikz@lastysaved=\dimen190
+\tikz@lastmovetox=\dimen191
+\tikz@lastmovetoy=\dimen192
+\tikzleveldistance=\dimen193
+\tikzsiblingdistance=\dimen194
+\tikz@figbox=\box57
+\tikz@figbox@bg=\box58
+\tikz@tempbox=\box59
+\tikz@tempbox@bg=\box60
+\tikztreelevel=\count280
+\tikznumberofchildren=\count281
+\tikznumberofcurrentchild=\count282
+\tikz@fig@count=\count283
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.c
+ode.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count284
+\pgfmatrixcurrentcolumn=\count285
+\pgf@matrix@numberofcolumns=\count286
+)
+\tikz@expandcount=\count287
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/gerardo/.miktex/texmfs/install/tex/generic/chemfig/chemfig.tex
+(/home/gerardo/.miktex/texmfs/install/tex/generic/simplekv/simplekv.tex
+Package: simplekv 2020/04/27 v0.2 Simple keyval package (CT)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryarrow
+s.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen195
+\pgfarrowlength=\dimen196
+\pgfarrowwidth=\dimen197
+\pgfarrowlinewidth=\dimen198
+)
+\CF_cntatomgroup=\count288
+\CF_cntgroup=\count289
+\CF_cntatom=\count290
+\CF_cntcycle=\count291
+\CF_cntcyclebonds=\count292
+\CF_cntcompound=\count293
+\CF_dim=\dimen199
+\CF_arrowsize=\dimen256
+\CF_zero=\dimen257
+\CF_box=\box61
+\CF_boxstuff=\box62
+\CF_testbox=\box63
+\CF_chargebox=\box64
+\CF_substtoks=\toks29
+)
+Package: chemfig 2021/08/01 v1.6b Draw molecule with an easy syntax (CT)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/latex/oberdiek/twoopt.sty
+Package: twoopt 2016/05/16 v1.6 Definitions with two optional arguments (HO)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+)
+(/home/gerardo/.miktex/texmfs/install/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count294
+\calc@Bcount=\count295
+\calc@Adimen=\dimen258
+\calc@Bdimen=\dimen259
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count296
+\calc@Cskip=\skip63
+)
+(/home/gerardo/.miktex/texmfs/install/tex/latex/xstring/xstring.sty
+(/home/gerardo/.miktex/texmfs/install/tex/generic/xstring/xstring.tex
+\integerpart=\count297
+\decimalpart=\count298
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibrarydecorations.code.tex
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduledecorati
+ons.code.tex
+\pgfdecoratedcompleteddistance=\dimen260
+\pgfdecoratedremainingdistance=\dimen261
+\pgfdecoratedinputsegmentcompleteddistance=\dimen262
+\pgfdecoratedinputsegmentremainingdistance=\dimen263
+\pgf@decorate@distancetomove=\dimen264
+\pgf@decorate@repeatstate=\count299
+\pgfdecorationsegmentamplitude=\dimen265
+\pgfdecorationsegmentlength=\dimen266
+)
+\tikz@lib@dec@box=\box65
+)
+\mcfvspace=\skip64
+\mcf@boxwidth=\skip65
+\mcf@boxheight=\skip66
 )
 (/home/gerardo/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count270
-\l__pdf_internal_box=\box50
+\l__color_backend_stack_int=\count300
+\l__pdf_internal_box=\box66
 ) (Docking.aux)
 \openout1 = `Docking.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 (/home/gerardo/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count271
-\scratchdimen=\dimen153
-\scratchbox=\box51
-\nofMPsegments=\count272
-\nofMParguments=\count273
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count274
-\MPscratchDim=\dimen154
-\MPnumerator=\count275
-\makeMPintoPDFobject=\count276
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count301
+\scratchdimen=\dimen267
+\scratchbox=\box67
+\nofMPsegments=\count302
+\nofMParguments=\count303
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count304
+\MPscratchDim=\dimen268
+\MPnumerator=\count305
+\makeMPintoPDFobject=\count306
+\everyMPtoPDFconversion=\toks31
 )
 (/home/gerardo/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -273,7 +638,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (/home/gerardo/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 14.
+Package hyperref Info: Link coloring OFF on input line 16.
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -285,116 +650,94 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 .sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count277
+\c@section@level=\count307
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
  (Docking.out) (Docking.out)
-\@outlinefile=\write3
-\openout3 = `Docking.out'.
-
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* bindingoffset: 14.22636pt
-* modes: 
-* h-part:(L,W,R)=(51.21504pt, 497.63855pt, 51.21504pt)
-* v-part:(T,H,B)=(72.2698pt, 650.43037pt, 72.2698pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=497.63855pt
-* \textheight=650.43037pt
-* \oddsidemargin=-6.82858pt
-* \evensidemargin=-21.05495pt
-* \topmargin=-37.00018pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=44.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+\@outlinefile=\write4
+\openout4 = `Docking.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 22.
-</home/gerardo/Documentos/Gera/SyntheticBiobots/2022/Metods/Docking/1/Transript
-s/../../2/Transcripts/7.png, id=3, 1204.5pt x 700.11563pt>
-File: /home/gerardo/Documentos/Gera/SyntheticBiobots/2022/Metods/Docking/1/Tran
-sripts/../../2/Transcripts/7.png Graphic file (type png)
-<use /home/gerardo/Documentos/Gera/SyntheticBiobots/2022/Metods/Docking/1/Trans
-ripts/../../2/Transcripts/7.png>
-Package pdftex.def Info: /home/gerardo/Documentos/Gera/SyntheticBiobots/2022/Me
-tods/Docking/1/Transripts/../../2/Transcripts/7.png  used on input line 27.
-(pdftex.def)             Requested size: 481.79147pt x 280.04129pt.
+<../2/Transcripts/6.png, id=6, 1204.5pt x 700.11563pt>
+File: ../2/Transcripts/6.png Graphic file (type png)
+<use ../2/Transcripts/6.png>
+Package pdftex.def Info: ../2/Transcripts/6.png  used on input line 28.
+(pdftex.def)             Requested size: 361.35278pt x 210.0363pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [1
 
-{/home/gerardo/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map} </home/gerardo/
-Documentos/Gera/SyntheticBiobots/2022/Metods/Docking/1/Transripts/../../2/Trans
-cripts/7.png (PNG copy)>]
-</home/gerardo/Documentos/Gera/SyntheticBiobots/2022/Metods/Docking/1/Transript
-s/1.png, id=11, 1204.5pt x 700.11563pt>
-File: /home/gerardo/Documentos/Gera/SyntheticBiobots/2022/Metods/Docking/1/Tran
-sripts/1.png Graphic file (type png)
-<use /home/gerardo/Documentos/Gera/SyntheticBiobots/2022/Metods/Docking/1/Trans
-ripts/1.png>
-Package pdftex.def Info: /home/gerardo/Documentos/Gera/SyntheticBiobots/2022/Me
-tods/Docking/1/Transripts/1.png  used on input line 35.
-(pdftex.def)             Requested size: 29.85709pt x 17.34901pt.
-</home/gerardo/Documentos/Gera/SyntheticBiobots/2022/Metods/Docking/1/Transript
-s/2.png, id=12, 1204.5pt x 700.11563pt>
-File: /home/gerardo/Documentos/Gera/SyntheticBiobots/2022/Metods/Docking/1/Tran
-sripts/2.png Graphic file (type png)
-<use /home/gerardo/Documentos/Gera/SyntheticBiobots/2022/Metods/Docking/1/Trans
-ripts/2.png>
-Package pdftex.def Info: /home/gerardo/Documentos/Gera/SyntheticBiobots/2022/Me
-tods/Docking/1/Transripts/2.png  used on input line 35.
-(pdftex.def)             Requested size: 29.85709pt x 17.34901pt.
+{/home/gerardo/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (3.25565pt too wide) in paragraph at lines 35--37
+[]\OT1/cmr/m/n/12 El ciclo de Krebs y el ciclo de la urea se relacionan porque 
+en la mitocondria
+ []
+
+
+Overfull \hbox (11.9111pt too wide) in paragraph at lines 35--37
+\OT1/cmr/m/n/12 reacciones, de convertir fumarato a malato, este a oxalacetato 
+y este a aspartato.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
+
+ []
+
+(../Images/chem/phenylalanine.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
+<../Images/SB.png, id=14, 1268.0976pt x 604.8999pt>
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 40.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+<../Images/IDL.png, id=16, 417.56pt x 203.76125pt>
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 40.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 21.69905pt, for example:
-(fancyhdr)                \setlength{\headheight}{21.69905pt}.
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-9.69905pt}.
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[2 </home/gerardo/Documentos/Gera/SyntheticBiobots/2022/Metods/Docking/1/Transr
-ipts/1.png (PNG copy)> </home/gerardo/Documentos/Gera/SyntheticBiobots/2022/Met
-ods/Docking/1/Transripts/2.png (PNG copy)>] (Docking.aux)
+[2 <../Images/SB.png> <../Images/IDL.png> <../2/Transcripts/6.png (PNG copy)>]
+(Docking.aux)
 Package rerunfilecheck Info: File `Docking.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8810 strings out of 480820
- 133150 string characters out of 2902872
- 436811 words of memory out of 3000000
- 26356 multiletter control sequences out of 15000+600000
- 404940 words of font info for 32 fonts, out of 8000000 for 9000
+ 21091 strings out of 480820
+ 396916 string characters out of 2902872
+ 686369 words of memory out of 3000000
+ 38375 multiletter control sequences out of 15000+600000
+ 407378 words of font info for 40 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 60i,15n,66p,788b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,16n,111p,788b,1032s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pf
 b></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pf
-b>
-Output written on Docking.pdf (2 pages, 187609 bytes).
+b></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb
+>
+Output written on Docking.pdf (2 pages, 360426 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 40 PDF objects out of 1000 (max. 8388607)
+ 4 named destinations out of 1000 (max. 500000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

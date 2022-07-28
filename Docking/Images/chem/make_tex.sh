@@ -1,0 +1,1 @@
+mol2chemfig -zwof  phenylalanine.smi  >  phenylalanine.tex
