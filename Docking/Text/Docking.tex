@@ -4,8 +4,12 @@
 \graphicspath{ {../Images} }
 \usepackage{hyperref}
 \usepackage{placeins}
+\usepackage{geometry}
+\geometry{includeheadfoot,a4paper, textwidth=0.87\paperwidth, textheight=0.9\paperheight}
+\usepackage[onehalfspacing]{setspace}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
+\renewcommand{\headrulewidth}{1.5pt}
 \lhead{\includegraphics[scale=0.05]{SB.png}}
 \rhead{\includegraphics[scale=0.1]{IDL.png}}
 \chead{Docking methods}
@@ -25,7 +29,7 @@
 	\FloatBarrier
 	\begin{figure}[h]
 		\centering
-		\includegraphics[scale=0.3]{../2/Transcripts/6.png}
+		\includegraphics[scale=0.45]{../2/Transcripts/6.png}
 		\caption{Algo}
 	\end{figure}
 	\FloatBarrier
@@ -35,8 +39,13 @@
 	El ciclo de Krebs y el ciclo de la urea se relacionan porque en la mitocondria y en el citoplasma se encuentran isoenzimas que llevan a cabo las mismaas reacciones, de convertir fumarato a malato, este a oxalacetato y este a aspartato. Además, como resultado del ciclo de la urea se obtiene fumarato, que es un intermediario del ciclo de Krebs y mediante la lanzadera de Apartato--Malato puede entrar a la matriz mitocondrial y entrar al ciclo de Krebs. De igual manera, a partir del oxalacetato del ciclo de Krebs se puede generar Aspartato, el cual por la misma lanzadera puede salir de la mitocondria y llegar al citosol, aquí puede entrar al ciclo de la urea, pues es necesario en este para la obtención de arginosuccinato a partir de citrulina.
 	\newline
 	
-	\input{../Images/chem/phenylalanine.tex}
 	
-	\input{../Images/chem/piperamide.tex}
+	\begin{center}
+		\schemestart
+		\chemname{\footnotesize\input{../Images/chem/phenylalanine.tex}}{Phenylalanine}\arrow{->[\footnotesize 1]}\chemname{\footnotesize\input{../Images/chem/cinnamic.tex}}{Cinnamic acid}
+		\arrow{0}[,0]\+
+		\chemname{\input{../Images/chem/ammonia.tex}}{Ammonia}
+		\schemestop
+	\end{center}
 	
 \end{document}
