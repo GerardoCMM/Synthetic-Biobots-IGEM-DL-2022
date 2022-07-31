@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2021.12.14)  29 JUL 2022 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2021.12.14)  30 JUL 2022 20:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -613,6 +613,10 @@ ons.code.tex
 \mcf@boxwidth=\skip65
 \mcf@boxheight=\skip66
 )
+(/home/gerardo/.miktex/texmfs/install/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks31
+)
 (/home/gerardo/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count303
@@ -620,24 +624,24 @@ File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 ) (Docking.aux)
 \openout1 = `Docking.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 (/home/gerardo/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -646,12 +650,12 @@ LaTeX Font Info:    ... okay on input line 20.
 \scratchbox=\box67
 \nofMPsegments=\count305
 \nofMParguments=\count306
-\everyMPshowfont=\toks31
+\everyMPshowfont=\toks32
 \MPscratchCnt=\count307
 \MPscratchDim=\dimen276
 \MPnumerator=\count308
 \makeMPintoPDFobject=\count309
-\everyMPtoPDFconversion=\toks32
+\everyMPtoPDFconversion=\toks33
 )
 (/home/gerardo/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -661,7 +665,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (/home/gerardo/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 20.
+Package hyperref Info: Link coloring OFF on input line 21.
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -675,9 +679,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count310
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
  (Docking.out) (Docking.out)
 \@outlinefile=\write4
 \openout4 = `Docking.out'.
@@ -692,16 +696,16 @@ LaTeX Info: Redefining \nameref on input line 20.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
 * h-part:(L,W,R)=(31.53711pt, 534.43364pt, 31.53712pt)
-* v-part:(T,H,B)=(25.03146pt, 782.46812pt, 37.54726pt)
+* v-part:(T,H,B)=(23.03146pt, 787.46812pt, 34.54726pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=534.43364pt
 * \textheight=715.46812pt
 * \oddsidemargin=-40.73288pt
 * \evensidemargin=-40.73288pt
-* \topmargin=-47.23853pt
+* \topmargin=-49.23853pt
 * \headheight=12.0pt
-* \headsep=25.0pt
+* \headsep=30.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
 * \marginparwidth=44.0pt
@@ -718,48 +722,60 @@ LaTeX Info: Redefining \nameref on input line 20.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 26.
+(Font)              <14.4> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 26.
-<../2/Transcripts/6.png, id=6, 1204.5pt x 700.11563pt>
-File: ../2/Transcripts/6.png Graphic file (type png)
-<use ../2/Transcripts/6.png>
-Package pdftex.def Info: ../2/Transcripts/6.png  used on input line 32.
-(pdftex.def)             Requested size: 542.02pt x 315.04912pt.
-
-Overfull \hbox (7.58636pt too wide) in paragraph at lines 32--33
- [][] 
- []
-
-[1
-
-{/home/gerardo/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map} <../2/Transcrip
-ts/6.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 39--41
-
- []
-
-(../Images/chem/phenylalanine.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2.
-) (../Images/chem/cinnamic.tex)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 48.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 48.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 48.
-
-(../Images/chem/ammonia.tex)
-<../Images/SB.png, id=15, 1268.0976pt x 604.8999pt>
+(Font)              <7> on input line 27.
+<../Images/SB.png, id=14, 1268.0976pt x 604.8999pt>
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 51.
+Package pdftex.def Info: ../Images/SB.png  used on input line 29.
+(pdftex.def)             Requested size: 507.23006pt x 241.95567pt.
+[1
+
+{/home/gerardo/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map} <../Images/SB.p
+ng>]
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+<../Images/Pathway2.png, id=26, 828.09375pt x 1882.03125pt>
+File: ../Images/Pathway2.png Graphic file (type png)
+<use ../Images/Pathway2.png>
+Package pdftex.def Info: ../Images/Pathway2.png  used on input line 46.
+(pdftex.def)             Requested size: 289.83716pt x 658.72081pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 50.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
-<../Images/IDL.png, id=17, 417.56pt x 203.76125pt>
+<../Images/IDL.png, id=27, 417.56pt x 203.76125pt>
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 51.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 50.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+
+[2 <../Images/IDL.png>]
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 50.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 50.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 
@@ -770,27 +786,70 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[2 <../Images/SB.png> <../Images/IDL.png>] (Docking.aux)
+[3 <../Images/Pathway2.png>]
+<../2/Transcripts/6.png, id=41, 1204.5pt x 700.11563pt>
+File: ../2/Transcripts/6.png Graphic file (type png)
+<use ../2/Transcripts/6.png>
+Package pdftex.def Info: ../2/Transcripts/6.png  used on input line 59.
+(pdftex.def)             Requested size: 542.02pt x 315.04912pt.
+
+Overfull \hbox (7.58636pt too wide) in paragraph at lines 59--60
+ [][] 
+ []
+
+(../Images/chem/phenylalanine.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+) (../Images/chem/cinnamic.tex)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 71.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 71.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 71.
+
+(../Images/chem/ammonia.tex)
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 74.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 74.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+
+[4
+
+ <../2/Transcripts/6.png (PNG copy)>] (Docking.aux)
 Package rerunfilecheck Info: File `Docking.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 26FB8BD681B941FDDCD5F644F12E551A;175.
  ) 
 Here is how much of TeX's memory you used:
- 21741 strings out of 480820
- 407822 string characters out of 2902872
- 723354 words of memory out of 3000000
- 39008 multiletter control sequences out of 15000+600000
- 407378 words of font info for 40 fonts, out of 8000000 for 9000
+ 21785 strings out of 480820
+ 408540 string characters out of 2902872
+ 723121 words of memory out of 3000000
+ 39042 multiletter control sequences out of 15000+600000
+ 408291 words of font info for 43 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 114i,16n,111p,788b,1716s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pf
-b></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pf
-b></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pf
-b></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb
-></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-
-Output written on Docking.pdf (2 pages, 380681 bytes).
+ 114i,16n,111p,701b,1718s stack positions out of 5000i,500n,10000p,200000b,80000s
+</home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.p
+fb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.p
+fb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.p
+fb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pf
+b></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb
+>
+Output written on Docking.pdf (4 pages, 560315 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 80 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

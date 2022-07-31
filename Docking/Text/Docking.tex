@@ -5,7 +5,7 @@
 \usepackage{hyperref}
 \usepackage{placeins}
 \usepackage{geometry}
-\geometry{includeheadfoot,a4paper, textwidth=0.87\paperwidth, textheight=0.9\paperheight}
+\geometry{includeheadfoot,a4paper, textwidth=0.87\paperwidth, textheight=0.9\paperheight, headsep =30pt}
 \usepackage[onehalfspacing]{setspace}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -16,15 +16,42 @@
 \usepackage{natbib}
 \usepackage{mol2chemfig}
 \usepackage{chemfig}
+\usepackage{enumerate}
 
 \begin{document}	
-	\title {Módulo 8: Actividad 2\\Ciclo de la Urea}
-	\date{28 Noviembre 2021}
-	\author{Gerardo Cendejas Mendoza\\ Facultad de Ciencias UNAM\\BMC II}
+	\title {Docking Methods}
+	\date{iGEM Design League 2022}
+	\author{Synthetic Biobots\\Gerardo Cendejas Mendoza}
 	
 	\maketitle
+
+	\begin{center}
+		\includegraphics[scale=0.4]{SB.png}
+	\end{center}
+
+	\newpage
 	
-	El ciclo de la Urea y el ciclo de Krebs están interrelacionados mediante un sistema llamado ``lanzadera Aspartato--Malato". Esta lanzadera se llama así debido a los dos intermediarios aspartato y malato, son transportados desde el interior y hacia el exterior de la mitocondria, respectivamente. Ninguno de éstos dos intermediarios pertenecen ni a Krebs ni a Urea. Explica ¿cómo es que se relacionan el ciclo de Krebs y el de la Urea a través de éstos intermediarios?
+	\section*{Introduction}
+	
+	In this document is shown the docking methodology followed by the team  Synthetic Biobots during the iGEM Design League 2022 season. Molecular docking is a process to couple proteins with their ligands; for this project molecular docking was performed in order to support the decision of using the proteins that were selected as part of the biosynthetic pathway of piperamide. The different steps necessary for its production are shown in the Fig. \ref{fig1}; in this figure all the steps required are marked with a number, this number is an identifier for the enzyme required to perform that step.\\
+	
+	From all the enzymes used in the pathway, only 8 require a docking step for different reasons, these reasons can be that it is an enzyme that has not been isolated and even though a previous annotation step indicates it performs that reaction, molecular docking can provide better support for their selection and activity. Another reason to perform molecular docking is when the protein is known and has been isolated but we are using a molecule that is not the original ligand of the protein, in this case molecular docking can help to elucidate if the protein would be able to perform the reaction with a molecule with similar structure to its' original ligand.\\
+	
+	The enzymes that are subject of molecular docking and the genes that code for these enzymes and will be studied are: 1 (Pn8.2617), 2 (Pn2.84), 4 (Pn1.1317), 5 (Pn3.4770, Pn7.1626), 6 (Pn16.1237, Pn16.1198), 8 (Pn4.3222), 9 (Pn2.2377) and 10 (\href{https://www.rcsb.org/structure/2CWH}{2cwh}).
+	
+	
+	\FloatBarrier
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.35]{Pathway2.png}
+		\caption{Biosynthetic pathway of piperamide.}
+		\label{fig1}
+	\end{figure}
+	\FloatBarrier
+	
+	\section{Docking}
+	
+	\subsection{Pn8.2617}
 	
 	\FloatBarrier
 	\begin{figure}[h]
@@ -34,10 +61,6 @@
 	\end{figure}
 	\FloatBarrier
 	
-	\newpage
-	
-	El ciclo de Krebs y el ciclo de la urea se relacionan porque en la mitocondria y en el citoplasma se encuentran isoenzimas que llevan a cabo las mismaas reacciones, de convertir fumarato a malato, este a oxalacetato y este a aspartato. Además, como resultado del ciclo de la urea se obtiene fumarato, que es un intermediario del ciclo de Krebs y mediante la lanzadera de Apartato--Malato puede entrar a la matriz mitocondrial y entrar al ciclo de Krebs. De igual manera, a partir del oxalacetato del ciclo de Krebs se puede generar Aspartato, el cual por la misma lanzadera puede salir de la mitocondria y llegar al citosol, aquí puede entrar al ciclo de la urea, pues es necesario en este para la obtención de arginosuccinato a partir de citrulina.
-	\newline
 	
 	
 	\begin{center}
