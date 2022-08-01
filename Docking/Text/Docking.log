@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2021.12.14)  30 JUL 2022 20:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2021.12.14)  1 AUG 2022 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -743,7 +743,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-<../Images/Pathway2.png, id=26, 828.09375pt x 1882.03125pt>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 40.
+<../Images/Pathway2.png, id=33, 828.09375pt x 1882.03125pt>
 File: ../Images/Pathway2.png Graphic file (type png)
 <use ../Images/Pathway2.png>
 Package pdftex.def Info: ../Images/Pathway2.png  used on input line 46.
@@ -755,7 +761,7 @@ File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 50.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
-<../Images/IDL.png, id=27, 417.56pt x 203.76125pt>
+<../Images/IDL.png, id=34, 417.56pt x 203.76125pt>
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 50.
@@ -787,7 +793,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [3 <../Images/Pathway2.png>]
-<../2/Transcripts/6.png, id=41, 1204.5pt x 700.11563pt>
+<../2/Transcripts/6.png, id=56, 1204.5pt x 700.11563pt>
 File: ../2/Transcripts/6.png Graphic file (type png)
 <use ../2/Transcripts/6.png>
 Package pdftex.def Info: ../2/Transcripts/6.png  used on input line 59.
@@ -801,21 +807,14 @@ Overfull \hbox (7.58636pt too wide) in paragraph at lines 59--60
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
 ) (../Images/chem/cinnamic.tex)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 71.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 71.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 71.
-
-(../Images/chem/ammonia.tex)
+(../Images/chem/ammonia.tex) (Docking.bbl
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 74.
+Package pdftex.def Info: ../Images/SB.png  used on input line 26.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 74.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 26.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 
@@ -828,28 +827,47 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4
 
- <../2/Transcripts/6.png (PNG copy)>] (Docking.aux)
+ <../2/Transcripts/6.png (PNG copy)>])
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 78.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 78.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+
+[5] (Docking.aux)
 Package rerunfilecheck Info: File `Docking.out' has not changed.
 (rerunfilecheck)             Checksum: 26FB8BD681B941FDDCD5F644F12E551A;175.
  ) 
 Here is how much of TeX's memory you used:
- 21785 strings out of 480820
- 408540 string characters out of 2902872
- 723121 words of memory out of 3000000
- 39042 multiletter control sequences out of 15000+600000
- 408291 words of font info for 43 fonts, out of 8000000 for 9000
+ 21819 strings out of 480820
+ 409069 string characters out of 2902872
+ 726364 words of memory out of 3000000
+ 39064 multiletter control sequences out of 15000+600000
+ 408638 words of font info for 44 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 114i,16n,111p,701b,1718s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,16n,111p,1021b,1718s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.p
 fb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.p
 fb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.p
 fb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.p
 fb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pf
 b></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb
->
-Output written on Docking.pdf (4 pages, 560315 bytes).
+></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pf
+b>
+Output written on Docking.pdf (5 pages, 584685 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
+ 104 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

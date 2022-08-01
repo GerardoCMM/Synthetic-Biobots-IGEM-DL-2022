@@ -1,0 +1,42 @@
+\begin{thebibliography}{}
+
+\bibitem[Anders et~al., 2012]{dexseq}
+Anders, S., Reyes, A., and Huber, W. (2012).
+\newblock Detecting differential usage of exons from rna-seq data.
+\newblock {\em Nature Precedings}, pages 1--1.
+
+\bibitem[Community, 2022]{galaxy}
+Community, T.~G. (2022).
+\newblock The galaxy platform for accessible, reproducible and collaborative
+  biomedical analyses: 2022 update.
+\newblock {\em Nucleic Acids Research}, 50(W1):W345.
+
+\bibitem[Dobin et~al., 2013]{star}
+Dobin, A., Davis, C.~A., Schlesinger, F., Drenkow, J., Zaleski, C., Jha, S.,
+  Batut, P., Chaisson, M., and Gingeras, T.~R. (2013).
+\newblock Star: ultrafast universal rna-seq aligner.
+\newblock {\em Bioinformatics}, 29(1):15--21.
+
+\bibitem[Gentleman et~al., 2004]{bioconductor}
+Gentleman, R.~C., Carey, V.~J., Bates, D.~M., Bolstad, B., Dettling, M.,
+  Dudoit, S., Ellis, B., Gautier, L., Ge, Y., Gentry, J., et~al. (2004).
+\newblock Bioconductor: open software development for computational biology and
+  bioinformatics.
+\newblock {\em Genome biology}, 5(10):1--16.
+
+\bibitem[Hu et~al., 2019]{genome}
+Hu, L., Xu, Z., Wang, M., Fan, R., Yuan, D., Wu, B., Wu, H., Qin, X., Yan, L.,
+  Tan, L., et~al. (2019).
+\newblock The chromosome-scale reference genome of black pepper provides
+  insight into piperine biosynthesis.
+\newblock {\em Nature communications}, 10(1):1--11.
+
+\bibitem[Reyes et~al., 2013]{dexseq_2}
+Reyes, A., Anders, S., Weatheritt, R.~J., Gibson, T.~J., Steinmetz, L.~M., and
+  Huber, W. (2013).
+\newblock Drift and conservation of differential exon usage across tissues in
+  primate species.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  110(38):15377--15382.
+
+\end{thebibliography}
