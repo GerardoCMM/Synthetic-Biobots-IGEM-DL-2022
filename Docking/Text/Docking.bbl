@@ -5,6 +5,19 @@ Anders, S., Reyes, A., and Huber, W. (2012).
 \newblock Detecting differential usage of exons from rna-seq data.
 \newblock {\em Nature Precedings}, pages 1--1.
 
+\bibitem[Aramaki et~al., 2020]{kofamkoala}
+Aramaki, T., Blanc-Mathieu, R., Endo, H., Ohkubo, K., Kanehisa, M., Goto, S.,
+  and Ogata, H. (2020).
+\newblock Kofamkoala: Kegg ortholog assignment based on profile hmm and
+  adaptive score threshold.
+\newblock {\em Bioinformatics}, 36(7):2251--2252.
+
+\bibitem[Bertoni et~al., 2017]{quaternary_swiss}
+Bertoni, M., Kiefer, F., Biasini, M., Bordoli, L., and Schwede, T. (2017).
+\newblock Modeling protein quaternary structure of homo-and hetero-oligomers
+  beyond binary interactions by homology.
+\newblock {\em Scientific reports}, 7(1):1--15.
+
 \bibitem[Community, 2022]{galaxy}
 Community, T.~G. (2022).
 \newblock The galaxy platform for accessible, reproducible and collaborative
@@ -31,6 +44,12 @@ Hu, L., Xu, Z., Wang, M., Fan, R., Yuan, D., Wu, B., Wu, H., Qin, X., Yan, L.,
   insight into piperine biosynthesis.
 \newblock {\em Nature communications}, 10(1):1--11.
 
+\bibitem[Remmert et~al., 2012]{hhblits}
+Remmert, M., Biegert, A., Hauser, A., and S{\"o}ding, J. (2012).
+\newblock Hhblits: lightning-fast iterative protein sequence searching by
+  hmm-hmm alignment.
+\newblock {\em Nature methods}, 9(2):173--175.
+
 \bibitem[Reyes et~al., 2013]{dexseq_2}
 Reyes, A., Anders, S., Weatheritt, R.~J., Gibson, T.~J., Steinmetz, L.~M., and
   Huber, W. (2013).
@@ -38,5 +57,18 @@ Reyes, A., Anders, S., Weatheritt, R.~J., Gibson, T.~J., Steinmetz, L.~M., and
   primate species.
 \newblock {\em Proceedings of the National Academy of Sciences},
   110(38):15377--15382.
+
+\bibitem[Studer et~al., 2020]{qmeandisco_swiss}
+Studer, G., Rempfer, C., Waterhouse, A.~M., Gumienny, R., Haas, J., and
+  Schwede, T. (2020).
+\newblock Qmeandisco—distance constraints applied on model quality
+  estimation.
+\newblock {\em Bioinformatics}, 36(6):1765--1771.
+
+\bibitem[Waterhouse et~al., 2018]{swiss}
+Waterhouse, A., Bertoni, M., Bienert, S., Studer, G., Tauriello, G., Gumienny,
+  R., Heer, F.~T., de~Beer, T. A.~P., Rempfer, C., Bordoli, L., et~al. (2018).
+\newblock Swiss-model: homology modelling of protein structures and complexes.
+\newblock {\em Nucleic acids research}, 46(W1):W296--W303.
 
 \end{thebibliography}

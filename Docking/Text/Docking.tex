@@ -1,6 +1,7 @@
 \documentclass[12pt]{article}
 
 \usepackage{graphicx}
+\usepackage{subcaption}
 \graphicspath{ {../Images} }
 \usepackage{hyperref}
 \usepackage{placeins}
@@ -17,6 +18,10 @@
 \usepackage{mol2chemfig}
 \usepackage{chemfig}
 \usepackage{enumerate}
+\usepackage{caption}
+\usepackage{amssymb}
+\usepackage{chemmacros}
+
 
 \begin{document}	
 	\title {Docking Methods}
@@ -33,19 +38,20 @@
 	
 	\section*{Introduction}
 	
-	In this document is shown the docking methodology followed by the team  Synthetic Biobots during the iGEM Design League 2022 season. Molecular docking is a process to couple proteins with their ligands; for this project molecular docking was performed in order to support the decision of using the proteins that were selected as part of the biosynthetic pathway of piperamide. The different steps necessary for its production are shown in the Fig. \ref{fig1}; in this figure all the steps required are marked with a number, this number is an identifier for the enzyme required to perform that step.\\
+	In this document is shown the docking methodology followed by the team  Synthetic Biobots during the iGEM Design League 2022 season. Molecular docking is a process to couple proteins with their ligands; for this project molecular docking was performed in order to support the decision of using the proteins that were selected as part of the biosynthetic pathway of piperamide. The different steps necessary for its production are shown in the \hyperlink{pathway}{figure} shown in the next page; in this figure all the steps required are marked with a number, this number is an identifier for the enzyme required to perform that step.\\
 	
 	From all the enzymes used in the pathway, only 8 require a docking step for different reasons, these reasons can be that it is an enzyme that has not been isolated and even though a previous annotation step indicates it performs that reaction, molecular docking can provide better support for their selection and activity. Another reason to perform molecular docking is when the protein is known and has been isolated but we are using a molecule that is not the original ligand of the protein, in this case molecular docking can help to elucidate if the protein would be able to perform the reaction with a molecule with similar structure to its' original ligand. The enzymes that are subject of molecular docking and the genes that code for these enzymes and will be studied are: 1 (Pn8.2617), 2 (Pn2.84), 4 (Pn1.1317), 5 (Pn3.4770, Pn7.1626), 6 (Pn16.1237, Pn16.1198), 8 (Pn4.3222), 9 (Pn2.2377) and 10 (\href{https://www.rcsb.org/structure/2CWH}{2cwh}).\\
 	
-	For each of these genes it was performed a differential exon usage analysis between four different \textit{Piper nigrum} tissues: fruit at 20 days stage, fruit at 40 days stage, leaf and panicle. This analysis can help us to visualize the expression level for each exon of the genes, with this information we can select the exons of the gene to include in the modeling and in the next steps. This analysis was performed using the Bioconductor library ``DEXSeq'', to see the code of this methodology please visit the GitHub repository of the team for iGEM Design League 2022 season, the \href{https://github.com/GerardoCMM/Synthetic-Biobots-IGEM-DL-2022/tree/main/Exon_usage}{Exon\_usage} directory.\cite{bioconductor,dexseq,dexseq_2}\ \ In order to carry out the analysis it was necessary to map the RNAseq reads to the reference genome of \textit{Piper nigrum}, this was done using the STAR ultrafast universal RNA-seq aligner on the Galaxy project platform. \cite{genome,star,galaxy}
+	For each of these genes it was performed a differential exon usage analysis between four different \textit{Piper nigrum} tissues: fruit at 20 days stage, fruit at 40 days stage, leaf and panicle. This analysis can help us to visualize the expression level for each exon of the genes, with this information we can select the exons of the gene to include in the modeling and in the next steps. This analysis was performed using the Bioconductor library ``DEXSeq'', to see the code of this methodology please visit the GitHub repository of the team for iGEM Design League 2022 season, the \href{https://github.com/GerardoCMM/Synthetic-Biobots-IGEM-DL-2022/tree/main/Exon_usage}{Exon\_usage} directory. \cite{bioconductor,dexseq,dexseq_2}\ \ In order to carry out the analysis it was necessary to map the RNAseq reads to the reference genome of \textit{Piper nigrum}, this was done using the STAR ultrafast universal RNA-seq aligner on the Galaxy project platform. \cite{genome,star,galaxy}\ \ Only results of relevance for the modeling and docking methods are shown in this document.
 	
 	
 	\FloatBarrier
 	\begin{figure}[h]
 		\centering
+		\hypertarget{pathway}{}
 		\includegraphics[scale=0.35]{Pathway2.png}
-		\caption{Biosynthetic pathway of piperamide.}
-		\label{fig1}
+		\caption*{Biosynthetic pathway of piperamide.}
+		
 	\end{figure}
 	\FloatBarrier
 	
@@ -53,25 +59,42 @@
 	
 	\subsection{Pn8.2617}
 	
+	The first reaction in the biosynthetic pathway of piperamide is performed by the enzyme phenylalanine ammonia-lyase, wich is part of the phenylpropanoid biosynthesis pathway and catalyzes the reaction shown in Eq. \ref{eq1}. The gene Pn8.2617 was selected as the best candidate for enzyme 1, this selection was based on the fact that it obtained the highest score (1170.9) over the threshold (524.93) for that KEGG Orthology ID K10775, with E-value $\approxeq 0$ . This annotation was made with KofamKOALA. \cite{kofamkoala} With the Exon usage analysis no relevant results were found.
+	
+	\numberwithin{equation}{section}
+	\begin{align}
+		\schemestart
+		 \label{eq1}
+		\chemname{\footnotesize\input{../Images/chem/phenylalanine.tex}}{Phenylalanine}\arrow{->[\footnotesize 1]}\chemname{\footnotesize\input{../Images/chem/cinnamic.tex}}{Cinnamic acid}
+		\arrow{0}[,0]+
+		\chemname{\chemfig{NH_3}}{Ammonia}
+		\schemestop
+	\end{align}\\
+	
+	The gene contains two exons that were considered when modeling the three-dimensional structure of the protein. The structure modeling was made using an homology based methodology ``SWISS-MODEL''. \cite{swiss,quaternary_swiss} This methodology is template based, in this case the template selected was a phenylalanine ammonia-lyase from \textit{Petroselinum crispum} with PDB ID: \href{https://www.rcsb.org/structure/1w27}{1w27}; this protein has a 79.97\% sequence identity to our query protein Pn8.2617 which make it an appropiate template. The template was found using HHblits, a protein sequence searching algorithm that uses hmm-hmm alignment. \cite{hhblits} The model (Fig. \ref{fig1_1}) is found in a homo-tetrameric state, as the template is; it has a GMQE value of 0.84 and a QMEANDisCo Global value of 0.81 ± 0.05 (Fig. \ref{fig1_2}). The QMEANDisCo value is a composite score value for single model quality estimation, this value is a function of underlying single model scores employing statistical potentials of mean force and a distance constraint based on the known structure of homologous proteins. QMEANDisCo value is calculated for every residue of the protein and the QMEANDisCo Global value is the average of these per residue scores, wich aims to be a good approximation of the global overall quality of the model. \cite{qmeandisco_swiss}
+
+	
 	\FloatBarrier
 	\begin{figure}[h]
 		\centering
-		\includegraphics[scale=0.45]{../2/Transcripts/6.png}
-		\caption{Algo}
+		\includegraphics[scale=0.3]{../1/Minimize/model.png}
+		\caption{Pn8.2617 three-dimensional model}
+		\label{fig1_1}
+	\end{figure}
+	\FloatBarrier
+	
+	\FloatBarrier
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\textwidth-50pt]{../1/Swiss/Local_quality_estimate.png}
+		\caption{Pn8.2617 three-dimensional model}
+		\label{fig1_2}
 	\end{figure}
 	\FloatBarrier
 	
 	
+	\newpage
 	
-	\begin{center}
-		\schemestart
-		\chemname{\footnotesize\input{../Images/chem/phenylalanine.tex}}{Phenylalanine}\arrow{->[\footnotesize 1]}\chemname{\footnotesize\input{../Images/chem/cinnamic.tex}}{Cinnamic acid}
-		\arrow{0}[,0]\+
-		\chemname{\input{../Images/chem/ammonia.tex}}{Ammonia}
-		\schemestop
-	\end{center}
-
-
 	\bibliographystyle{apalike}
 	\bibliography{references.bib}
 	
