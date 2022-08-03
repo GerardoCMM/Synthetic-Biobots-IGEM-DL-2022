@@ -151,10 +151,23 @@ Tsai, K.-C., Wang, S.-H., Hsiao, N.-W., Li, M., and Wang, B. (2008).
   a case study using dock5. 4.
 \newblock {\em Bioorganic \& medicinal chemistry letters}, 18(12):3509--3512.
 
+\bibitem[Vass et~al., 2012]{sequential}
+Vass, M., Tarcsay, {\'A}., and Keser{\H{u}}, G.~M. (2012).
+\newblock Multiple ligand docking by glide: implications for virtual
+  second-site screening.
+\newblock {\em Journal of computer-aided molecular design}, 26(7):821--834.
+
 \bibitem[Waterhouse et~al., 2018]{swiss}
 Waterhouse, A., Bertoni, M., Bienert, S., Studer, G., Tauriello, G., Gumienny,
   R., Heer, F.~T., de~Beer, T. A.~P., Rempfer, C., Bordoli, L., et~al. (2018).
 \newblock Swiss-model: homology modelling of protein structures and complexes.
 \newblock {\em Nucleic acids research}, 46(W1):W296--W303.
+
+\bibitem[Zhang et~al., 2020]{cinnamate_oxygenase}
+Zhang, B., Lewis, K.~M., Abril, A., Davydov, D.~R., Vermerris, W., Sattler,
+  S.~E., and Kang, C. (2020).
+\newblock Structure and function of the cytochrome p450 monooxygenase cinnamate
+  4-hydroxylase from sorghum bicolor.
+\newblock {\em Plant physiology}, 183(3):957--973.
 
 \end{thebibliography}
