@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2021.12.14)  2 AUG 2022 23:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2021.12.14)  3 AUG 2022 10:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1439,11 +1439,11 @@ Package pdftex.def Info: ../1/Dock/chimera.png  used on input line 185.
 (pdftex.def)             Requested size: 213.77019pt x 213.76195pt.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 192.
+Package pdftex.def Info: ../Images/SB.png  used on input line 196.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 192.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 196.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 
@@ -1455,7 +1455,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [7 <../1/Dock/best.png> <../1/Dock/best2.png> <../1/Dock/best3.png> <../1/Dock/
-best4.png> <../1/Dock/chimera.png>] (Docking.bbl
+best4.png> <../1/Dock/chimera.png>]
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 196.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 196.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+
+[8] (Docking.bbl
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 84.
@@ -1473,7 +1491,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[8]
+[9]
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 160.
@@ -1491,14 +1509,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[9])
+[10])
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 197.
+Package pdftex.def Info: ../Images/SB.png  used on input line 201.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 197.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 201.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 
@@ -1509,7 +1527,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[10] (Docking.toc)
+[11] (Docking.toc)
 \tf@toc=\write6
 \openout6 = `Docking.toc'.
 
@@ -1523,11 +1541,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 202.
+Package pdftex.def Info: ../Images/SB.png  used on input line 206.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 202.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 206.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 
@@ -1538,13 +1556,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[11] (Docking.aux)
-Package rerunfilecheck Info: File `Docking.out' has not changed.
-(rerunfilecheck)             Checksum: BCC5658E47B14E25752FE7A2491D7371;279.
+[12] (Docking.aux)
+
+Package rerunfilecheck Warning: File `Docking.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Docking.out':
+(rerunfilecheck)             Before: BCC5658E47B14E25752FE7A2491D7371;279
+(rerunfilecheck)             After:  0247EEA39D26430BED08197AF90B9ED5;366.
  ) 
 Here is how much of TeX's memory you used:
- 34676 strings out of 480820
- 731467 string characters out of 2902872
+ 34678 strings out of 480820
+ 731488 string characters out of 2902872
  1014731 words of memory out of 3000000
  51697 multiletter control sequences out of 15000+600000
  419654 words of font info for 86 fonts, out of 8000000 for 9000
@@ -1560,9 +1584,9 @@ Here is how much of TeX's memory you used:
 .pfb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/symbols
 /msbm10.pfb>
-Output written on Docking.pdf (11 pages, 2003231 bytes).
+Output written on Docking.pdf (12 pages, 2004261 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
+ 234 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
  87 words of extra memory for PDF output out of 10000 (max. 10000000)
 
