@@ -30,6 +30,12 @@ Dobin, A., Davis, C.~A., Schlesinger, F., Drenkow, J., Zaleski, C., Jha, S.,
 \newblock Star: ultrafast universal rna-seq aligner.
 \newblock {\em Bioinformatics}, 29(1):15--21.
 
+\bibitem[Eberhardt et~al., 2021]{vina}
+Eberhardt, J., Santos-Martins, D., Tillack, A.~F., and Forli, S. (2021).
+\newblock Autodock vina 1.2. 0: New docking methods, expanded force field, and
+  python bindings.
+\newblock {\em Journal of Chemical Information and Modeling}, 61(8):3891--3898.
+
 \bibitem[Gentleman et~al., 2004]{bioconductor}
 Gentleman, R.~C., Carey, V.~J., Bates, D.~M., Bolstad, B., Dettling, M.,
   Dudoit, S., Ellis, B., Gautier, L., Ge, Y., Gentry, J., et~al. (2004).
@@ -37,12 +43,69 @@ Gentleman, R.~C., Carey, V.~J., Bates, D.~M., Bolstad, B., Dettling, M.,
   bioinformatics.
 \newblock {\em Genome biology}, 5(10):1--16.
 
+\bibitem[Goddard et~al., 2018]{chimera_2}
+Goddard, T.~D., Huang, C.~C., Meng, E.~C., Pettersen, E.~F., Couch, G.~S.,
+  Morris, J.~H., and Ferrin, T.~E. (2018).
+\newblock Ucsf chimerax: Meeting modern challenges in visualization and
+  analysis.
+\newblock {\em Protein Science}, 27(1):14--25.
+
 \bibitem[Hu et~al., 2019]{genome}
 Hu, L., Xu, Z., Wang, M., Fan, R., Yuan, D., Wu, B., Wu, H., Qin, X., Yan, L.,
   Tan, L., et~al. (2019).
 \newblock The chromosome-scale reference genome of black pepper provides
   insight into piperine biosynthesis.
 \newblock {\em Nature communications}, 10(1):1--11.
+
+\bibitem[Jakalian et~al., 2000]{am1_bcc}
+Jakalian, A., Bush, B.~L., Jack, D.~B., and Bayly, C.~I. (2000).
+\newblock Fast, efficient generation of high-quality atomic charges. am1-bcc
+  model: I. method.
+\newblock {\em Journal of computational chemistry}, 21(2):132--146.
+
+\bibitem[Jakalian et~al., 2002]{am1_bcc_2}
+Jakalian, A., Jack, D.~B., and Bayly, C.~I. (2002).
+\newblock Fast, efficient generation of high-quality atomic charges. am1-bcc
+  model: Ii. parameterization and validation.
+\newblock {\em Journal of computational chemistry}, 23(16):1623--1641.
+
+\bibitem[Landrum et~al., 2013]{rdkit}
+Landrum, G. et~al. (2013).
+\newblock Rdkit: A software suite for cheminformatics, computational chemistry,
+  and predictive modeling.
+\newblock {\em Greg Landrum}.
+
+\bibitem[Lu et~al., 2020]{cdd}
+Lu, S., Wang, J., Chitsaz, F., Derbyshire, M.~K., Geer, R.~C., Gonzales, N.~R.,
+  Gwadz, M., Hurwitz, D.~I., Marchler, G.~H., Song, J.~S., et~al. (2020).
+\newblock Cdd/sparcle: the conserved domain database in 2020.
+\newblock {\em Nucleic acids research}, 48(D1):D265--D268.
+
+\bibitem[Marchler-Bauer et~al., 2015]{cdd_2}
+Marchler-Bauer, A., Derbyshire, M.~K., Gonzales, N.~R., Lu, S., Chitsaz, F.,
+  Geer, L.~Y., Geer, R.~C., He, J., Gwadz, M., Hurwitz, D.~I., et~al. (2015).
+\newblock Cdd: Ncbi's conserved domain database.
+\newblock {\em Nucleic acids research}, 43(D1):D222--D226.
+
+\bibitem[Mills and Dean, 1996]{hbond}
+Mills, J. and Dean, P.~M. (1996).
+\newblock Three-dimensional hydrogen-bond geometry and probability information
+  from a crystal survey.
+\newblock {\em Journal of computer-aided molecular design}, 10(6):607--622.
+
+\bibitem[Morris et~al., 2009]{adt}
+Morris, G.~M., Huey, R., Lindstrom, W., Sanner, M.~F., Belew, R.~K., Goodsell,
+  D.~S., and Olson, A.~J. (2009).
+\newblock Autodock4 and autodocktools4: Automated docking with selective
+  receptor flexibility.
+\newblock {\em Journal of computational chemistry}, 30(16):2785--2791.
+
+\bibitem[Pettersen et~al., 2021]{chimera}
+Pettersen, E.~F., Goddard, T.~D., Huang, C.~C., Meng, E.~C., Couch, G.~S.,
+  Croll, T.~I., Morris, J.~H., and Ferrin, T.~E. (2021).
+\newblock Ucsf chimerax: Structure visualization for researchers, educators,
+  and developers.
+\newblock {\em Protein Science}, 30(1):70--82.
 
 \bibitem[Remmert et~al., 2012]{hhblits}
 Remmert, M., Biegert, A., Hauser, A., and S{\"o}ding, J. (2012).
@@ -64,6 +127,29 @@ Studer, G., Rempfer, C., Waterhouse, A.~M., Gumienny, R., Haas, J., and
 \newblock Qmeandisco—distance constraints applied on model quality
   estimation.
 \newblock {\em Bioinformatics}, 36(6):1765--1771.
+
+\bibitem[Tian et~al., 2018]{castp}
+Tian, W., Chen, C., Lei, X., Zhao, J., and Liang, J. (2018).
+\newblock Castp 3.0: computed atlas of surface topography of proteins.
+\newblock {\em Nucleic acids research}, 46(W1):W363--W367.
+
+\bibitem[Tosco et~al., 2014]{rdkit_mmff}
+Tosco, P., Stiefl, N., and Landrum, G. (2014).
+\newblock Bringing the mmff force field to the rdkit: implementation and
+  validation.
+\newblock {\em Journal of cheminformatics}, 6(1):1--4.
+
+\bibitem[Trott and Olson, 2010]{vina_2}
+Trott, O. and Olson, A.~J. (2010).
+\newblock Autodock vina: improving the speed and accuracy of docking with a new
+  scoring function, efficient optimization, and multithreading.
+\newblock {\em Journal of computational chemistry}, 31(2):455--461.
+
+\bibitem[Tsai et~al., 2008]{am1_bcc_3}
+Tsai, K.-C., Wang, S.-H., Hsiao, N.-W., Li, M., and Wang, B. (2008).
+\newblock The effect of different electrostatic potentials on docking accuracy:
+  a case study using dock5. 4.
+\newblock {\em Bioorganic \& medicinal chemistry letters}, 18(12):3509--3512.
 
 \bibitem[Waterhouse et~al., 2018]{swiss}
 Waterhouse, A., Bertoni, M., Bienert, S., Studer, G., Tauriello, G., Gumienny,
