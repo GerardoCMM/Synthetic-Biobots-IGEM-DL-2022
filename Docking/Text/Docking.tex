@@ -1,13 +1,16 @@
 \documentclass[12pt]{article}
 
 %Graphic packages
+\PassOptionsToPackage{dvipsnames}{xcolor}
 \usepackage{graphicx}
 \usepackage{subcaption}
 \graphicspath{ {../Images} }
+\usepackage{tikz}
 
 %References libraries
 \usepackage{hyperref}
 \usepackage[super]{natbib}
+\newcommand{\textcite}[1]{\citeauthor{#1}~\citeyear{#1}}
 
 %Format
 \usepackage{placeins}
@@ -28,16 +31,18 @@
 \usepackage{caption}
 \usepackage{chemmacros}
 
+% Arrow
+\input{arrows.tex}
+
 %Math and table packages
 \usepackage{amssymb}
 \usepackage{multicol}
 \usepackage{multirow}
 \usepackage{booktabs}
 \usepackage[para,online,flushleft]{threeparttable}
-\usepackage{float}
+\usepackage{wrapfig}
 
 %Color packages
-\usepackage{xcolor}
 \definecolor{MyBlue}{RGB}{39,193,227}
 
 %\usepackage{lmodern}
@@ -45,7 +50,7 @@
 %\usepackage{anyfontsize}
 %\newcommand\chemsize{\fontsize{5pt}{6pt}\selectfont}
 
-\newcommand{\textcite}[1]{\citeauthor{#1}~\citeyear{#1}}
+\setcounter{secnumdepth}{3}
 
 \begin{document}
 	\title {Docking Methods}
@@ -73,7 +78,7 @@
 	
 	
 	\FloatBarrier
-	\begin{figure}[h]
+	\begin{figure}[h!]
 		\centering
 		\hypertarget{pathway}{}
 		\includegraphics[scale=0.35]{Pathway2.png}
@@ -99,20 +104,20 @@
 		\schemestop
 	\end{equation}\\
 	
-	The gene contains two exons that were considered when modeling the three-dimensional structure of the protein. The structure modeling was made by using an homology based methodology ``SWISS-MODEL''. \cite{swiss,quaternary_swiss} This methodology is template based, in this case the template selected was a phenylalanine ammonia-lyase from \textit{Petroselinum crispum} with PDB ID: \href{https://www.rcsb.org/structure/1w27}{1w27}; this protein has a 79.97\% sequence identity to our query protein Pn8.2617 which make it an appropiate template. The template was found with HHblits, a protein sequence searching algorithm that uses hmm-hmm alignment. \cite{hhblits} The model (Fig. \ref{fig1_1}) is found in a homo-tetrameric state, as the template is; it has a GMQE value of 0.84 and a QMEANDisCo Global value of 0.81 ± 0.05 (Fig. \ref{fig1_2}). The QMEANDisCo value is a composite score value for single model quality estimation, this value is a function of underlying single model scores employing statistical potentials of mean force and a distance constraint based on the known structure of homologous proteins. QMEANDisCo value is calculated for every residue of the protein and the QMEANDisCo Global value is the average of these per residue scores, which aims to be a good approximation of the global overall quality of the model. \cite{qmeandisco_swiss} The ligand 3D conformer structure was obtained from PubChem with CID: \href{https://pubchem.ncbi.nlm.nih.gov/compound/6140}{6140}.
-
-	
 	\FloatBarrier
-	\begin{figure}[H]
+	\begin{wrapfigure}{r}{0.5\textwidth}
 		\centering
 		\includegraphics[width=0.5\textwidth]{../1/Minimize/model.png}
 		\caption{Pn8.2617 three-dimensional model.}
 		\label{fig1_1}
-	\end{figure}
+	\end{wrapfigure}
 	\FloatBarrier
 	
+	The gene contains two exons that were considered when modeling the three-dimensional structure of the protein. The structure modeling was made by using an homology based methodology ``SWISS-MODEL''. \cite{swiss,quaternary_swiss} This methodology is template based, in this case the template selected was a phenylalanine ammonia-lyase from \textit{Petroselinum crispum} with PDB ID: \href{https://www.rcsb.org/structure/1w27}{1w27}; this protein has a 79.97\% sequence identity to our query protein Pn8.2617 which makes it an appropiate template. The template was found with HHblits, a protein sequence searching algorithm that uses hmm-hmm alignment. \cite{hhblits} The model (Fig. \ref{fig1_1}) is found in a homo-tetrameric state, as the template is; it has a GMQE value of 0.84 and a QMEANDisCo Global value of 0.81 ± 0.05 (Fig. \ref{fig1_2}). The QMEANDisCo value is a composite score value for single model quality estimation, this value is a function of underlying single model scores employing statistical potentials of mean force and a distance constraint based on the known structure of homologous proteins. QMEANDisCo value is calculated for every residue of the protein and the QMEANDisCo Global value is the average of these per residue scores, which aims to be a good approximation of the global overall quality of the model. \cite{qmeandisco_swiss} The ligand 3D conformer structure was obtained from PubChem with CID: \href{https://pubchem.ncbi.nlm.nih.gov/compound/6140}{6140}.
+
+	
 	\FloatBarrier
-	\begin{figure}[H]
+	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=\textwidth-50pt]{../1/Swiss/Local_quality_estimate.png}
 		\caption{Pn8.2617 model QMEANDisCo.}
@@ -120,13 +125,13 @@
 	\end{figure}
 	\FloatBarrier
 	
-	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standar residues, for non standard residues the semi-empirical AM1-BCC model that uses an additive bond charge corrections was selected since it has shown higher success rate than other force fields in docking methods. \cite{am1_bcc,am1_bcc_2,am1_bcc_3}\ \ In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}
+	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standar residues, for non standard residues the semi-empirical AM1-BCC model that uses an additive bond charge corrections was selected since it has shown higher success rate than other force fields in docking methods. \cite{am1_bcc,am1_bcc_2,am1_bcc_3} In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}
 	
 	The preparation of the molecules for docking was made on AutoDockTools and Autodock Vina version 1.2.3 docked the protein and the ligand. \cite{adt,vina,vina_2} The grid box for the docking was selected based on the conserved domains found with the NCBI conserved domain search interface; we found the tetramer interface and active site conserved domains for phenylalanine ammonia-lyase from the CDD database. \cite{cdd,cdd_2}.  CASTp3 found the protein's pockets, which are cavities on its surface into which solvent can enter; CASTp3 uses computational geometry to find these pockets mainly using Delaunay triangulation, alpha shape, and discrete flow. \cite{castp} As a result of molecular docking with Vina, nine different conformations of the ligand in the protein were found, these results are shown in Table \ref{table1}.
 	
 	The docked positions of the phenylalanine in the Pn8.2617 structure interacted with different aminoacid residues of the protein (Fig. \ref{fig1_3}). Some of these aminoacids were found in the conserved domain for the active site of the enzyme, like Phe 129, Leu 147, Leu 270, Asn 274, Tyr 365, Arg 368 and Asn 398; the rest of the aminoacids were not marked as conserved in the active site domain but were present in the pockets found by CASTp3: Phe 150, Leu 221, Phe 414, Lys 470, Glu 498, Asn 501 and Gln 502.
 	
-	\begin{table}[h]
+	\begin{table}[h!]
 		\centering
 		\caption{Docking results of phenylalanine in Pn8.2617}
 		\label{table1}
@@ -153,27 +158,27 @@
 
 
 	\FloatBarrier
-	\begin{figure}[H]
+	\begin{figure}[h!]
 		\centering
-		\begin{subfigure}[H]{0.35\textwidth}
+		\begin{subfigure}[h!]{0.35\textwidth}
 			\hspace{2cm}
 			\includegraphics[width=\textwidth]{../1/Dock/best.png}
 			\caption{}
 		\end{subfigure}
 		\hfill
-		\begin{subfigure}[H]{0.35\textwidth}
+		\begin{subfigure}[h!]{0.35\textwidth}
 			\hspace{-2cm}
 			\includegraphics[width=\textwidth]{../1/Dock/best2.png}
 			\caption{}
 		\end{subfigure}
 		\hfill
-		\begin{subfigure}[H]{0.35\textwidth}
+		\begin{subfigure}[h!]{0.35\textwidth}
 			\hspace{2cm}
 			\includegraphics[width=\textwidth]{../1/Dock/best3.png}
 			\caption{}
 		\end{subfigure}
 		\hfill
-		\begin{subfigure}[H]{0.35\textwidth}
+		\begin{subfigure}[h!]{0.35\textwidth}
 			\hspace{-2cm}
 			\includegraphics[width=\textwidth]{../1/Dock/best4.png}
 			\caption{}
@@ -185,7 +190,7 @@
 	\FloatBarrier
 	
 	\FloatBarrier
-	\begin{figure}[H]
+	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.4\textwidth]{../1/Dock/chimera.png}
 		\caption{Phenylalanine pseudobonds with Pn8.2617.}
@@ -193,7 +198,7 @@
 	\end{figure}
 	\FloatBarrier
 	
-	\subsection{Pn2.84}
+	\subsection{Pn2.84}\label{ssec:Pn2.84}
 	
 	The second reaction of the pathway (Eq. \ref{eq2}) is catalyzed by a protein from the Cytochrome P450 Monooxigenase family called trans-cinnamate 4-hydroxylase, this enzyme is also part of the phenylpropanoid biosynthesis pathway. The gene Pn2.84 was selected as the best candidate for enzyme 2 based on the fact that it obtained the highest score (985.2) over the threshold (555.2) for KEGG Orthology ID K00487, with E-value $=2.5\times10^{-297}$. This annotation was made with KofamKOALA. \cite{kofamkoala} With the exon usage analysis no relevant results were found.
 	
@@ -204,19 +209,20 @@
 	\schemestop
 	\end{equation}\\
 	
-	The gene contains four exons that were considered when modeling the three-dimensional structure of the protein. The structure modeling was made by using an homology based methodology ``SWISS-MODEL''. \cite{swiss} The selected template was a cinnamate 4-hydroxylase from \textit{Sorghum bicolor} with PDB ID: \href{https://www.rcsb.org/structure/6VBY}{6VBY}; this protein has a 77.91\% sequence identity to our query protein Pn2.84 which make it an appropiate template. The template was found with HHblits, a protein sequence searching algorithm that uses hmm-hmm alignment. \cite{hhblits} The model (Fig. \ref{fig2_1}) is found in a monomeric state, as the template is; it has a GMQE value of 0.91 and a QMEANDisCo Global value of 0.91 ± 0.05 (Fig. \ref{fig2_2}). \cite{qmeandisco_swiss} The enzyme requires an heme molecule as a coenzyme for its correct catalytic activity; in the template a protoporphyrin IX containing Fe was found, which was used as a coenzyme for Pn2.84. The ligand 3D conformer structure was obtained from PubChem with CID: \href{https://pubchem.ncbi.nlm.nih.gov/compound/5957728}{5957728}.
-	
 	\FloatBarrier
-	\begin{figure}[H]
+	\begin{wrapfigure}{r}{0.5\textwidth}
 		\centering
 		\includegraphics[width=0.5\textwidth]{../2/Minimize/model.png}
 		\caption{Pn2.84 three-dimensional model.}
 		\label{fig2_1}
-	\end{figure}
+	\end{wrapfigure}
 	\FloatBarrier
 	
+	The gene contains four exons that were considered when modeling the three-dimensional structure of the protein. The structure modeling was made by using an homology based methodology ``SWISS-MODEL''. \cite{swiss} The selected template was a cinnamate 4-hydroxylase from \textit{Sorghum bicolor} with PDB ID: \href{https://www.rcsb.org/structure/6VBY}{6VBY}; this protein has a 77.91\% sequence identity to our query protein Pn2.84 which makes it an appropiate template. The template was found with HHblits, a protein sequence searching algorithm that uses hmm-hmm alignment. \cite{hhblits} The model (Fig. \ref{fig2_1}) is found in a monomeric state, as the template is; it has a GMQE value of 0.91 and a QMEANDisCo Global value of 0.91 ± 0.05 (Fig. \ref{fig2_2}). \cite{qmeandisco_swiss} The enzyme requires an heme molecule as a coenzyme for its correct catalytic activity; in the template a protoporphyrin IX containing Fe was found, which was used as a coenzyme for Pn2.84. The ligand 3D conformer structure was obtained from PubChem with CID: \href{https://pubchem.ncbi.nlm.nih.gov/compound/5957728}{5957728}.
+	
+	
 	\FloatBarrier
-	\begin{figure}[H]
+	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=\textwidth-50pt]{../2/Swiss/Local_quality_estimate.png}
 		\caption{Pn2.84 model QMEANDisCo.}
@@ -234,7 +240,7 @@
 	The first molecule docked was the protoporphyrin IX with Fe, as a result of molecular docking with Vina, nine different conformations of the molecule in the protein were found, these results are shown in Table \ref{table2_1}. The docked positions of the protoporphyrin IX with Fe in the Pn2.84 structure interacted with different aminoacid residues of the protein (Fig. \ref{fig2_3}). Some of these aminoacids were found in the conserved domain for the heme binding site of the enzyme, like Arg 101, Trp 126, Arg 130, Phe 138, Met 186, Ile 303, Ala 306, Ala 307, Thr 310, Thr 311, Leu 374, Val 375, His 377, Pro 439, Phe 440, Gly 441, Arg 445, Ser 446, Cys 447, Pro 448, Gly 449, Leu 452, and Ala 453; the rest of the aminoacids were not marked as conserved in the heme binding site domain but were present in the pockets found by CASTp3: Leu 91, Met 117, Val 118, Met 133, Ser 314, Ile 365, Ile 371 and Leu 457.
 	
 	
-	\begin{table}[h]
+	\begin{table}[h!]
 		\centering
 		\caption{Docking results of protoporphyrin IX (Fe) with Pn2.86}
 		\label{table2_1}
@@ -260,39 +266,39 @@
 	A further analysis was carried out to elucidate the protein-ligand interactions of the best conformation obtained, which has a binding energy of -9.795 kcal/mol. A search for hydrogen bonds was performed using UCSF ChimeraX allowing relax constraints of 0.4 \r{A} and 20 degrees. \cite{chimera,chimera_2,hbond} Eight pseudobonds were found between the ligand and four aminoacids of the protein: three pseudobonds with Arg 101 with distances 2.033 \r{A}, 2.169 \r{A} and 2.206 \r{A}; one pesudobond with Trp 126 of 2.197 \r{A}; one with His 377 of 2.104 \r{A}; and three with Arg 445 with distances 1.964 \r{A}, 2.128 \r{A} and 2.238 \r{A}. In Fig. \ref{fig2_4} this pseudobonds and the ligand in its pocket are shown, the surface of the protein is colored based on its hydrophobicity using Kyte-Doolittle scale from lower (blue) to higher hydrophobicity (red).
 
 	\FloatBarrier
-	\begin{figure}[H]
+	\begin{figure}[h!]
 		\centering
-		\begin{subfigure}[H]{0.35\textwidth}
+		\begin{subfigure}[h!]{0.35\textwidth}
 			\hspace{2cm}
 			\includegraphics[width=\textwidth]{../2/Dock/best.png}
 			\caption{}
 		\end{subfigure}
 		\hfill
-		\begin{subfigure}[H]{0.35\textwidth}
+		\begin{subfigure}[h!]{0.35\textwidth}
 			\hspace{-2cm}
 			\includegraphics[width=\textwidth]{../2/Dock/best2.png}
 			\caption{}
 		\end{subfigure}
 		\hfill
-		\begin{subfigure}[H]{0.35\textwidth}
+		\begin{subfigure}[h!]{0.35\textwidth}
 			\hspace{2cm}
 			\includegraphics[width=\textwidth]{../2/Dock/best3.png}
 			\caption{}
 		\end{subfigure}
 		\hfill
-		\begin{subfigure}[H]{0.35\textwidth}
+		\begin{subfigure}[h!]{0.35\textwidth}
 			\hspace{-2cm}
 			\includegraphics[width=\textwidth]{../2/Dock/best4.png}
 			\caption{}
 		\end{subfigure}
 		\hfill
-		\caption[Interactions of protoporphyrin IX with Fe and Pn2.84]{Interactions of protoporphyrin IX with Fe and Pn2.84. Best four poses are shown in order a-d.}
+		\caption[Interactions between protoporphyrin IX with Fe and Pn2.84]{Interactions of protoporphyrin IX with Fe and Pn2.84. Best four poses are shown in order a-d.}
 		\label{fig2_3}
 	\end{figure}
 	\FloatBarrier
 	
 	\FloatBarrier
-	\begin{figure}[H]
+	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.4\textwidth]{../2/Dock/chimera.png}
 		\caption{Protoporphyrin IX pseudobonds with Pn2.84.}
@@ -303,9 +309,9 @@
 	
 	\subsubsection{Cinnamic acid}
 	
-	With the Pn2.84 protein and the best docked pose of protoporphyrin IX with Fe as a complex, molecular docking using Vina was carried out for trans-cinnamic acid resulting in nine different conformations, these results are shown in Table \ref{table2_2} The docked positions of the trans-cinnamic in the receptor structure interacted with different aminoacid residues of the protein (Fig. \ref{fig2_5}). Some of these aminoacids were found in the conserved domain for the active site of the enzyme, like Phe 107, Val 118, Phe 119, Arg 213, Ser 214, Gln 218, Val 305, Ala 306, Ile 371 and Val 375; the rest of the aminoacids were not marked as conserved in the active site domain but were present in the pockets found by CASTp3: Thr 310, Trp 313, Leu 374, Pro 376 and Phe 488.
+	With the Pn2.84 protein and the best docked pose of protoporphyrin IX with Fe as a complex, molecular docking using Vina was carried out for trans-cinnamic acid resulting in nine different conformations, these results are shown in Table \ref{table2_2} The docked positions of the trans-cinnamic acid in the receptor structure interacted with different aminoacid residues of the protein (Fig. \ref{fig2_5}). Some of these aminoacids were found in the conserved domain for the active site of the enzyme, like Phe 107, Val 118, Phe 119, Arg 213, Ser 214, Gln 218, Val 305, Ala 306, Ile 371 and Val 375; the rest of the aminoacids were not marked as conserved in the active site domain but were present in the pockets found by CASTp3: Thr 310, Trp 313, Leu 374, Pro 376 and Phe 488.
 	
-	\begin{table}[h]
+	\begin{table}[h!]
 		\centering
 		\caption{Docking results of cinnamic acid with protoporphyrin IX-Pn2.86 complex}
 		\label{table2_2}
@@ -332,46 +338,268 @@
 
 	
 	\FloatBarrier
-	\begin{figure}[H]
+	\begin{figure}[h!]
 		\centering
-		\begin{subfigure}[H]{0.35\textwidth}
+		\begin{subfigure}[h!]{0.35\textwidth}
 			\hspace{2cm}
 			\includegraphics[width=\textwidth]{../2/Dock/Dock2/best.png}
 			\caption{}
 		\end{subfigure}
 		\hfill
-		\begin{subfigure}[H]{0.35\textwidth}
+		\begin{subfigure}[h!]{0.35\textwidth}
 			\hspace{-2cm}
 			\includegraphics[width=\textwidth]{../2/Dock/Dock2/best2.png}
 			\caption{}
 		\end{subfigure}
 		\hfill
-		\begin{subfigure}[H]{0.35\textwidth}
+		\begin{subfigure}[h!]{0.35\textwidth}
 			\hspace{2cm}
 			\includegraphics[width=\textwidth]{../2/Dock/Dock2/best3.png}
 			\caption{}
 		\end{subfigure}
 		\hfill
-		\begin{subfigure}[H]{0.35\textwidth}
+		\begin{subfigure}[h!]{0.35\textwidth}
 			\hspace{-2cm}
 			\includegraphics[width=\textwidth]{../2/Dock/Dock2/best4.png}
 			\caption{}
 		\end{subfigure}
 		\hfill
-		\caption[Interactions of cinnamic acid with protoporphyrin IX-Pn2.86 complex]{Interactions of cinnamic acid with protoporphyrin IX-Pn2.86 complex. Best four poses are shown in order a-d.}
+		\caption[Interactions between cinnamic acid and protoporphyrin IX-Pn2.86 complex.]{Interactions of cinnamic acid with protoporphyrin IX-Pn2.86 complex. Best four poses are shown in order a-d.}
 		\label{fig2_5}
 	\end{figure}
 	\FloatBarrier
 	
 	\FloatBarrier
-	\begin{figure}[H]
+	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=0.4\textwidth]{../2/Dock/Dock2/chimera.png}
 		\caption{Cinnamic acid pseudobonds with protoporphyrin IX-Pn2.86 complex.}
 		\label{fig2_6}
 	\end{figure}
 	\FloatBarrier
+	
+	\subsection{Pn1.1317}
+	
+	The fourth reaction of the pathway (Eq. \ref{eq3}) is catalyzed by the protein caffeic acid 3-O-methyltransferase, this enzyme is also part of the phenylpropanoid biosynthesis pathway. The gene Pn1.1317 was selected as the best candidate for enzyme 4 based on the fact that it obtained the highest score (651.5) over the threshold (499.33) for KEGG Orthology ID K13066, with E-value $=2.9\times10^{-196}$. This annotation was made with KofamKOALA. \cite{kofamkoala} With the exon usage analysis no relevant results were found.
+	
+	\begin{equation}
+	\schemestart
+	\label{eq3}
+	\chemname{\footnotesize\input{../Images/chem/caffeic.tex}}{Caffeic acid}\arrow(caf--fer){-X>[][][4][SAM][SAH][]}\chemname{\footnotesize\input{../Images/chem/ferulic.tex}}{Ferulic acid}
+	\schemestop
+	\end{equation}\\
+	
+	
+	\FloatBarrier
+	\begin{wrapfigure}{r}{0.5\textwidth}
+		\centering
+		\includegraphics[width=0.5\textwidth]{../4/Swiss/model2.png}
+		\caption{Pn2.84 three-dimensional model.}
+		\label{fig4_1}
+	\end{wrapfigure}
+	\FloatBarrier
+	
+	The gene contains four exons that were considered when modeling the three-dimensional structure of the protein. The structure modeling was made by using an homology based methodology ``SWISS-MODEL''. \cite{swiss} The selected template was an O-methyltransferase from \textit{Fragaria ananassa} with PDB ID: \href{https://www.rcsb.org/structure/6I71}{6I71}; this protein has a 68.39\% sequence identity to our query protein Pn1.1317 which makes it an appropiate template. The template was found with HHblits. \cite{hhblits} The model (Fig. \ref{fig4_1}) is found in a dimeric state, as the template is; it has a GMQE value of 0.84 and a QMEANDisCo Global value of 0.81 ± 0.05 (Fig. \ref{fig4_2}). \cite{qmeandisco_swiss}	The enzyme requires a coenzyme SAM (S-adenosylmethionine) for its correct catalytic activity; this molecule is demethylated to SAH (S-adenosyl-L-homocysteine). The crystal structure of the template contained SAH binded to it, the biding site for SAH was conserved in Pn1.1317 so the model generated contained his molecule, the interactions between this ligand and the protein can be seen in Fig \ref{fig4_3}. The ligand 3D conformer structure for SAM and caffeic acid were obtained from PubChem with CIDs: \href{https://pubchem.ncbi.nlm.nih.gov/compound/34755}{34755} and \href{https://pubchem.ncbi.nlm.nih.gov/compound/689043}{689043}.
+	
+	\FloatBarrier
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=\textwidth-50pt]{../4/Swiss/Local_quality_estimate.png}
+		\caption{Pn1.1317 model QMEANDisCo.}
+		\label{fig4_2}
+	\end{figure}
+	\FloatBarrier
+	
+	\FloatBarrier
+	\begin{wrapfigure}{l}{0.5\textwidth}
+		\centering
+		\includegraphics[width=0.5\textwidth]{../4/Swiss/sah.png}
+		\caption{Interactions between SAH and Pn1.1317.}
+		\label{fig4_3}
+	\end{wrapfigure}
+	\FloatBarrier
+	
+	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standar residues, for non standard residues the semi-empirical AM1-BCC model. \cite{am1_bcc,am1_bcc_2,am1_bcc_3} In the same way the ligands were energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}
+	
+	The preparation of the molecules for docking was made on AutoDockTools and Autodock Vina version 1.2.3 docked the protein and the ligand. \cite{adt,vina,vina_2} The grid box for the SAM docking was selected based on the conserved binding site for SAH found by homology modeling. In order to know the binding site for caffeic acid, blastp against PDB database was used to obtain similar protein sequences to Pn1.1317; 11 sequences with identity higher than 50\% were selected. \cite{blastp,blastp_2} Muscle aligned the sequences and based on the MSA (Multiple Sequence Alignment) a search for the best aminoacid substitution model was carried out using MEGA 11; the selected model was LG+G (lnL: -4126.121) this decision was supported by Bayesian Information Criterion (BIC: 8436.596) and Akaike's Information Criterion (8296.475). \cite{muscle,mega11} With the selected model and the MSA a Maximum Likelihood tree (ML) was build using MEGA 11, an heuristic search using Nearest Neighbour Interchange was performed and the branch support values were obtained from 100 Bootstrap pseudoreplicates. \cite{mega11} Using the ML tree topology as a start point, a Bayesian Inference tree (BI) was build using MrBayes; two runs of four chains (1 cold chain and 3 heated chains) were run for one million generations and sampled every one thousand generations with a burn in of 25\%, the amino acid substitution model was selected by sampling all of the fixed-rate models implemented in the program, in this way each model will contribute in proportion to its posterior probability. \cite{mrbayes}
+	
+	\FloatBarrier
+	\begin{wrapfigure}{r}{0.5\textwidth}
+		\centering
+		\includegraphics[width=0.5\textwidth]{../4/Phylogeny/trace.png}
+		\caption[Convergence of lnL, BI analysis of Pn1.1317.]{Convergence of log likelihood of the cold chain, BI analysis of Pn1.1317 phylogeny.}
+		\label{fig4_4}
+	\end{wrapfigure}
+	\FloatBarrier
 
+
+	This analysis was run in the CIPRES Science Gateway portal. \cite{cipres} To verify if convergence was reached, the results were analyzed with Tracer, the effective sample size for all the parameters was higher than 200: the log likelihood of the
+	cold chain (LnL: 1721; Fig \ref{fig4_4}), the log likelihood of the prior (LnPr: 1668) and the total tree length (TL: 1658). \cite{tracer}
+	The resulting tree of the BI analysis can be seen in Fig. \ref{fig4_5} Based on this results, the sequence with PDB ID: \href{https://www.rcsb.org/structure/1KYW}{1KYW}, a Caffeic Acid/5-hydroxyferulic acid 3/5-O-methyltransferase from \textit{Medicago sativa} was selected to define the binding site for caffeic acid. It is part of the sister group of Pn1.1317 and had the most significant alignment E-value ($2\times10^{-180}$). 
+	
+
+	\FloatBarrier
+	\begin{wrapfigure}[15]{l}{0.5\textwidth}
+		\centering
+		\includegraphics[width=0.5\textwidth-10pt]{../4/Phylogeny/tree.png}
+		\caption{Phylogeny of Pn1.1317, Bayesian Inference.}
+		\label{fig4_5}
+	\end{wrapfigure}
+	\FloatBarrier
+	
+	Based on the results obtained for this protein by \textcite{caff}, the interactions the substrate HFL (5-(3,3-dihydroxypropeny)-3-methoxy-benzene-1,2-diol) with 1KYW from the crystalographic structure (Fig. \ref{fig4_6}) and its homology with Pn1.1317 eleven aminoacid residues were selected as putative binding site for caffeic acid: Met 127, Leu 133, Ala 159, Phe 173, Met 177, Asp 267, Val 313, Ile 316, Met 317, His 320 and Asn 321.
+	
+	CASTp3 found the protein's pockets. \cite{castp} To perform an adequate docking of both the SAM molecule and the caffeic acid, a sequential docking workflow was used as described in \textcite{sequential} and in section \ref{ssec:Pn2.84}.
+	
+	\newpage
+	
+	\FloatBarrier
+	\begin{wrapfigure}{r}{0.5\textwidth}
+		\centering
+		\includegraphics[width=0.5\textwidth]{../4/Phylogeny/hfl.png}
+		\caption{Interactions between caffeic acid and 1KYW.}
+		\label{fig4_6}
+	\end{wrapfigure}
+	\FloatBarrier
+	
+	\subsubsection{SAM}
+	
+	The first molecule docked was the SAM molecule, as a result of molecular docking with Vina, nine different conformations of the molecule in the protein were found, these results are shown in Table \ref{table4_1}. The docked positions of the protoporphyrin IX with Fe in the Pn2.84 structure interacted with different aminoacid residues of the protein (Fig. \ref{fig4_7}). Some of these aminoacids were found in the conserved domain for the SAM/SAH binding site of the enzyme, like Phe 160, Phe 173, Met 177, Ser 181, Gly 205, Gly 207, Asp 228, Leu 229, Val 232, Asp 248, Met 249, Lys 262, Trp 263, Ile 264, Asp 267 and Trp 268; the rest of the aminoacids were not marked as conserved in the heme binding site domain but were present in the pockets found by CASTp3: Asn 174, Ser 178, Gly 206, Ala 211, Phe 227 and Gly 247. In Fig. \ref{fig4_8} the SAM in its pocket is shown, the surface of the protein is colored based on its hydrophobicity using Kyte-Doolittle scale from lower (blue) to higher hydrophobicity (red).
+	
+	\begin{table}[h!]
+		\centering
+		\caption{Docking results of SAM with Pn1.1317}
+		\label{table4_1}
+		\begin{tabular}{cccc}
+			\toprule
+			\multirow{2}{*}{Mode} & Affinity & \multicolumn{2}{c}{Dist. from best mode}\\
+			&  (kcal/mol) & RMSD l.b & RMSD u.b\\
+			\midrule
+			1 & -8.594   &       0   &       0\\
+			2 & -8.476   &   1.118   &   1.323\\
+			3 & -8.364   &   2.652   &   8.627\\
+			4 &  -8.13   &   1.703   &   2.671\\
+			5 & -8.113   &   2.585   &   8.519\\
+			6 & -7.993   &   2.473   &    3.43\\
+			7 & -7.778   &   2.394   &   3.229\\
+			8 & -7.471   &   1.715   &   2.739\\
+			9 & -7.239   &   3.722   &   8.452\\
+			\bottomrule
+			
+		\end{tabular}
+	\end{table}
+	
+	\FloatBarrier
+	\begin{figure}[h!]
+		\centering
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{2cm}
+			\includegraphics[width=\textwidth]{../4/Dock/best.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{-2cm}
+			\includegraphics[width=\textwidth]{../4/Dock/best2.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{2cm}
+			\includegraphics[width=\textwidth]{../4/Dock/best3.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{-2cm}
+			\includegraphics[width=\textwidth]{../4/Dock/best4.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\caption[Interactions between SAM and Pn1.1317.]{Interactions between SAM and Pn1.1317. Best four poses are shown in order a-d.}
+		\label{fig4_7}
+	\end{figure}
+	\FloatBarrier
+	
+	\FloatBarrier
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.4\textwidth]{../4/Dock/chimera.png}
+		\caption{SAM in pocket of Pn1.1317.}
+		\label{fig4_8}
+	\end{figure}
+	\FloatBarrier
+	
+	
+	\subsection{Caffeic acid}
+	
+	With the Pn1.1317 protein and the best docked pose of SAM as a complex, molecular docking using Vina was carried out for caffeic acid resulting in nine different conformations, these results are shown in Table \ref{table4_2} The docked positions of the caffeic acid in the receptor structure interacted with different aminoacid residues of the protein (Fig. \ref{fig4_9}). Some of these aminoacids were found between the residues considered the active site of the enzyme and important for caffeic acid binding according to \textcite{caff}: the hydrophobic residues Met 127, Phe 173, Met 177 and Met 317 sequester the phenyl ring that presents the reactive hydroxyl group to SAM, the residues Asp 267 and Asn 321 form hydrogen bonds with 5-OH group, interactions with the residues Asn-128, Met 127, Met 177, Val 313, and Ile 316 are necessary to bind the propanoid tail;
+	the rest of the aminoacids were not marked as conserved in the active site domain but were present in the pockets found by CASTp3: Met 21, Leu 124, Trp 263 and His 266. In Fig. \ref{fig4_10} the best docking pose of caffeic acid with SAM-Pn1.1317 in its pocket is shown, the surface of the protein is colored based on its hydrophobicity using Kyte-Doolittle scale from lower (blue) to higher hydrophobicity (red).
+	
+
+	\begin{table}[h]
+		\centering
+		\caption{Docking results of caffeic acid with SAM-Pn1.1317 complex}
+		\label{table4_2}
+		\begin{tabular}{cccc}
+			\toprule
+			\multirow{2}{*}{Mode} & Affinity & \multicolumn{2}{c}{Dist. from best mode}\\
+			&  (kcal/mol) & RMSD l.b & RMSD u.b\\
+			\midrule
+			1 & -7.593   &   0.000   &   0.000\\
+			2 & -7.298   &   0.769   &   1.874\\
+			3 & -6.795   &   1.031   &   5.968\\
+			4 & -6.067   &   1.058   &   5.939\\
+			5 & -5.836   &   1.535   &   5.852\\
+			6 & -5.691   &   2.752   &   5.559\\
+			7 & -5.648   &   1.486   &   2.247\\
+			8 & -5.393   &   2.771   &   5.849\\
+			9 & -5.108   &   2.059   &   5.533\\
+			\bottomrule
+			
+		\end{tabular}
+	\end{table}
+	
+	\FloatBarrier
+	\begin{figure}[h!]
+		\centering
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{2cm}
+			\includegraphics[width=\textwidth]{../4/Dock/Dock2/best.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{-2cm}
+			\includegraphics[width=\textwidth]{../4/Dock/Dock2/best2.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{2cm}
+			\includegraphics[width=\textwidth]{../4/Dock/Dock2/best3.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{-2cm}
+			\includegraphics[width=\textwidth]{../4/Dock/Dock2/best4.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\caption[Interactions between caffeic acid and SAM-Pn1.1317 complex.]{Interactions between SAM and Pn1.1317. Best four poses are shown in order a-d.}
+		\label{fig4_9}
+	\end{figure}
+	\FloatBarrier
+	
+	\FloatBarrier
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.4\textwidth]{../4/Dock/Dock2/chimera.png}
+		\caption{Caffeic acid in pocket of SAM-Pn1.1317 complex.}
+		\label{fig4_10}
+	\end{figure}
+	\FloatBarrier
 
 	\newpage
 	

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.8.3)  3 AUG 2022 15:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.8.3)  5 AUG 2022 18:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -71,6 +71,317 @@ Package caption Info: Standard document class detected.
 \c@subfigure=\count195
 \c@subtable=\count196
 )
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.
+tex
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen149
+\pgfutil@tempdimb=\dimen150
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common-
+lists.tex))
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.d
+ef
+\pgfutil@abb=\box51
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.t
+ex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.te
+x
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeysfiltered
+.code.tex
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen151
+\pgf@y=\dimen152
+\pgf@xa=\dimen153
+\pgf@ya=\dimen154
+\pgf@xb=\dimen155
+\pgf@yb=\dimen156
+\pgf@xc=\dimen157
+\pgf@yc=\dimen158
+\pgf@xd=\dimen159
+\pgf@yd=\dimen160
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count197
+\c@pgf@countb=\count198
+\c@pgf@countc=\count199
+\c@pgf@countd=\count266
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
+\pgf@sys@id@count=\count267
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-pdftex
+.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-common
+-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpat
+h.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count268
+\pgfsyssoftpath@bigbuffer@items=\count269
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotoco
+l.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/home/gerardo/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(/home/gerardo/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(/home/gerardo/.miktex/texmfs/install/tex/latex-dev/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+
+(/home/gerardo/.miktex/texmfs/install/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.t
+ex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+ (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.tex
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.tex
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.t
+ex
+\pgfmath@dimen=\dimen161
+\pgfmath@count=\count270
+\pgfmath@box=\box52
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.cod
+e.tex
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.bas
+ic.code.tex)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.tri
+gonometric.code.tex)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ran
+dom.code.tex)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.com
+parison.code.tex)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.bas
+e.code.tex)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.rou
+nd.code.tex)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.mis
+c.code.tex)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.int
+egerarithmetics.code.tex)))
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.te
+x
+\c@pgfmathroundto@lastzeros=\count271
+)) (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.
+code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen162
+\pgf@picmaxx=\dimen163
+\pgf@picminy=\dimen164
+\pgf@picmaxy=\dimen165
+\pgf@pathminx=\dimen166
+\pgf@pathmaxx=\dimen167
+\pgf@pathminy=\dimen168
+\pgf@pathmaxy=\dimen169
+\pgf@xx=\dimen170
+\pgf@xy=\dimen171
+\pgf@yx=\dimen172
+\pgf@yy=\dimen173
+\pgf@zx=\dimen174
+\pgf@zy=\dimen175
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathcon
+struct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen176
+\pgf@path@lasty=\dimen177
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathusa
+ge.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen178
+\pgf@shorten@start@additional=\dimen179
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes.
+code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box53
+\pgf@hbox=\box54
+\pgf@layerbox@main=\box55
+\pgf@picture@serial@count=\count272
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphic
+state.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen180
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransfo
+rmations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen181
+\pgf@pt@y=\dimen182
+\pgf@pt@temp=\dimen183
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.c
+ode.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobjects
+.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathpro
+cessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows.
+code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen184
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.c
+ode.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen185
+\pgf@sys@shading@range@num=\count273
+\pgf@shadingcount=\count274
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.c
+ode.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexterna
+l.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box56
+))
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers.
+code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretranspa
+rency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepattern
+s.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.cod
+e.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes.c
+ode.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box57
+)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.cod
+e.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versi
+on-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen186
+\pgf@nodesepend=\dimen187
+)
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versi
+on-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/utilities/pgffor.sty
+(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.te
+x)) (/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/math/pgfmath.sty
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex))
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen188
+\pgffor@skip=\dimen189
+\pgffor@stack=\toks27
+\pgffor@toks=\toks28
+))
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz.c
+ode.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryploth
+andlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count275
+\pgfplotmarksize=\dimen190
+)
+\tikz@lastx=\dimen191
+\tikz@lasty=\dimen192
+\tikz@lastxsaved=\dimen193
+\tikz@lastysaved=\dimen194
+\tikz@lastmovetox=\dimen195
+\tikz@lastmovetoy=\dimen196
+\tikzleveldistance=\dimen197
+\tikzsiblingdistance=\dimen198
+\tikz@figbox=\box58
+\tikz@figbox@bg=\box59
+\tikz@tempbox=\box60
+\tikz@tempbox@bg=\box61
+\tikztreelevel=\count276
+\tikznumberofchildren=\count277
+\tikznumberofcurrentchild=\count278
+\tikz@fig@count=\count279
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.c
+ode.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count280
+\pgfmatrixcurrentcolumn=\count281
+\pgf@matrix@numberofcolumns=\count282
+)
+\tikz@expandcount=\count283
+
+(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
 (/home/gerardo/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
 
@@ -120,11 +431,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (/home/gerardo/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count197
+\c@section@level=\count284
 )
-\@linkdim=\dimen149
-\Hy@linkcounter=\count198
-\Hy@pagecounter=\count199
+\@linkdim=\dimen199
+\Hy@linkcounter=\count285
+\Hy@pagecounter=\count286
 (/home/gerardo/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -136,7 +447,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/home/gerardo/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count266
+\Hy@SavedSpaceFactor=\count287
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
@@ -150,14 +461,14 @@ Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4408.
-\c@Hy@tempcnt=\count267
+\c@Hy@tempcnt=\count288
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4746.
-\XeTeXLinkMargin=\dimen150
+\XeTeXLinkMargin=\dimen256
 
 (/home/gerardo/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -166,9 +477,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count268
-\Field@Width=\dimen151
-\Fld@charsize=\dimen152
+\Fld@menulength=\count289
+\Field@Width=\dimen257
+\Fld@charsize=\dimen258
 Package hyperref Info: Hyper figures OFF on input line 6024.
 Package hyperref Info: Link nesting OFF on input line 6029.
 Package hyperref Info: Hyper index ON on input line 6032.
@@ -181,9 +492,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6054.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count269
-\c@Item=\count270
-\c@Hfootnote=\count271
+\Hy@abspage=\count290
+\c@Item=\count291
+\c@Hfootnote=\count292
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -195,8 +506,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count272
-\c@bookmark@seq@number=\count273
+\Fld@listcount=\count293
+\c@bookmark@seq@number=\count294
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.s
 ty
@@ -215,7 +526,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip50
 \bibsep=\skip51
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count274
+\c@NAT@ctr=\count295
 )
 (/home/gerardo/.miktex/texmfs/install/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
@@ -226,18 +537,18 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/home/gerardo/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count275
-\Gm@cntv=\count276
-\c@Gm@tempcnt=\count277
-\Gm@bindingoffset=\dimen153
-\Gm@wd@mp=\dimen154
-\Gm@odd@mp=\dimen155
-\Gm@even@mp=\dimen156
-\Gm@layoutwidth=\dimen157
-\Gm@layoutheight=\dimen158
-\Gm@layouthoffset=\dimen159
-\Gm@layoutvoffset=\dimen160
-\Gm@dimlist=\toks17
+\Gm@cnth=\count296
+\Gm@cntv=\count297
+\c@Gm@tempcnt=\count298
+\Gm@bindingoffset=\dimen259
+\Gm@wd@mp=\dimen260
+\Gm@odd@mp=\dimen261
+\Gm@even@mp=\dimen262
+\Gm@layoutwidth=\dimen263
+\Gm@layoutheight=\dimen264
+\Gm@layouthoffset=\dimen265
+\Gm@layoutvoffset=\dimen266
+\Gm@dimlist=\toks29
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
 (/home/gerardo/.miktex/texmfs/install/tex/latex/setspace/setspace.sty
@@ -258,38 +569,27 @@ rs
 )
 (/home/gerardo/.miktex/texmfs/install/tex/latex/tools/multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
-\c@tracingmulticols=\count278
-\mult@box=\box51
-\multicol@leftmargin=\dimen161
-\c@unbalance=\count279
-\c@collectmore=\count280
-\doublecol@number=\count281
-\multicoltolerance=\count282
-\multicolpretolerance=\count283
-\full@width=\dimen162
-\page@free=\dimen163
-\premulticols=\dimen164
-\postmulticols=\dimen165
+\c@tracingmulticols=\count299
+\mult@box=\box62
+\multicol@leftmargin=\dimen267
+\c@unbalance=\count300
+\c@collectmore=\count301
+\doublecol@number=\count302
+\multicoltolerance=\count303
+\multicolpretolerance=\count304
+\full@width=\dimen268
+\page@free=\dimen269
+\premulticols=\dimen270
+\postmulticols=\dimen271
 \multicolsep=\skip61
 \multicolbaselineskip=\skip62
-\partial@page=\box52
-\last@line=\box53
-\maxbalancingoverflow=\dimen166
-\mult@rightbox=\box54
-\mult@grightbox=\box55
-\mult@firstbox=\box56
-\mult@gfirstbox=\box57
-\@tempa=\box58
-\@tempa=\box59
-\@tempa=\box60
-\@tempa=\box61
-\@tempa=\box62
-\@tempa=\box63
-\@tempa=\box64
-\@tempa=\box65
-\@tempa=\box66
-\@tempa=\box67
-\@tempa=\box68
+\partial@page=\box63
+\last@line=\box64
+\maxbalancingoverflow=\dimen272
+\mult@rightbox=\box65
+\mult@grightbox=\box66
+\mult@firstbox=\box67
+\mult@gfirstbox=\box68
 \@tempa=\box69
 \@tempa=\box70
 \@tempa=\box71
@@ -315,329 +615,31 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \@tempa=\box91
 \@tempa=\box92
 \@tempa=\box93
-\c@minrows=\count284
-\c@columnbadness=\count285
-\c@finalcolumnbadness=\count286
-\last@try=\dimen167
-\multicolovershoot=\dimen168
-\multicolundershoot=\dimen169
-\mult@nat@firstbox=\box94
-\colbreak@box=\box95
-\mc@col@check@num=\count287
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\c@minrows=\count305
+\c@columnbadness=\count306
+\c@finalcolumnbadness=\count307
+\last@try=\dimen273
+\multicolovershoot=\dimen274
+\multicolundershoot=\dimen275
+\mult@nat@firstbox=\box105
+\colbreak@box=\box106
+\mc@col@check@num=\count308
 )
 (/home/gerardo/.miktex/texmfs/install/tex/latex/mol2chemfig/mol2chemfig.sty
 Package: mol2chemfig 2019/11/24 v1.5
 
-(/home/gerardo/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
-
-(/home/gerardo/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 227.
-
-(/home/gerardo/.miktex/texmfs/install/tex/latex-dev/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
-Package xcolor Info: Model `RGB' extended on input line 1369.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-)
 (/home/gerardo/.miktex/texmfs/install/tex/latex/chemfig/chemfig.sty
-(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
-(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
-(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.
-tex
-\pgfutil@everybye=\toks18
-\pgfutil@tempdima=\dimen170
-\pgfutil@tempdimb=\dimen171
-
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common-
-lists.tex))
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.d
-ef
-\pgfutil@abb=\box96
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
-))
-Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
-
-(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
-(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.t
-ex
-Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
-
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.te
-x
-\pgfkeys@pathtoks=\toks19
-\pgfkeys@temptoks=\toks20
-
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeysfiltered
-.code.tex
-\pgfkeys@tmptoks=\toks21
-))
-\pgf@x=\dimen172
-\pgf@y=\dimen173
-\pgf@xa=\dimen174
-\pgf@ya=\dimen175
-\pgf@xb=\dimen176
-\pgf@yb=\dimen177
-\pgf@xc=\dimen178
-\pgf@yc=\dimen179
-\pgf@xd=\dimen180
-\pgf@yd=\dimen181
-\w@pgf@writea=\write3
-\r@pgf@reada=\read2
-\c@pgf@counta=\count288
-\c@pgf@countb=\count289
-\c@pgf@countc=\count290
-\c@pgf@countd=\count291
-\t@pgf@toka=\toks22
-\t@pgf@tokb=\toks23
-\t@pgf@tokc=\toks24
-\pgf@sys@id@count=\count292
-
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
-)
-Driver file for pgf: pgfsys-pdftex.def
-
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-pdftex
-.def
-File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
-
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-common
--pdf.def
-File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
-)))
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpat
-h.code.tex
-File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count293
-\pgfsyssoftpath@bigbuffer@items=\count294
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotoco
-l.code.tex
-File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.t
-ex
-Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
- (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.tex
-
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.tex
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.t
-ex
-\pgfmath@dimen=\dimen182
-\pgfmath@count=\count295
-\pgfmath@box=\box97
-\pgfmath@toks=\toks25
-\pgfmath@stack@operand=\toks26
-\pgfmath@stack@operation=\toks27
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.cod
-e.tex
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.bas
-ic.code.tex)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.tri
-gonometric.code.tex)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ran
-dom.code.tex)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.com
-parison.code.tex)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.bas
-e.code.tex)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.rou
-nd.code.tex)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.mis
-c.code.tex)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.int
-egerarithmetics.code.tex)))
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.te
-x
-\c@pgfmathroundto@lastzeros=\count296
-)) (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.
-code.tex
-File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen183
-\pgf@picmaxx=\dimen184
-\pgf@picminy=\dimen185
-\pgf@picmaxy=\dimen186
-\pgf@pathminx=\dimen187
-\pgf@pathmaxx=\dimen188
-\pgf@pathminy=\dimen189
-\pgf@pathmaxy=\dimen190
-\pgf@xx=\dimen191
-\pgf@xy=\dimen192
-\pgf@yx=\dimen193
-\pgf@yy=\dimen194
-\pgf@zx=\dimen195
-\pgf@zy=\dimen196
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathcon
-struct.code.tex
-File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen197
-\pgf@path@lasty=\dimen198
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathusa
-ge.code.tex
-File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen199
-\pgf@shorten@start@additional=\dimen256
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes.
-code.tex
-File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box98
-\pgf@hbox=\box99
-\pgf@layerbox@main=\box100
-\pgf@picture@serial@count=\count297
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphic
-state.code.tex
-File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen257
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransfo
-rmations.code.tex
-File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen258
-\pgf@pt@y=\dimen259
-\pgf@pt@temp=\dimen260
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.c
-ode.tex
-File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobjects
-.code.tex
-File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathpro
-cessing.code.tex
-File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows.
-code.tex
-File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen261
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.c
-ode.tex
-File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen262
-\pgf@sys@shading@range@num=\count298
-\pgf@shadingcount=\count299
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.c
-ode.tex
-File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexterna
-l.code.tex
-File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box101
-))
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers.
-code.tex
-File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretranspa
-rency.code.tex
-File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepattern
-s.code.tex
-File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.cod
-e.tex
-File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)))
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes.c
-ode.tex
-File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box102
-)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.cod
-e.tex
-File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versi
-on-0-65.sty
-Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen263
-\pgf@nodesepend=\dimen264
-)
-(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versi
-on-1-18.sty
-Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
-))
-(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/utilities/pgffor.sty
-(/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.te
-x)) (/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/math/pgfmath.sty
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex))
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen265
-\pgffor@skip=\dimen266
-\pgffor@stack=\toks28
-\pgffor@toks=\toks29
-))
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz.c
-ode.tex
-Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
-
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryploth
-andlers.code.tex
-File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count300
-\pgfplotmarksize=\dimen267
-)
-\tikz@lastx=\dimen268
-\tikz@lasty=\dimen269
-\tikz@lastxsaved=\dimen270
-\tikz@lastysaved=\dimen271
-\tikz@lastmovetox=\dimen272
-\tikz@lastmovetoy=\dimen273
-\tikzleveldistance=\dimen274
-\tikzsiblingdistance=\dimen275
-\tikz@figbox=\box103
-\tikz@figbox@bg=\box104
-\tikz@tempbox=\box105
-\tikz@tempbox@bg=\box106
-\tikztreelevel=\count301
-\tikznumberofchildren=\count302
-\tikznumberofcurrentchild=\count303
-\tikz@fig@count=\count304
-
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.c
-ode.tex
-File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count305
-\pgfmatrixcurrentcolumn=\count306
-\pgf@matrix@numberofcolumns=\count307
-)
-\tikz@expandcount=\count308
-
-(/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librar
-ies/tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)))
 (/home/gerardo/.miktex/texmfs/install/tex/generic/chemfig/chemfig.tex
 (/home/gerardo/.miktex/texmfs/install/tex/generic/simplekv/simplekv.tex
 Package: simplekv 2020/04/27 v0.2 Simple keyval package (CT)
@@ -1023,7 +1025,8 @@ Loading the chemmacros module `reactants' ...
 Loading the chemmacros module `reactants' ...
 Loading the chemmacros module `translations' ...
 Loading the chemmacros module `translations' ...
-) (/home/gerardo/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
+) (arrows.tex)
+(/home/gerardo/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
@@ -1065,16 +1068,16 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 ty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box130
-) (/home/gerardo/.miktex/texmfs/install/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count370
-\float@exts=\toks37
-\float@box=\box131
-\@float@everytoks=\toks38
-\@floatcapt=\box132
+) (/home/gerardo/.miktex/texmfs/install/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen351
+\WF@size=\dimen352
+\c@WF@wrappedlines=\count370
+\WF@box=\box131
+\WF@everypar=\toks37
+Package: wrapfig 2003/01/31  v 3.6
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 50.
+h' as default language. on input line 55.
 
 Package chemmacros Info: You haven't chosen a formula method so I'm assuming
 (chemmacros)             the default method `chemformula'.
@@ -1092,93 +1095,92 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ))
 Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions 
 (CN)
-\l__chemformula_tmpa_dim=\dimen351
-\l__chemformula_tmpb_dim=\dimen352
-\l__chemformula_tmpc_dim=\dimen353
+\l__chemformula_tmpa_dim=\dimen353
+\l__chemformula_tmpb_dim=\dimen354
+\l__chemformula_tmpc_dim=\dimen355
 \l__chemformula_tmpa_int=\count371
 \l__chemformula_tmpb_int=\count372
 \l__chemformula_tmpc_int=\count373
-\l__chemformula_tmpa_box=\box133
-\l__chemformula_tmpb_box=\box134
-\l__chemformula_arrow_length_dim=\dimen354
-\l__chemformula_arrow_label_height_dim=\dimen355
-\l__chemformula_arrow_label_offset_dim=\dimen356
-\l__chemformula_arrow_minimum_length_dim=\dimen357
-\l__chemformula_arrow_shortage_dim=\dimen358
-\l__chemformula_arrow_offset_dim=\dimen359
-\l__chemformula_arrow_yshift_dim=\dimen360
-\l__chemformula_radical_radius_dim=\dimen361
-\l__chemformula_radical_hshift_dim=\dimen362
-\l__chemformula_radical_vshift_dim=\dimen363
-\l__chemformula_radical_space_dim=\dimen364
-\l__chemformula_arrow_head_dim=\dimen365
-\l__chemformula_name_dim=\dimen366
-\l__chemformula_adduct_space_dim=\dimen367
-\l__chemformula_charge_shift_dim=\dimen368
-\l__chemformula_subscript_shift_dim=\dimen369
-\l__chemformula_superscript_shift_dim=\dimen370
-\l__chemformula_subscript_dim=\dimen371
-\l__chemformula_superscript_dim=\dimen372
-\l__chemformula_bond_dim=\dimen373
-\l__chemformula_bond_space_dim=\dimen374
-\l__chemformula_elspec_pair_distance_dim=\dimen375
-\l__chemformula_elspec_pair_line_length_dim=\dimen376
-\l__chemformula_elspec_pair_width_dim=\dimen377
-\l__chemformula_kroegervink_positive_radius_dim=\dimen378
-\l__chemformula_kroegervink_positive_hshift_dim=\dimen379
-\l__chemformula_kroegervink_positive_vshift_dim=\dimen380
-\l__chemformula_kroegervink_positive_space_dim=\dimen381
+\l__chemformula_tmpa_box=\box132
+\l__chemformula_tmpb_box=\box133
+\l__chemformula_arrow_length_dim=\dimen356
+\l__chemformula_arrow_label_height_dim=\dimen357
+\l__chemformula_arrow_label_offset_dim=\dimen358
+\l__chemformula_arrow_minimum_length_dim=\dimen359
+\l__chemformula_arrow_shortage_dim=\dimen360
+\l__chemformula_arrow_offset_dim=\dimen361
+\l__chemformula_arrow_yshift_dim=\dimen362
+\l__chemformula_radical_radius_dim=\dimen363
+\l__chemformula_radical_hshift_dim=\dimen364
+\l__chemformula_radical_vshift_dim=\dimen365
+\l__chemformula_radical_space_dim=\dimen366
+\l__chemformula_arrow_head_dim=\dimen367
+\l__chemformula_name_dim=\dimen368
+\l__chemformula_adduct_space_dim=\dimen369
+\l__chemformula_charge_shift_dim=\dimen370
+\l__chemformula_subscript_shift_dim=\dimen371
+\l__chemformula_superscript_shift_dim=\dimen372
+\l__chemformula_subscript_dim=\dimen373
+\l__chemformula_superscript_dim=\dimen374
+\l__chemformula_bond_dim=\dimen375
+\l__chemformula_bond_space_dim=\dimen376
+\l__chemformula_elspec_pair_distance_dim=\dimen377
+\l__chemformula_elspec_pair_line_length_dim=\dimen378
+\l__chemformula_elspec_pair_width_dim=\dimen379
+\l__chemformula_kroegervink_positive_radius_dim=\dimen380
+\l__chemformula_kroegervink_positive_hshift_dim=\dimen381
+\l__chemformula_kroegervink_positive_vshift_dim=\dimen382
+\l__chemformula_kroegervink_positive_space_dim=\dimen383
 \l__chemformula_stoich_space_skip=\skip83
 \l__chemformula_math_space_skip=\skip84
 \l__chemformula_additions_symbol_space_skip=\skip85
 \l__chemformula_count_tokens_int=\count374
 \g__chemformula_lewis_int=\count375
-\l__chemformula_arrow_arg_i_box=\box135
-\l__chemformula_arrow_arg_ii_box=\box136
-\l__chemformula_superscript_box=\box137
-\l__chemformula_subscript_box=\box138
+\l__chemformula_arrow_arg_i_box=\box134
+\l__chemformula_arrow_arg_ii_box=\box135
+\l__chemformula_superscript_box=\box136
+\l__chemformula_subscript_box=\box137
 \l__chemformula_plus_space_skip=\skip86
 \l__chemformula_minus_space_skip=\skip87
 )
 
-Package chemmacros Info: Using float defining method `float'.
+Package chemmacros Info: Using float defining method `traditional'.
 
-\@float@every@scheme=\toks39
 \c@scheme=\count376
  (Docking.aux)
 \openout1 = `Docking.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
  (/home/gerardo/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count377
-\scratchdimen=\dimen382
-\scratchbox=\box139
+\scratchdimen=\dimen384
+\scratchbox=\box138
 \nofMPsegments=\count378
 \nofMParguments=\count379
-\everyMPshowfont=\toks40
+\everyMPshowfont=\toks38
 \MPscratchCnt=\count380
-\MPscratchDim=\dimen383
+\MPscratchDim=\dimen385
 \MPnumerator=\count381
 \makeMPintoPDFobject=\count382
-\everyMPtoPDFconversion=\toks41
+\everyMPtoPDFconversion=\toks39
 )
 (/home/gerardo/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1189,11 +1191,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: threeparttable package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 50.
+Package hyperref Info: Link coloring OFF on input line 55.
 
 (Docking.out) (Docking.out)
 \@outlinefile=\write5
@@ -1241,9 +1243,9 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 50.
+or `english'. on input line 55.
 
-Package chemgreek Info: Activating mapping `default' on line 50.
+Package chemgreek Info: Activating mapping `default' on line 55.
 
 
 
@@ -1255,21 +1257,21 @@ Package chemmacros Warning: You haven't loaded any package for upright Greek
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/elements/elements_names_english
 .def)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
 
  (/home/gerardo/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
 
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<../Images/SB.png, id=30, 1268.0976pt x 604.8999pt>
+<../Images/SB.png, id=42, 1268.0976pt x 604.8999pt>
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 58.
+Package pdftex.def Info: ../Images/SB.png  used on input line 63.
 (pdftex.def)             Requested size: 507.23006pt x 241.95567pt.
  [1
 Non-PDF special ignored!
@@ -1277,31 +1279,31 @@ Non-PDF special ignored!
 
 {/home/gerardo/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map} <../Images/SB.p
 ng>]
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
-<../Images/Pathway2.png, id=49, 828.09375pt x 1882.03125pt>
+<../Images/Pathway2.png, id=61, 828.09375pt x 1882.03125pt>
 File: ../Images/Pathway2.png Graphic file (type png)
 <use ../Images/Pathway2.png>
-Package pdftex.def Info: ../Images/Pathway2.png  used on input line 79.
+Package pdftex.def Info: ../Images/Pathway2.png  used on input line 84.
 (pdftex.def)             Requested size: 289.83716pt x 658.72081pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 83.
+Package pdftex.def Info: ../Images/SB.png  used on input line 88.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
-<../Images/IDL.png, id=50, 417.56pt x 203.76125pt>
+<../Images/IDL.png, id=62, 417.56pt x 203.76125pt>
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 83.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 88.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1312,15 +1314,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [2 <../Images/IDL.png>]
+
+LaTeX Warning: Text page 3 contains only floats.
+
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 83.
+Package pdftex.def Info: ../Images/SB.png  used on input line 88.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 83.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 88.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.5968pt, for example:
@@ -1331,22 +1335,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3 <../Images/Pathway2.png>] (../Images/chem/phenylalanine.tex)
 (../Images/chem/cinnamic.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
-<../1/Minimize/model.png, id=83, 789.95125pt x 873.2625pt>
+<../1/Minimize/model.png, id=87, 789.95125pt x 873.2625pt>
 File: ../1/Minimize/model.png Graphic file (type png)
 <use ../1/Minimize/model.png>
-Package pdftex.def Info: ../1/Minimize/model.png  used on input line 108.
+Package pdftex.def Info: ../1/Minimize/model.png  used on input line 110.
 (pdftex.def)             Requested size: 267.21681pt x 295.3996pt.
+
+Underfull \hbox (badness 3758) in paragraph at lines 116--117
+[][]\OT1/cmr/m/n/12 The gene contains two exons that were
+ []
+
+
+Underfull \hbox (badness 7433) in paragraph at lines 116--117
+\OT1/cmr/m/n/12 structure of the protein. The structure
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 116--117
+\OT1/cmr/m/n/12 modeling was made by using an homology
+ []
+
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 112.
+Package pdftex.def Info: ../Images/SB.png  used on input line 117.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 112.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 117.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1356,75 +1375,79 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[4
-
-]
-<../1/Swiss/Local_quality_estimate.png, id=100, 1383.1675pt x 727.71875pt>
+[4 <../1/Minimize/model.png>]
+<../1/Swiss/Local_quality_estimate.png, id=112, 1383.1675pt x 727.71875pt>
 File: ../1/Swiss/Local_quality_estimate.png Graphic file (type png)
 <use ../1/Swiss/Local_quality_estimate.png>
 Package pdftex.def Info: ../1/Swiss/Local_quality_estimate.png  used on input l
-ine 117.
+ine 122.
 (pdftex.def)             Requested size: 484.43364pt x 254.87193pt.
-File: ../Images/SB.png Graphic file (type png)
-<use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 124.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
-File: ../Images/IDL.png Graphic file (type png)
-<use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 124.
-(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
-
-[5 <../1/Minimize/model.png> <../1/Swiss/Local_quality_estimate.png>]
-Overfull \hbox (2.82745pt too wide) in paragraph at lines 127--128
+Overfull \hbox (2.82745pt too wide) in paragraph at lines 132--133
 []\OT1/cmr/m/n/12 The docked positions of the phenylalanine in the Pn8.2617 str
 ucture interacted with different aminoacid
  []
 
-<../1/Dock/best.png, id=128, 803.0pt x 803.0pt>
-File: ../1/Dock/best.png Graphic file (type png)
-<use ../1/Dock/best.png>
-Package pdftex.def Info: ../1/Dock/best.png  used on input line 160.
-(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
 
-Overfull \hbox (59.51659pt too wide) in paragraph at lines 159--161
-[]  [] 
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../1/Dock/best2.png, id=129, 803.0pt x 803.0pt>
-File: ../1/Dock/best2.png Graphic file (type png)
-<use ../1/Dock/best2.png>
-Package pdftex.def Info: ../1/Dock/best2.png  used on input line 166.
-(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
-<../1/Dock/best3.png, id=130, 803.0pt x 803.0pt>
-File: ../1/Dock/best3.png Graphic file (type png)
-<use ../1/Dock/best3.png>
-Package pdftex.def Info: ../1/Dock/best3.png  used on input line 172.
-(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
-
-Overfull \hbox (59.51659pt too wide) in paragraph at lines 171--173
-[]  [] 
- []
-
-<../1/Dock/best4.png, id=131, 803.0pt x 803.0pt>
-File: ../1/Dock/best4.png Graphic file (type png)
-<use ../1/Dock/best4.png>
-Package pdftex.def Info: ../1/Dock/best4.png  used on input line 178.
-(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 185.
+Package pdftex.def Info: ../Images/SB.png  used on input line 158.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 185.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 158.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+
+[5 <../1/Swiss/Local_quality_estimate.png>]
+<../1/Dock/best.png, id=153, 803.0pt x 803.0pt>
+File: ../1/Dock/best.png Graphic file (type png)
+<use ../1/Dock/best.png>
+Package pdftex.def Info: ../1/Dock/best.png  used on input line 165.
+(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+
+Overfull \hbox (59.51659pt too wide) in paragraph at lines 164--166
+[]  [] 
+ []
+
+<../1/Dock/best2.png, id=154, 803.0pt x 803.0pt>
+File: ../1/Dock/best2.png Graphic file (type png)
+<use ../1/Dock/best2.png>
+Package pdftex.def Info: ../1/Dock/best2.png  used on input line 171.
+(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+<../1/Dock/best3.png, id=155, 803.0pt x 803.0pt>
+File: ../1/Dock/best3.png Graphic file (type png)
+<use ../1/Dock/best3.png>
+Package pdftex.def Info: ../1/Dock/best3.png  used on input line 177.
+(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+
+Overfull \hbox (59.51659pt too wide) in paragraph at lines 176--178
+[]  [] 
+ []
+
+<../1/Dock/best4.png, id=156, 803.0pt x 803.0pt>
+File: ../1/Dock/best4.png Graphic file (type png)
+<use ../1/Dock/best4.png>
+Package pdftex.def Info: ../1/Dock/best4.png  used on input line 183.
+(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 190.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 190.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1435,24 +1458,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [6]
-<../1/Dock/chimera.png, id=151, 803.0pt x 803.0pt>
+<../1/Dock/chimera.png, id=163, 803.0pt x 803.0pt>
 File: ../1/Dock/chimera.png Graphic file (type png)
 <use ../1/Dock/chimera.png>
-Package pdftex.def Info: ../1/Dock/chimera.png  used on input line 190.
+Package pdftex.def Info: ../1/Dock/chimera.png  used on input line 195.
 (pdftex.def)             Requested size: 213.77019pt x 213.76195pt.
 
-Overfull \hbox (10.29959pt too wide) in paragraph at lines 198--199
+Overfull \hbox (10.29959pt too wide) in paragraph at lines 203--204
 \OT1/cmr/m/n/12 Monooxigenase family called trans-cinnamate 4-hydroxylase, this
  enzyme is also part of the phenylpropanoid
  []
 
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 199.
+Package pdftex.def Info: ../Images/SB.png  used on input line 204.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 199.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 204.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1465,28 +1488,51 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [7 <../1/Dock/best.png> <../1/Dock/best2.png> <../1/Dock/best3.png> <../1/Dock/
 best4.png> <../1/Dock/chimera.png>] (../Images/chem/cinnamic.tex)
 (../Images/chem/coumaric.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
  []
 
-<../2/Minimize/model.png, id=170, 1104.125pt x 862.22125pt>
+<../2/Minimize/model.png, id=175, 1104.125pt x 862.22125pt>
 File: ../2/Minimize/model.png Graphic file (type png)
 <use ../2/Minimize/model.png>
-Package pdftex.def Info: ../2/Minimize/model.png  used on input line 212.
+Package pdftex.def Info: ../2/Minimize/model.png  used on input line 215.
 (pdftex.def)             Requested size: 267.21681pt x 208.67397pt.
-<../2/Swiss/Local_quality_estimate.png, id=171, 1383.1675pt x 727.71875pt>
+
+Underfull \hbox (badness 3138) in paragraph at lines 221--222
+[][]\OT1/cmr/m/n/12 The gene contains four exons that were
+ []
+
+
+Underfull \hbox (badness 7433) in paragraph at lines 221--222
+\OT1/cmr/m/n/12 structure of the protein. The structure
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 221--222
+\OT1/cmr/m/n/12 has a 77.91% sequence identity to our query
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 221--222
+\OT1/cmr/m/n/12 protein Pn2.84 which makes it an appropiate
+ []
+
+<../2/Swiss/Local_quality_estimate.png, id=183, 1383.1675pt x 727.71875pt>
 File: ../2/Swiss/Local_quality_estimate.png Graphic file (type png)
 <use ../2/Swiss/Local_quality_estimate.png>
 Package pdftex.def Info: ../2/Swiss/Local_quality_estimate.png  used on input l
-ine 221.
+ine 227.
 (pdftex.def)             Requested size: 484.43364pt x 254.87193pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 225.
+Package pdftex.def Info: ../Images/SB.png  used on input line 231.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 225.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 231.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1499,11 +1545,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [8 <../2/Minimize/model.png>]
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 231.
+Package pdftex.def Info: ../Images/SB.png  used on input line 237.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 231.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 237.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 
@@ -1515,43 +1561,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [9 <../2/Swiss/Local_quality_estimate.png>]
-<../2/Dock/best.png, id=209, 803.0pt x 803.0pt>
+<../2/Dock/best.png, id=221, 803.0pt x 803.0pt>
 File: ../2/Dock/best.png Graphic file (type png)
 <use ../2/Dock/best.png>
-Package pdftex.def Info: ../2/Dock/best.png  used on input line 267.
+Package pdftex.def Info: ../2/Dock/best.png  used on input line 273.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
 
-Overfull \hbox (59.51659pt too wide) in paragraph at lines 266--268
+Overfull \hbox (59.51659pt too wide) in paragraph at lines 272--274
 []  [] 
  []
 
-<../2/Dock/best2.png, id=210, 803.0pt x 803.0pt>
+<../2/Dock/best2.png, id=222, 803.0pt x 803.0pt>
 File: ../2/Dock/best2.png Graphic file (type png)
 <use ../2/Dock/best2.png>
-Package pdftex.def Info: ../2/Dock/best2.png  used on input line 273.
+Package pdftex.def Info: ../2/Dock/best2.png  used on input line 279.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
-<../2/Dock/best3.png, id=211, 803.0pt x 803.0pt>
+<../2/Dock/best3.png, id=223, 803.0pt x 803.0pt>
 File: ../2/Dock/best3.png Graphic file (type png)
 <use ../2/Dock/best3.png>
-Package pdftex.def Info: ../2/Dock/best3.png  used on input line 279.
+Package pdftex.def Info: ../2/Dock/best3.png  used on input line 285.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
 
-Overfull \hbox (59.51659pt too wide) in paragraph at lines 278--280
+Overfull \hbox (59.51659pt too wide) in paragraph at lines 284--286
 []  [] 
  []
 
-<../2/Dock/best4.png, id=212, 803.0pt x 803.0pt>
+<../2/Dock/best4.png, id=224, 803.0pt x 803.0pt>
 File: ../2/Dock/best4.png Graphic file (type png)
 <use ../2/Dock/best4.png>
-Package pdftex.def Info: ../2/Dock/best4.png  used on input line 285.
+Package pdftex.def Info: ../2/Dock/best4.png  used on input line 291.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 292.
+Package pdftex.def Info: ../Images/SB.png  used on input line 298.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 292.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 298.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1562,18 +1611,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [10]
-<../2/Dock/chimera.png, id=220, 803.0pt x 803.0pt>
+<../2/Dock/chimera.png, id=232, 803.0pt x 803.0pt>
 File: ../2/Dock/chimera.png Graphic file (type png)
 <use ../2/Dock/chimera.png>
-Package pdftex.def Info: ../2/Dock/chimera.png  used on input line 297.
+Package pdftex.def Info: ../2/Dock/chimera.png  used on input line 303.
 (pdftex.def)             Requested size: 213.77019pt x 213.76195pt.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 307.
+Package pdftex.def Info: ../Images/SB.png  used on input line 313.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 307.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 313.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 
@@ -1586,43 +1635,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11 <../2/Dock/best.png> <../2/Dock/best2.png> <../2/Dock/best3.png> <../2/Dock
 /best4.png> <../2/Dock/chimera.png>]
-<../2/Dock/Dock2/best.png, id=237, 803.0pt x 803.0pt>
+<../2/Dock/Dock2/best.png, id=249, 803.0pt x 803.0pt>
 File: ../2/Dock/Dock2/best.png Graphic file (type png)
 <use ../2/Dock/Dock2/best.png>
-Package pdftex.def Info: ../2/Dock/Dock2/best.png  used on input line 339.
+Package pdftex.def Info: ../2/Dock/Dock2/best.png  used on input line 345.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
 
-Overfull \hbox (59.51659pt too wide) in paragraph at lines 338--340
+Overfull \hbox (59.51659pt too wide) in paragraph at lines 344--346
 []  [] 
  []
 
-<../2/Dock/Dock2/best2.png, id=238, 803.0pt x 803.0pt>
+<../2/Dock/Dock2/best2.png, id=250, 803.0pt x 803.0pt>
 File: ../2/Dock/Dock2/best2.png Graphic file (type png)
 <use ../2/Dock/Dock2/best2.png>
-Package pdftex.def Info: ../2/Dock/Dock2/best2.png  used on input line 345.
+Package pdftex.def Info: ../2/Dock/Dock2/best2.png  used on input line 351.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
-<../2/Dock/Dock2/best3.png, id=239, 803.0pt x 803.0pt>
+<../2/Dock/Dock2/best3.png, id=251, 803.0pt x 803.0pt>
 File: ../2/Dock/Dock2/best3.png Graphic file (type png)
 <use ../2/Dock/Dock2/best3.png>
-Package pdftex.def Info: ../2/Dock/Dock2/best3.png  used on input line 351.
+Package pdftex.def Info: ../2/Dock/Dock2/best3.png  used on input line 357.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
 
-Overfull \hbox (59.51659pt too wide) in paragraph at lines 350--352
+Overfull \hbox (59.51659pt too wide) in paragraph at lines 356--358
 []  [] 
  []
 
-<../2/Dock/Dock2/best4.png, id=240, 803.0pt x 803.0pt>
+<../2/Dock/Dock2/best4.png, id=252, 803.0pt x 803.0pt>
 File: ../2/Dock/Dock2/best4.png Graphic file (type png)
 <use ../2/Dock/Dock2/best4.png>
-Package pdftex.def Info: ../2/Dock/Dock2/best4.png  used on input line 357.
+Package pdftex.def Info: ../2/Dock/Dock2/best4.png  used on input line 363.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 364.
+Package pdftex.def Info: ../Images/SB.png  used on input line 370.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 364.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 370.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1633,20 +1685,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [12]
-<../2/Dock/Dock2/chimera.png, id=249, 803.0pt x 803.0pt>
+<../2/Dock/Dock2/chimera.png, id=261, 803.0pt x 803.0pt>
 File: ../2/Dock/Dock2/chimera.png Graphic file (type png)
 <use ../2/Dock/Dock2/chimera.png>
-Package pdftex.def Info: ../2/Dock/Dock2/chimera.png  used on input line 369.
+Package pdftex.def Info: ../2/Dock/Dock2/chimera.png  used on input line 375.
 (pdftex.def)             Requested size: 213.77019pt x 213.76195pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 376.
+Package pdftex.def Info: ../Images/SB.png  used on input line 379.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 376.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 379.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 34.5968pt, for example:
@@ -1656,14 +1711,58 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [13 <../2/Dock/Dock2/best.png> <../2/Dock/Dock2/best2.png> <../2/Dock/Dock2/bes
-t3.png> <../2/Dock/Dock2/best4.png> <../2/Dock/Dock2/chimera.png>] (Docking.bbl
+t3.png> <../2/Dock/Dock2/best4.png> <../2/Dock/Dock2/chimera.png>]
+(../Images/chem/caffeic.tex) (../Images/chem/ferulic.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
+
+ []
+
+<../4/Swiss/model2.png, id=273, 1104.125pt x 873.2625pt>
+File: ../4/Swiss/model2.png Graphic file (type png)
+<use ../4/Swiss/model2.png>
+Package pdftex.def Info: ../4/Swiss/model2.png  used on input line 396.
+(pdftex.def)             Requested size: 267.21681pt x 211.34616pt.
+
+Underfull \hbox (badness 3138) in paragraph at lines 402--403
+[][]\OT1/cmr/m/n/12 The gene contains four exons that were
+ []
+
+
+Underfull \hbox (badness 7433) in paragraph at lines 402--403
+\OT1/cmr/m/n/12 structure of the protein. The structure
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 402--403
+\OT1/cmr/m/n/12 modeling was made by using an homology
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 402--403
+\OT1/cmr/m/n/12 based methodology ``SWISS-MODEL''.$[]$ The
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 402--403
+\OT1/cmr/m/n/12 has a 68.39% sequence identity to our query
+ []
+
+<../4/Swiss/Local_quality_estimate.png, id=283, 1383.1675pt x 686.565pt>
+File: ../4/Swiss/Local_quality_estimate.png Graphic file (type png)
+<use ../4/Swiss/Local_quality_estimate.png>
+Package pdftex.def Info: ../4/Swiss/Local_quality_estimate.png  used on input l
+ine 407.
+(pdftex.def)             Requested size: 484.43364pt x 240.45848pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 84.
+Package pdftex.def Info: ../Images/SB.png  used on input line 411.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 84.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 411.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1673,14 +1772,165 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[14]
+[14
+
+ <../4/Swiss/model2.png>]
+<../4/Swiss/sah.png, id=292, 792.9625pt x 853.1875pt>
+File: ../4/Swiss/sah.png Graphic file (type png)
+<use ../4/Swiss/sah.png>
+Package pdftex.def Info: ../4/Swiss/sah.png  used on input line 416.
+(pdftex.def)             Requested size: 267.21681pt x 287.51526pt.
+
+Underfull \hbox (badness 1199) in paragraph at lines 422--423
+\OT1/cmr/m/n/12 residues, for non standard residues the semi-
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 424--425
+\OT1/cmr/m/n/12 was made on AutoDockTools and Autodock
+ []
+
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 165.
+Package pdftex.def Info: ../Images/SB.png  used on input line 425.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 165.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 425.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+
+[15 <../4/Swiss/Local_quality_estimate.png> <../4/Swiss/sah.png>]
+<../4/Phylogeny/trace.png, id=319, 1535.7375pt x 903.375pt>
+File: ../4/Phylogeny/trace.png Graphic file (type png)
+<use ../4/Phylogeny/trace.png>
+Package pdftex.def Info: ../4/Phylogeny/trace.png  used on input line 429.
+(pdftex.def)             Requested size: 267.21681pt x 157.18323pt.
+<../4/Phylogeny/tree.png, id=325, 1686.3pt x 1790.69pt>
+File: ../4/Phylogeny/tree.png Graphic file (type png)
+<use ../4/Phylogeny/tree.png>
+Package pdftex.def Info: ../4/Phylogeny/tree.png  used on input line 444.
+(pdftex.def)             Requested size: 257.21681pt x 273.12764pt.
+
+Underfull \hbox (badness 3482) in paragraph at lines 445--445
+[]\OT1/cmr/m/n/12 Figure 15: |Phylogeny of Pn1.1317, Bayesian
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 450--451
+[][]\OT1/cmr/m/n/12 Based on the results obtained for this
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 450--451
+\OT1/cmr/m/n/12 crystalographic structure (Fig. []16[]) and its
+ []
+
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 454.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 454.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+
+[16 <../4/Phylogeny/trace.png> <../4/Phylogeny/tree.png>]
+<../4/Phylogeny/hfl.png, id=345, 803.0pt x 803.0pt>
+File: ../4/Phylogeny/hfl.png Graphic file (type png)
+<use ../4/Phylogeny/hfl.png>
+Package pdftex.def Info: ../4/Phylogeny/hfl.png  used on input line 459.
+(pdftex.def)             Requested size: 267.21681pt x 267.22083pt.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 46
+5.
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 467--468
+\OT1/cmr/m/n/12 as a result of molecular docking with Vina,
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 467--468
+\OT1/cmr/m/n/12 in Table []4[]. The docked positions of the
+ []
+
+<../4/Dock/best.png, id=349, 803.0pt x 803.0pt>
+File: ../4/Dock/best.png Graphic file (type png)
+<use ../4/Dock/best.png>
+Package pdftex.def Info: ../4/Dock/best.png  used on input line 497.
+(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+
+Overfull \hbox (59.51659pt too wide) in paragraph at lines 496--498
+[]  [] 
+ []
+
+<../4/Dock/best2.png, id=350, 803.0pt x 803.0pt>
+File: ../4/Dock/best2.png Graphic file (type png)
+<use ../4/Dock/best2.png>
+Package pdftex.def Info: ../4/Dock/best2.png  used on input line 503.
+(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+<../4/Dock/best3.png, id=351, 803.0pt x 803.0pt>
+File: ../4/Dock/best3.png Graphic file (type png)
+<use ../4/Dock/best3.png>
+Package pdftex.def Info: ../4/Dock/best3.png  used on input line 509.
+(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+
+Overfull \hbox (59.51659pt too wide) in paragraph at lines 508--510
+[]  [] 
+ []
+
+<../4/Dock/best4.png, id=352, 803.0pt x 803.0pt>
+File: ../4/Dock/best4.png Graphic file (type png)
+<use ../4/Dock/best4.png>
+Package pdftex.def Info: ../4/Dock/best4.png  used on input line 515.
+(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 522.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 522.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+
+[17 <../4/Phylogeny/hfl.png>]
+<../4/Dock/chimera.png, id=361, 803.0pt x 803.0pt>
+File: ../4/Dock/chimera.png Graphic file (type png)
+<use ../4/Dock/chimera.png>
+Package pdftex.def Info: ../4/Dock/chimera.png  used on input line 527.
+(pdftex.def)             Requested size: 213.77019pt x 213.76195pt.
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 538.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 538.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 
@@ -1691,14 +1941,70 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[15])
+[18 <../4/Dock/best.png> <../4/Dock/best2.png> <../4/Dock/best3.png> <../4/Dock
+/best4.png> <../4/Dock/chimera.png>]
+<../4/Dock/Dock2/best.png, id=375, 803.0pt x 803.0pt>
+File: ../4/Dock/Dock2/best.png Graphic file (type png)
+<use ../4/Dock/Dock2/best.png>
+Package pdftex.def Info: ../4/Dock/Dock2/best.png  used on input line 568.
+(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+
+Overfull \hbox (59.51659pt too wide) in paragraph at lines 567--569
+[]  [] 
+ []
+
+<../4/Dock/Dock2/best2.png, id=376, 803.0pt x 803.0pt>
+File: ../4/Dock/Dock2/best2.png Graphic file (type png)
+<use ../4/Dock/Dock2/best2.png>
+Package pdftex.def Info: ../4/Dock/Dock2/best2.png  used on input line 574.
+(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+<../4/Dock/Dock2/best3.png, id=377, 803.0pt x 803.0pt>
+File: ../4/Dock/Dock2/best3.png Graphic file (type png)
+<use ../4/Dock/Dock2/best3.png>
+Package pdftex.def Info: ../4/Dock/Dock2/best3.png  used on input line 580.
+(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+
+Overfull \hbox (59.51659pt too wide) in paragraph at lines 579--581
+[]  [] 
+ []
+
+<../4/Dock/Dock2/best4.png, id=378, 803.0pt x 803.0pt>
+File: ../4/Dock/Dock2/best4.png Graphic file (type png)
+<use ../4/Dock/Dock2/best4.png>
+Package pdftex.def Info: ../4/Dock/Dock2/best4.png  used on input line 586.
+(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 381.
+Package pdftex.def Info: ../Images/SB.png  used on input line 593.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 381.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 593.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+
+[19]
+<../4/Dock/Dock2/chimera.png, id=387, 803.0pt x 803.0pt>
+File: ../4/Dock/Dock2/chimera.png Graphic file (type png)
+<use ../4/Dock/Dock2/chimera.png>
+Package pdftex.def Info: ../4/Dock/Dock2/chimera.png  used on input line 598.
+(pdftex.def)             Requested size: 213.77019pt x 213.76195pt.
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 604.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 604.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 
@@ -1709,7 +2015,61 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[16] (Docking.toc)
+[20 <../4/Dock/Dock2/best.png> <../4/Dock/Dock2/best2.png> <../4/Dock/Dock2/bes
+t3.png> <../4/Dock/Dock2/best4.png> <../4/Dock/Dock2/chimera.png>] (Docking.bbl
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 86.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 86.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+
+[21]
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 170.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 170.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+
+[22])
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 609.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 609.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+
+[23] (Docking.toc)
 \tf@toc=\write6
 \openout6 = `Docking.toc'.
 
@@ -1717,17 +2077,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \tf@lof=\write7
 \openout7 = `Docking.lof'.
 
- (Docking.lot)
-\tf@lot=\write8
-\openout8 = `Docking.lot'.
-
+ (Docking.lot
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 386.
+Package pdftex.def Info: ../Images/SB.png  used on input line 4.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 386.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 4.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 
@@ -1738,18 +2095,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[17] (Docking.aux)
+[24])
+\tf@lot=\write8
+\openout8 = `Docking.lot'.
+
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 614.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 614.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+
+[25] (Docking.aux)
 Package rerunfilecheck Info: File `Docking.out' has not changed.
-(rerunfilecheck)             Checksum: 2F1A69A0247F838D600F6C69029AA1A9;702.
+(rerunfilecheck)             Checksum: 1EDC77E91FB5A59570C480DD776DFB00;1001.
  ) 
 Here is how much of TeX's memory you used:
- 35768 strings out of 480272
- 769082 string characters out of 2888247
- 1018713 words of memory out of 3000000
- 53309 multiletter control sequences out of 15000+600000
+ 36282 strings out of 480272
+ 779480 string characters out of 2888247
+ 1032833 words of memory out of 3000000
+ 53770 multiletter control sequences out of 15000+600000
  485483 words of font info for 87 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 114i,16n,108p,1529b,1731s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 84i,17n,89p,1622b,1737s stack positions out of 10000i,1000n,20000p,200000b,80000s
  </home/gerardo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm12
 00.pk></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx
 12.pfb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmm
@@ -1763,9 +2141,9 @@ r7.pfb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr
 y8.pfb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/symbo
 ls/msbm10.pfb>
-Output written on Docking.pdf (17 pages, 4708285 bytes).
+Output written on Docking.pdf (25 pages, 7588309 bytes).
 PDF statistics:
- 367 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 529 PDF objects out of 1000 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
+ 275 words of extra memory for PDF output out of 10000 (max. 10000000)
 

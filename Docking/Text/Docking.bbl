@@ -1,5 +1,19 @@
 \begin{thebibliography}{}
 
+\bibitem[Altschul et~al., 1997]{blastp}
+Altschul, S.~F., Madden, T.~L., Sch{\"a}ffer, A.~A., Zhang, J., Zhang, Z.,
+  Miller, W., and Lipman, D.~J. (1997).
+\newblock Gapped blast and psi-blast: a new generation of protein database
+  search programs.
+\newblock {\em Nucleic acids research}, 25(17):3389--3402.
+
+\bibitem[Altschul et~al., 2005]{blastp_2}
+Altschul, S.~F., Wootton, J.~C., Gertz, E.~M., Agarwala, R., Morgulis, A.,
+  Sch{\"a}ffer, A.~A., and Yu, Y.-K. (2005).
+\newblock Protein database searches using compositionally adjusted substitution
+  matrices.
+\newblock {\em The FEBS journal}, 272(20):5101--5109.
+
 \bibitem[Anders et~al., 2012]{dexseq}
 Anders, S., Reyes, A., and Huber, W. (2012).
 \newblock Detecting differential usage of exons from rna-seq data.
@@ -35,6 +49,12 @@ Eberhardt, J., Santos-Martins, D., Tillack, A.~F., and Forli, S. (2021).
 \newblock Autodock vina 1.2. 0: New docking methods, expanded force field, and
   python bindings.
 \newblock {\em Journal of Chemical Information and Modeling}, 61(8):3891--3898.
+
+\bibitem[Edgar, 2004]{muscle}
+Edgar, R.~C. (2004).
+\newblock Muscle: multiple sequence alignment with high accuracy and high
+  throughput.
+\newblock {\em Nucleic acids research}, 32(5):1792--1797.
 
 \bibitem[Gentleman et~al., 2004]{bioconductor}
 Gentleman, R.~C., Carey, V.~J., Bates, D.~M., Bolstad, B., Dettling, M.,
@@ -87,6 +107,13 @@ Marchler-Bauer, A., Derbyshire, M.~K., Gonzales, N.~R., Lu, S., Chitsaz, F.,
 \newblock Cdd: Ncbi's conserved domain database.
 \newblock {\em Nucleic acids research}, 43(D1):D222--D226.
 
+\bibitem[Miller et~al., 2011]{cipres}
+Miller, M.~A., Pfeiffer, W., and Schwartz, T. (2011).
+\newblock The cipres science gateway: a community resource for phylogenetic
+  analyses.
+\newblock In {\em Proceedings of the 2011 TeraGrid Conference: extreme digital
+  discovery}, pages 1--8.
+
 \bibitem[Mills and Dean, 1996]{hbond}
 Mills, J. and Dean, P.~M. (1996).
 \newblock Three-dimensional hydrogen-bond geometry and probability information
@@ -107,6 +134,11 @@ Pettersen, E.~F., Goddard, T.~D., Huang, C.~C., Meng, E.~C., Couch, G.~S.,
   and developers.
 \newblock {\em Protein Science}, 30(1):70--82.
 
+\bibitem[Rambaut et~al., 2018]{tracer}
+Rambaut, A., Drummond, A.~J., Xie, D., Baele, G., and Suchard, M.~A. (2018).
+\newblock Posterior summarization in bayesian phylogenetics using tracer 1.7.
+\newblock {\em Systematic biology}, 67(5):901--904.
+
 \bibitem[Remmert et~al., 2012]{hhblits}
 Remmert, M., Biegert, A., Hauser, A., and S{\"o}ding, J. (2012).
 \newblock Hhblits: lightning-fast iterative protein sequence searching by
@@ -121,12 +153,25 @@ Reyes, A., Anders, S., Weatheritt, R.~J., Gibson, T.~J., Steinmetz, L.~M., and
 \newblock {\em Proceedings of the National Academy of Sciences},
   110(38):15377--15382.
 
+\bibitem[Ronquist et~al., 2012]{mrbayes}
+Ronquist, F., Teslenko, M., Van Der~Mark, P., Ayres, D.~L., Darling, A.,
+  H{\"o}hna, S., Larget, B., Liu, L., Suchard, M.~A., and Huelsenbeck, J.~P.
+  (2012).
+\newblock Mrbayes 3.2: efficient bayesian phylogenetic inference and model
+  choice across a large model space.
+\newblock {\em Systematic biology}, 61(3):539--542.
+
 \bibitem[Studer et~al., 2020]{qmeandisco_swiss}
 Studer, G., Rempfer, C., Waterhouse, A.~M., Gumienny, R., Haas, J., and
   Schwede, T. (2020).
 \newblock Qmeandisco—distance constraints applied on model quality
   estimation.
 \newblock {\em Bioinformatics}, 36(6):1765--1771.
+
+\bibitem[Tamura et~al., 2021]{mega11}
+Tamura, K., Stecher, G., and Kumar, S. (2021).
+\newblock Mega11: molecular evolutionary genetics analysis version 11.
+\newblock {\em Molecular biology and evolution}, 38(7):3022--3027.
 
 \bibitem[Tian et~al., 2018]{castp}
 Tian, W., Chen, C., Lei, X., Zhao, J., and Liang, J. (2018).
@@ -169,5 +214,11 @@ Zhang, B., Lewis, K.~M., Abril, A., Davydov, D.~R., Vermerris, W., Sattler,
 \newblock Structure and function of the cytochrome p450 monooxygenase cinnamate
   4-hydroxylase from sorghum bicolor.
 \newblock {\em Plant physiology}, 183(3):957--973.
+
+\bibitem[Zubieta et~al., 2002]{caff}
+Zubieta, C., Kota, P., Ferrer, J.-L., Dixon, R.~A., and Noel, J.~P. (2002).
+\newblock Structural basis for the modulation of lignin monomer methylation by
+  caffeic acid/5-hydroxyferulic acid 3/5-o-methyltransferase.
+\newblock {\em The Plant Cell}, 14(6):1265--1277.
 
 \end{thebibliography}
