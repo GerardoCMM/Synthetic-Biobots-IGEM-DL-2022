@@ -629,7 +629,7 @@
 	
 	\subsection{Pn3.4770}
 	
-	The fifth reaction of the pathway (Eq. \ref{eq4}) is catalyzed by a protein similar to CYP719A37. The gene Pn3.4770 was selected a candidate for enzyme 5 based on the fact that it has a 100\% identity to CYP719A37 (E-value $\approxeq 0$) with accession number: \href{https://www.ncbi.nlm.nih.gov/protein/QQS74306.1/}{QQS74306}. The protein CYP719A37 has a length of 511 aminoacid residues, but the gene Pn3.4770 codifies for 578 aminoacids; this indicates that maybe there is an alternative splicing process affecting the expression of this gene. A Blast result and the exon usage analysis showed that from the three exons present in gene Pn3.4770, only the first two exons were expressed (Fig \ref{fig5k_1}).
+	The fifth reaction of the pathway (Eq. \ref{eq4}) is catalyzed by a protein similar to CYP719A37. The gene Pn3.4770 was selected as a candidate for enzyme 5 based on the fact that it has a 100\% identity to CYP719A37 (E-value $\approxeq 0$) with accession number: \href{https://www.ncbi.nlm.nih.gov/protein/QQS74306.1/}{QQS74306}. The protein CYP719A37 has a length of 511 aminoacid residues, but the gene Pn3.4770 codifies for 578 aminoacids; this indicates that maybe there is an alternative splicing process affecting the expression of this gene. A Blast result and the exon usage analysis showed that from the three exons present in gene Pn3.4770, only the first two exons were expressed (Fig \ref{fig5k_1}).
 	
 	\begin{equation}
 	\schemestart
@@ -679,9 +679,9 @@
 	
 	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standar residues, for non standard residues the semi-empirical AM1-BCC model. \cite{am1_bcc,am1_bcc_2,am1_bcc_3} In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}
 	
-	The preparation of the molecules for docking was made on AutoDockTools and Autodock Vina version 1.2.3 docked the protein and the ligand. \cite{adt,vina,vina_2} The grid box for the docking was selected based on the conserved domains found with the NCBI conserved domain search interface; we found the heme binding site and putative chemical substrate binding pocket conserved domains for trans-cinnamate 4-hydroxylase from the NCBI-Curated Domains database; additionally, active site residues were selected from the template structure, which included mainly Arg 213, Ser 214 and Gln 218. \cite{cdd,cdd_2}.  CASTp3 found the protein's pockets. \cite{castp} To perform an adequate docking of both the heme group and the ferulic acid molecule, a sequential docking workflow was used as described in \textcite{sequential} and in section \ref{ssec:Pn2.84}.
+	The preparation of the molecules for docking was made on AutoDockTools and Autodock Vina version 1.2.3 docked the protein and the ligand. \cite{adt,vina,vina_2} The grid box for the docking was selected based on the conserved domains found with the NCBI conserved domain search interface; we found the heme binding site and putative chemical substrate binding pocket conserved domains for cytochrome P450 family protein from the NCBI-Curated Domains database. \cite{cdd,cdd_2}  CASTp3 found the protein's pockets. \cite{castp} To perform an adequate docking of both the heme group and the ferulic acid molecule, a sequential docking workflow was used as described in \textcite{sequential} and in section \ref{ssec:Pn2.84}.
 	
-	It is important to mention that the sequence used in this methodology (CYP719A37) has been isolated and its activity has been tested with different substrates. Its original substrate is feruperic acid, which has a two carbon extension in comparison with ferulic acid; when using ferulic acid as a substrate the expected product (3,4-methylenedioxy cinnamic acid) could not be detected. This indicates that this enzyme could not be able to catalyze the reaction, despite this, the docking was performed in order to compare the results of this enzyme with the one that is proposed in this work that could perform the reatcion. 
+	It is important to mention that the sequence used in this methodology (CYP719A37) has been isolated by \textcite{methylenedioxy} and its activity has been tested with different substrates. Its original substrate is feruperic acid, which has a two carbon extension in comparison with ferulic acid; when using ferulic acid as a substrate the expected product (3,4-methylenedioxy cinnamic acid) could not be detected. This indicates that this enzyme could not be able to catalyze the reaction, despite this, the docking was performed in order to compare the results of this enzyme with the one that is proposed in this work that could perform the reaction. 
 	
 	\subsubsection{Protoporphyrin IX with Fe}
 	
@@ -778,7 +778,7 @@
 		\end{tabular}
 	\end{wraptable}
 	
-	With the Pn3.4770 protein and the best docked pose of protoporphyrin IX with Fe as a complex, molecular docking using Vina was carried out for ferulic acid resulting in nine different conformations, these results are shown in Table \ref{table5k_2} The docked positions of the trans-cinnamic acid in the receptor structure interacted with different aminoacid residues of the protein (Fig. \ref{fig5k_6}). Some of these aminoacids were found in the conserved domain for the active site of the enzyme, like Leu 307, Leu 308 and Val 379; the rest of the aminoacids were not marked as conserved in the active site domain but were present in the pockets found by CASTp3: Leu 121, Phe 128, Asn 129, Val 136, Arg 239, Ser 312, Pro 380, Met 493 and Phe 495. In Fig. \ref{fig5k_7} the best docking pose of ferulic acid with protoporphyrin IX with Fe-Pn1.1317 complex in its pocket is shown, the surface of the protein is colored based on its hydrophobicity using Kyte-Doolittle scale from lower (blue) to higher hydrophobicity (red). The results show interactions between the ferulic acid and the Fe atom of protoporphyrin IX, but this interaction occurs in the popanoid tail instead of the 4-hydroxy-3-methoxyphenyl region.
+	With the Pn3.4770 protein and the best docked pose of protoporphyrin IX with Fe as a complex, molecular docking using Vina was carried out for ferulic acid resulting in nine different conformations, these results are shown in Table \ref{table5k_2} The docked positions of the ferulic acid in the receptor structure interacted with different aminoacid residues of the protein (Fig. \ref{fig5k_6}). Some of these aminoacids were found in the conserved domain for the active site of the enzyme, like Leu 307, Leu 308 and Val 379; the rest of the aminoacids were not marked as conserved in the active site domain but were present in the pockets found by CASTp3: Leu 121, Phe 128, Asn 129, Val 136, Arg 239, Ser 312, Pro 380, Met 493 and Phe 495. In Fig. \ref{fig5k_7} the best docking pose of ferulic acid with protoporphyrin IX with Fe-Pn1.1317 complex in its pocket is shown, the surface of the protein is colored based on its hydrophobicity using Kyte-Doolittle scale from lower (blue) to higher hydrophobicity (red). The results show interactions between the ferulic acid and the Fe atom of protoporphyrin IX, but this interaction occurs in the propanoid tail instead of the 4-hydroxy-3-methoxyphenyl region.
 	
 
 
@@ -820,6 +820,177 @@
 		\includegraphics[width=0.4\textwidth]{../5/known/Dock/Dock2/chimera.png}
 		\caption{Ferulic acid in pocket of protoporphyrin IX-Pn3.4770 complex.}
 		\label{fig5k_7}
+	\end{figure}
+	\FloatBarrier
+	
+	\subsection{Pn7.1626}
+	
+	The fifth reaction of the pathway (Eq. \ref{eq4}) is catalyzed by a protein similar to CYP719A37. The gene Pn7.1626 was selected as a candidate for enzyme 5 based on the fact that it has the highest identity (76.908\%) to CYP719A37 from all other proteins in \textit{Piper nigrum} genome (E-value $\approxeq 0$). With the exon usage analysis no relevant results were found.
+	
+	\FloatBarrier
+	\begin{wrapfigure}{r}{0.5\textwidth}
+		\centering
+		\includegraphics[width=0.5\textwidth]{../5/propose/Minimize/model2.png}
+		\caption{Pn7.1626 three-dimensional model.}
+		\label{fig5p_1}
+	\end{wrapfigure}
+	\FloatBarrier
+	
+	The two exons of the gene were considered when modeling the three-dimensional structure of the protein. The structure modeling was made by using an artificial intelligence based methodology, the algorithm used for the 3D structure prediction of the protein was AlphaFold2 using the ColabFold resource. \cite{alphafold,colabfold} The Local Distance Difference Test (lDDT) can be seen in Fig \ref{fig5p_2}, this is a well suited score to assess local model quality. \cite{lddt}
+	
+	The enzyme requires an heme molecule as a coenzyme for its correct catalytic activity; in this case the protoporphyrin IX containing Fe was selected based on the heme group present in the template for a ``SWISS-MODEL'' structure prediction that was made, the template was the CYP-450 17A1 protein from \textit{Danio rerio} with PDB ID: \href{https://www.rcsb.org/structure/6b82}{6b82}; this model was not selected because of the low sequence identity with Pn7.1626 (24.01\%). The ligand 3D conformer structure was obtained from PubChem with CID: \href{https://pubchem.ncbi.nlm.nih.gov/compound/445858}{445858}.
+	
+	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standar residues, for non standard residues the semi-empirical AM1-BCC model. \cite{am1_bcc,am1_bcc_2,am1_bcc_3} In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}
+	
+	The preparation of the molecules for docking was made on AutoDockTools and Autodock Vina version 1.2.3 docked the protein and the ligand. \cite{adt,vina,vina_2} The grid box for the docking was selected based on the conserved domains found with the NCBI conserved domain search interface; we found the heme binding site and putative chemical substrate binding pocket conserved domains for cytochrome P450 family protein from the NCBI-Curated Domains database. \cite{cdd,cdd_2}  CASTp3 found the protein's pockets. \cite{castp} To perform an adequate docking of both the heme group and the ferulic acid molecule, a sequential docking workflow was used as described in \textcite{sequential} and in section \ref{ssec:Pn2.84}.
+	
+	\FloatBarrier
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth-50pt]{../5/propose/AlphaFold2/test_c0c6c_plddt.png}
+		\caption{lDDT values of Pn7.1626.}
+		\label{fig5p_2}
+	\end{figure}
+	\FloatBarrier
+	
+	
+	\subsubsection{Protoporphyrin IX with Fe}
+	
+	The first molecule docked was the protoporphyrin IX with Fe, as a result of molecular docking with Vina, nine different conformations of the molecule in the protein were found, these results are shown in Table \ref{table5p_1}. The docked positions of the protoporphyrin IX with Fe in the Pn7.1626 structure interacted with different aminoacid residues of the protein (Fig. \ref{fig5p_3}). Some of these aminoacids were found in the conserved domain for the heme binding site of the enzyme, like Arg 111, Leu 148, Ile 197, Leu 296, Leu 299, Gly 300, Ser 303, Ser 304, Ile 365, Ala 369, Val 370, His 372, Pro 437, Phe 438, Gly 439, Arg 443, Cys 445, Ala 446, Gly 447, Val 450 and Gly 451; the rest of the aminoacids were not marked as conserved in the heme binding site domain but were present in the pockets found by CASTp3: Val 127, Ser 128, Leu 143, Glu 295, Thr 307, Met 360, Ala 366, Gln 454 and Ile 455. In Fig. \ref{fig5p_4} the best docking pose of protoporphyrin IX with Fe with Pn7.1626 in its pocket is shown, the surface of the protein is colored based on its hydrophobicity using Kyte-Doolittle scale from lower (blue) to higher hydrophobicity (red).
+	
+	
+	
+	\begin{table}[h!]
+		\centering
+		\caption{Docking results of protoporphyrin IX (Fe) with Pn7.1626}
+		\label{table5p_1}
+		\begin{tabular}{cccc}
+			\toprule
+			\multirow{2}{*}{Mode} & Affinity & \multicolumn{2}{c}{Dist. from best mode}\\
+			&  (kcal/mol) & RMSD l.b & RMSD u.b\\
+			\midrule
+			1 &  -10.9   &       0   &       0\\
+			2 & -10.63   &   1.916   &   6.174\\
+			3 & -9.581   &   1.083   &   6.052\\
+			4 & -9.251   &   2.084   &   5.954\\
+			5 & -8.904   &   3.491   &   7.912\\
+			6 & -8.866   &   4.112   &   7.679\\
+			7 &  -8.81   &   3.957   &   9.337\\
+			8 &  -8.21   &   1.608   &   5.955\\
+			9 & -6.538   &   4.191   &   9.715\\
+			\bottomrule
+			
+		\end{tabular}
+	\end{table}
+	
+	\FloatBarrier
+	\begin{figure}[h!]
+		\centering
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{2cm}
+			\includegraphics[width=\textwidth]{../5/propose/Dock/best.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{-2cm}
+			\includegraphics[width=\textwidth]{../5/propose/Dock/best2.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{2cm}
+			\includegraphics[width=\textwidth]{../5/propose/Dock/best3.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{-2cm}
+			\includegraphics[width=\textwidth]{../5/propose/Dock/best4.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\caption[Interactions between protoporphyrin IX with Fe and Pn7.1626.]{Interactions between protoporphyrin IX with Fe and Pn7.1626. Best four poses are shown in order a-d.}
+		\label{fig5p_3}
+	\end{figure}
+	\FloatBarrier
+	
+	\FloatBarrier
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.4\textwidth]{../5/propose/Dock/chimera.png}
+		\caption{Protoporphyrin IX with Fe in pocket of Pn7.1626.}
+		\label{fig5p_4}
+	\end{figure}
+	\FloatBarrier
+	
+	\subsubsection{Ferulic acid}
+	
+	\begin{wraptable}{r}{0.5\textwidth}
+		\centering
+		\caption{Docking results of ferulic acid with protoporphyrin IX-Pn7.1626 complex}
+		\label{table5p_2}
+		\begin{tabular}{cccc}
+			\toprule
+			\multirow{2}{*}{Mode} & Affinity & \multicolumn{2}{c}{Dist. from best mode}\\
+			&  (kcal/mol) & RMSD l.b & RMSD u.b\\
+			\midrule
+			1 & -6.172   &       0   &       0\\
+			2 & -6.166   &   1.867   &   2.988\\
+			3 & -6.094   &   2.041   &   5.707\\
+			4 & -6.082   &   3.815   &   5.411\\
+			5 & -5.973   &   3.802   &   4.669\\
+			6 & -3.782   &   2.616   &     5.9\\
+			7 & -3.093   &   4.339   &   5.844\\
+			8 & -1.264   &   5.353   &   6.343\\
+			9 &  13.84   &   5.111   &   6.187\\
+			\bottomrule
+			
+		\end{tabular}
+	\end{wraptable}
+	
+	With the Pn7.1626 protein and the best docked pose of protoporphyrin IX with Fe as a complex, molecular docking using Vina was carried out for ferulic acid resulting in nine different conformations, these results are shown in Table \ref{table5p_2} The docked positions of the ferulic acid in the receptor structure interacted with different aminoacid residues of the protein (Fig. \ref{fig5p_5}). Some of these aminoacids were found in the conserved domain for the active site of the enzyme, like Glu 295, Leu 298, Leu 299 and Val 370; the rest of the aminoacids were not marked as conserved in the active site domain but were present in the pockets found by CASTp3: Met 113, Asn 121, Thr 126, Ser 128, Thr 129, Thr 226, Arg 230 and Phe 485. In Fig. \ref{fig5p_6} the best docking pose of ferulic acid with protoporphyrin IX with Fe-Pn7.1626 complex in its pocket is shown, the surface of the protein is colored based on its hydrophobicity using Kyte-Doolittle scale from lower (blue) to higher hydrophobicity (red). The results show interactions between the ferulic acid and the Fe atom of protoporphyrin IX as expected if the reaction \ref{eq4} was catalyzed by this enzyme. The first two docking poses have a stronger or equal binding energy than the best pose for Pn3.4770, but unlike this, they are oriented in a correct way for the reaction \ref{eq4} to occur. This slightly better binding energy and correct orientation suggests that Pn7.1626 could perform the reaction in a better way than Pn3.4770; but this hypothesis should be tested in vitro in the laboratory. 
+	
+	
+	
+	\FloatBarrier
+	\begin{figure}[h!]
+		\centering
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{2cm}
+			\includegraphics[width=\textwidth]{../5/propose/Dock/Dock2/best.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{-2cm}
+			\includegraphics[width=\textwidth]{../5/propose/Dock/Dock2/best2.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{2cm}
+			\includegraphics[width=\textwidth]{../5/propose/Dock/Dock2/best3.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{-2cm}
+			\includegraphics[width=\textwidth]{../5/propose/Dock/Dock2/best4.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\caption[Interactions between ferulic acid and protoporphyrin IX-Pn7.1626 complex.]{Interactions of ferulic acid with protoporphyrin IX-Pn7.1626 complex. Best four poses are shown in order a-d.}
+		\label{fig5p_5}
+	\end{figure}
+	\FloatBarrier
+	
+	\FloatBarrier
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.4\textwidth]{../5/propose/Dock/Dock2/chimera.png}
+		\caption{Ferulic acid in pocket of protoporphyrin IX-Pn7.1626 complex.}
+		\label{fig5p_6}
 	\end{figure}
 	\FloatBarrier
 
