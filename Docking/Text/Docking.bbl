@@ -146,6 +146,12 @@ Morris, G.~M., Huey, R., Lindstrom, W., Sanner, M.~F., Belew, R.~K., Goodsell,
   receptor flexibility.
 \newblock {\em Journal of computational chemistry}, 30(16):2785--2791.
 
+\bibitem[O'Boyle et~al., 2011]{obabel}
+O'Boyle, N.~M., Banck, M., James, C.~A., Morley, C., Vandermeersch, T., and
+  Hutchison, G.~R. (2011).
+\newblock Open babel: An open chemical toolbox.
+\newblock {\em Journal of cheminformatics}, 3(1):1--14.
+
 \bibitem[Pettersen et~al., 2021]{chimera}
 Pettersen, E.~F., Goddard, T.~D., Huang, C.~C., Meng, E.~C., Couch, G.~S.,
   Croll, T.~I., Morris, J.~H., and Ferrin, T.~E. (2021).
@@ -185,6 +191,13 @@ Schnabel, A., Cotinguiba, F., Athmer, B., and Vogt, T. (2021).
 \newblock Piper nigrum cyp719a37 catalyzes the decisive methylenedioxy bridge
   formation in piperine biosynthesis.
 \newblock {\em Plants}, 10(1):128.
+
+\bibitem[Schnabel et~al., 2020]{coaligase}
+Schnabel, A., Cotinguiba, F., Athmer, B., Yang, C., Westermann, B., Schaks, A.,
+  Porzel, A., Brandt, W., Schumacher, F., and Vogt, T. (2020).
+\newblock A piperic acid coa ligase produces a putative precursor of piperine,
+  the pungent principle from black pepper fruits.
+\newblock {\em The Plant Journal}, 102(3):569--581.
 
 \bibitem[Studer et~al., 2020]{qmeandisco_swiss}
 Studer, G., Rempfer, C., Waterhouse, A.~M., Gumienny, R., Haas, J., and
