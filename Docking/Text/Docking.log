@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.3)  24 AUG 2022 20:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.8.3)  6 SEP 2022 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1288,7 +1288,7 @@ Package chemmacros Warning: You haven't loaded any package for upright Greek
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/elements/elements_names_english
 .def)
-<../Images/SB.png, id=74, 1268.0976pt x 604.8999pt>
+<../Images/SB.png, id=78, 1268.0976pt x 604.8999pt>
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 86.
@@ -1318,7 +1318,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-<../Images/Pathway2.png, id=93, 828.09375pt x 1882.03125pt>
+<../Images/Pathway2.png, id=97, 828.09375pt x 1882.03125pt>
 File: ../Images/Pathway2.png Graphic file (type png)
 <use ../Images/Pathway2.png>
 Package pdftex.def Info: ../Images/Pathway2.png  used on input line 108.
@@ -1330,7 +1330,7 @@ File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 112.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
-<../Images/IDL.png, id=94, 417.56pt x 203.76125pt>
+<../Images/IDL.png, id=98, 417.56pt x 203.76125pt>
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 112.
@@ -1369,7 +1369,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
-<../1/Minimize/model.png, id=119, 789.95125pt x 873.2625pt>
+<../1/Minimize/model.png, id=123, 789.95125pt x 873.2625pt>
 File: ../1/Minimize/model.png Graphic file (type png)
 <use ../1/Minimize/model.png>
 Package pdftex.def Info: ../1/Minimize/model.png  used on input line 134.
@@ -1411,7 +1411,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [4 <../1/Minimize/model.png>]
-<../1/Swiss/Local_quality_estimate.png, id=144, 1383.1675pt x 727.71875pt>
+<../1/Swiss/Local_quality_estimate.png, id=148, 1383.1675pt x 727.71875pt>
 File: ../1/Swiss/Local_quality_estimate.png Graphic file (type png)
 <use ../1/Swiss/Local_quality_estimate.png>
 Package pdftex.def Info: ../1/Swiss/Local_quality_estimate.png  used on input l
@@ -1443,7 +1443,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [5 <../1/Swiss/Local_quality_estimate.png>]
-<../1/Dock/best.png, id=185, 803.0pt x 803.0pt>
+<../1/Dock/best.png, id=189, 803.0pt x 803.0pt>
 File: ../1/Dock/best.png Graphic file (type png)
 <use ../1/Dock/best.png>
 Package pdftex.def Info: ../1/Dock/best.png  used on input line 189.
@@ -1453,12 +1453,12 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 188--190
 []  [] 
  []
 
-<../1/Dock/best2.png, id=186, 803.0pt x 803.0pt>
+<../1/Dock/best2.png, id=190, 803.0pt x 803.0pt>
 File: ../1/Dock/best2.png Graphic file (type png)
 <use ../1/Dock/best2.png>
 Package pdftex.def Info: ../1/Dock/best2.png  used on input line 195.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
-<../1/Dock/best3.png, id=187, 803.0pt x 803.0pt>
+<../1/Dock/best3.png, id=191, 803.0pt x 803.0pt>
 File: ../1/Dock/best3.png Graphic file (type png)
 <use ../1/Dock/best3.png>
 Package pdftex.def Info: ../1/Dock/best3.png  used on input line 201.
@@ -1468,7 +1468,7 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 200--202
 []  [] 
  []
 
-<../1/Dock/best4.png, id=188, 803.0pt x 803.0pt>
+<../1/Dock/best4.png, id=192, 803.0pt x 803.0pt>
 File: ../1/Dock/best4.png Graphic file (type png)
 <use ../1/Dock/best4.png>
 Package pdftex.def Info: ../1/Dock/best4.png  used on input line 207.
@@ -1493,7 +1493,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [6]
-<../1/Dock/chimera.png, id=195, 803.0pt x 803.0pt>
+<../1/Dock/chimera.png, id=199, 803.0pt x 803.0pt>
 File: ../1/Dock/chimera.png Graphic file (type png)
 <use ../1/Dock/chimera.png>
 Package pdftex.def Info: ../1/Dock/chimera.png  used on input line 219.
@@ -1527,7 +1527,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
-<../2/Minimize/model.png, id=207, 1104.125pt x 862.22125pt>
+<../2/Minimize/model.png, id=211, 1104.125pt x 862.22125pt>
 File: ../2/Minimize/model.png Graphic file (type png)
 <use ../2/Minimize/model.png>
 Package pdftex.def Info: ../2/Minimize/model.png  used on input line 239.
@@ -1547,7 +1547,7 @@ Underfull \hbox (badness 1038) in paragraph at lines 245--246
 \OT1/cmr/m/n/12 has a 77.91% sequence identity to our query
  []
 
-<../2/Swiss/Local_quality_estimate.png, id=215, 1383.1675pt x 727.71875pt>
+<../2/Swiss/Local_quality_estimate.png, id=219, 1383.1675pt x 727.71875pt>
 File: ../2/Swiss/Local_quality_estimate.png Graphic file (type png)
 <use ../2/Swiss/Local_quality_estimate.png>
 Package pdftex.def Info: ../2/Swiss/Local_quality_estimate.png  used on input l
@@ -1591,7 +1591,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [9 <../2/Swiss/Local_quality_estimate.png>]
-<../2/Dock/best.png, id=253, 803.0pt x 803.0pt>
+<../2/Dock/best.png, id=257, 803.0pt x 803.0pt>
 File: ../2/Dock/best.png Graphic file (type png)
 <use ../2/Dock/best.png>
 Package pdftex.def Info: ../2/Dock/best.png  used on input line 297.
@@ -1601,12 +1601,12 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 296--298
 []  [] 
  []
 
-<../2/Dock/best2.png, id=254, 803.0pt x 803.0pt>
+<../2/Dock/best2.png, id=258, 803.0pt x 803.0pt>
 File: ../2/Dock/best2.png Graphic file (type png)
 <use ../2/Dock/best2.png>
 Package pdftex.def Info: ../2/Dock/best2.png  used on input line 303.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
-<../2/Dock/best3.png, id=255, 803.0pt x 803.0pt>
+<../2/Dock/best3.png, id=259, 803.0pt x 803.0pt>
 File: ../2/Dock/best3.png Graphic file (type png)
 <use ../2/Dock/best3.png>
 Package pdftex.def Info: ../2/Dock/best3.png  used on input line 309.
@@ -1616,7 +1616,7 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 308--310
 []  [] 
  []
 
-<../2/Dock/best4.png, id=256, 803.0pt x 803.0pt>
+<../2/Dock/best4.png, id=260, 803.0pt x 803.0pt>
 File: ../2/Dock/best4.png Graphic file (type png)
 <use ../2/Dock/best4.png>
 Package pdftex.def Info: ../2/Dock/best4.png  used on input line 315.
@@ -1641,7 +1641,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [10]
-<../2/Dock/chimera.png, id=264, 803.0pt x 803.0pt>
+<../2/Dock/chimera.png, id=268, 803.0pt x 803.0pt>
 File: ../2/Dock/chimera.png Graphic file (type png)
 <use ../2/Dock/chimera.png>
 Package pdftex.def Info: ../2/Dock/chimera.png  used on input line 327.
@@ -1668,7 +1668,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11 <../2/Dock/best.png> <../2/Dock/best2.png> <../2/Dock/best3.png> <../2/Dock
 /best4.png> <../2/Dock/chimera.png>]
-<../2/Dock/Dock2/best.png, id=281, 803.0pt x 803.0pt>
+<../2/Dock/Dock2/best.png, id=285, 803.0pt x 803.0pt>
 File: ../2/Dock/Dock2/best.png Graphic file (type png)
 <use ../2/Dock/Dock2/best.png>
 Package pdftex.def Info: ../2/Dock/Dock2/best.png  used on input line 369.
@@ -1678,12 +1678,12 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 368--370
 []  [] 
  []
 
-<../2/Dock/Dock2/best2.png, id=282, 803.0pt x 803.0pt>
+<../2/Dock/Dock2/best2.png, id=286, 803.0pt x 803.0pt>
 File: ../2/Dock/Dock2/best2.png Graphic file (type png)
 <use ../2/Dock/Dock2/best2.png>
 Package pdftex.def Info: ../2/Dock/Dock2/best2.png  used on input line 375.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
-<../2/Dock/Dock2/best3.png, id=283, 803.0pt x 803.0pt>
+<../2/Dock/Dock2/best3.png, id=287, 803.0pt x 803.0pt>
 File: ../2/Dock/Dock2/best3.png Graphic file (type png)
 <use ../2/Dock/Dock2/best3.png>
 Package pdftex.def Info: ../2/Dock/Dock2/best3.png  used on input line 381.
@@ -1693,7 +1693,7 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 380--382
 []  [] 
  []
 
-<../2/Dock/Dock2/best4.png, id=284, 803.0pt x 803.0pt>
+<../2/Dock/Dock2/best4.png, id=288, 803.0pt x 803.0pt>
 File: ../2/Dock/Dock2/best4.png Graphic file (type png)
 <use ../2/Dock/Dock2/best4.png>
 Package pdftex.def Info: ../2/Dock/Dock2/best4.png  used on input line 387.
@@ -1720,7 +1720,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [12
 
 ]
-<../2/Dock/Dock2/chimera.png, id=293, 803.0pt x 803.0pt>
+<../2/Dock/Dock2/chimera.png, id=297, 803.0pt x 803.0pt>
 File: ../2/Dock/Dock2/chimera.png Graphic file (type png)
 <use ../2/Dock/Dock2/chimera.png>
 Package pdftex.def Info: ../2/Dock/Dock2/chimera.png  used on input line 399.
@@ -1752,7 +1752,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
  []
 
-<../4/Swiss/model2.png, id=305, 1104.125pt x 873.2625pt>
+<../4/Swiss/model2.png, id=309, 1104.125pt x 873.2625pt>
 File: ../4/Swiss/model2.png Graphic file (type png)
 <use ../4/Swiss/model2.png>
 Package pdftex.def Info: ../4/Swiss/model2.png  used on input line 420.
@@ -1782,7 +1782,7 @@ Underfull \hbox (badness 1038) in paragraph at lines 426--427
 \OT1/cmr/m/n/12 has a 68.39% sequence identity to our query
  []
 
-<../4/Swiss/Local_quality_estimate.png, id=315, 1383.1675pt x 686.565pt>
+<../4/Swiss/Local_quality_estimate.png, id=319, 1383.1675pt x 686.565pt>
 File: ../4/Swiss/Local_quality_estimate.png Graphic file (type png)
 <use ../4/Swiss/Local_quality_estimate.png>
 Package pdftex.def Info: ../4/Swiss/Local_quality_estimate.png  used on input l
@@ -1810,16 +1810,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [14
 
  <../4/Swiss/model2.png>]
-<../4/Swiss/sah.png, id=324, 792.9625pt x 853.1875pt>
+<../4/Swiss/sah.png, id=328, 792.9625pt x 853.1875pt>
 File: ../4/Swiss/sah.png Graphic file (type png)
 <use ../4/Swiss/sah.png>
 Package pdftex.def Info: ../4/Swiss/sah.png  used on input line 440.
 (pdftex.def)             Requested size: 267.21681pt x 287.51526pt.
-
-Underfull \hbox (badness 4084) in paragraph at lines 441--441
-[]\OT1/cmr/m/n/12 Figure 1.3.3: |Interactions between SAH and
- []
-
 
 Underfull \hbox (badness 1199) in paragraph at lines 446--447
 \OT1/cmr/m/n/12 residues, for non standard residues the semi-
@@ -1847,21 +1842,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [15 <../4/Swiss/Local_quality_estimate.png> <../4/Swiss/sah.png>]
-<../4/Phylogeny/trace.png, id=351, 1535.7375pt x 903.375pt>
+<../4/Phylogeny/trace.png, id=355, 1535.7375pt x 903.375pt>
 File: ../4/Phylogeny/trace.png Graphic file (type png)
 <use ../4/Phylogeny/trace.png>
 Package pdftex.def Info: ../4/Phylogeny/trace.png  used on input line 453.
 (pdftex.def)             Requested size: 267.21681pt x 157.18323pt.
-<../4/Phylogeny/tree.png, id=357, 1686.3pt x 1790.69pt>
+<../4/Phylogeny/tree.png, id=361, 1686.3pt x 1790.69pt>
 File: ../4/Phylogeny/tree.png Graphic file (type png)
 <use ../4/Phylogeny/tree.png>
 Package pdftex.def Info: ../4/Phylogeny/tree.png  used on input line 468.
 (pdftex.def)             Requested size: 257.21681pt x 273.12764pt.
-
-Underfull \hbox (badness 1142) in paragraph at lines 469--469
-[]\OT1/cmr/m/n/12 Figure 1.3.5: |Phylogeny of Pn1.1317, Bayesian
- []
-
 
 Underfull \hbox (badness 5970) in paragraph at lines 474--475
 [][]\OT1/cmr/m/n/12 Based on the results obtained for this
@@ -1884,7 +1874,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [16 <../4/Phylogeny/trace.png> <../4/Phylogeny/tree.png>]
-<../4/Phylogeny/hfl.png, id=377, 803.0pt x 803.0pt>
+<../4/Phylogeny/hfl.png, id=381, 803.0pt x 803.0pt>
 File: ../4/Phylogeny/hfl.png Graphic file (type png)
 <use ../4/Phylogeny/hfl.png>
 Package pdftex.def Info: ../4/Phylogeny/hfl.png  used on input line 483.
@@ -1909,7 +1899,7 @@ Underfull \hbox (badness 1466) in paragraph at lines 491--492
 \OT1/cmr/m/n/12 were found in the conserved domain for the
  []
 
-<../4/Dock/best.png, id=381, 803.0pt x 803.0pt>
+<../4/Dock/best.png, id=385, 803.0pt x 803.0pt>
 File: ../4/Dock/best.png Graphic file (type png)
 <use ../4/Dock/best.png>
 Package pdftex.def Info: ../4/Dock/best.png  used on input line 521.
@@ -1919,12 +1909,12 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 520--522
 []  [] 
  []
 
-<../4/Dock/best2.png, id=382, 803.0pt x 803.0pt>
+<../4/Dock/best2.png, id=386, 803.0pt x 803.0pt>
 File: ../4/Dock/best2.png Graphic file (type png)
 <use ../4/Dock/best2.png>
 Package pdftex.def Info: ../4/Dock/best2.png  used on input line 527.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
-<../4/Dock/best3.png, id=383, 803.0pt x 803.0pt>
+<../4/Dock/best3.png, id=387, 803.0pt x 803.0pt>
 File: ../4/Dock/best3.png Graphic file (type png)
 <use ../4/Dock/best3.png>
 Package pdftex.def Info: ../4/Dock/best3.png  used on input line 533.
@@ -1934,7 +1924,7 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 532--534
 []  [] 
  []
 
-<../4/Dock/best4.png, id=384, 803.0pt x 803.0pt>
+<../4/Dock/best4.png, id=388, 803.0pt x 803.0pt>
 File: ../4/Dock/best4.png Graphic file (type png)
 <use ../4/Dock/best4.png>
 Package pdftex.def Info: ../4/Dock/best4.png  used on input line 539.
@@ -1959,7 +1949,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [17 <../4/Phylogeny/hfl.png>]
-<../4/Dock/chimera.png, id=393, 803.0pt x 803.0pt>
+<../4/Dock/chimera.png, id=397, 803.0pt x 803.0pt>
 File: ../4/Dock/chimera.png Graphic file (type png)
 <use ../4/Dock/chimera.png>
 Package pdftex.def Info: ../4/Dock/chimera.png  used on input line 551.
@@ -1983,7 +1973,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [18 <../4/Dock/best.png> <../4/Dock/best2.png> <../4/Dock/best3.png> <../4/Dock
 /best4.png> <../4/Dock/chimera.png>]
-<../4/Dock/Dock2/best.png, id=407, 803.0pt x 803.0pt>
+<../4/Dock/Dock2/best.png, id=411, 803.0pt x 803.0pt>
 File: ../4/Dock/Dock2/best.png Graphic file (type png)
 <use ../4/Dock/Dock2/best.png>
 Package pdftex.def Info: ../4/Dock/Dock2/best.png  used on input line 592.
@@ -1993,12 +1983,12 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 591--593
 []  [] 
  []
 
-<../4/Dock/Dock2/best2.png, id=408, 803.0pt x 803.0pt>
+<../4/Dock/Dock2/best2.png, id=412, 803.0pt x 803.0pt>
 File: ../4/Dock/Dock2/best2.png Graphic file (type png)
 <use ../4/Dock/Dock2/best2.png>
 Package pdftex.def Info: ../4/Dock/Dock2/best2.png  used on input line 598.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
-<../4/Dock/Dock2/best3.png, id=409, 803.0pt x 803.0pt>
+<../4/Dock/Dock2/best3.png, id=413, 803.0pt x 803.0pt>
 File: ../4/Dock/Dock2/best3.png Graphic file (type png)
 <use ../4/Dock/Dock2/best3.png>
 Package pdftex.def Info: ../4/Dock/Dock2/best3.png  used on input line 604.
@@ -2008,7 +1998,7 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 603--605
 []  [] 
  []
 
-<../4/Dock/Dock2/best4.png, id=410, 803.0pt x 803.0pt>
+<../4/Dock/Dock2/best4.png, id=414, 803.0pt x 803.0pt>
 File: ../4/Dock/Dock2/best4.png Graphic file (type png)
 <use ../4/Dock/Dock2/best4.png>
 Package pdftex.def Info: ../4/Dock/Dock2/best4.png  used on input line 610.
@@ -2033,7 +2023,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [19]
-<../4/Dock/Dock2/chimera.png, id=419, 803.0pt x 803.0pt>
+<../4/Dock/Dock2/chimera.png, id=423, 803.0pt x 803.0pt>
 File: ../4/Dock/Dock2/chimera.png Graphic file (type png)
 <use ../4/Dock/Dock2/chimera.png>
 Package pdftex.def Info: ../4/Dock/Dock2/chimera.png  used on input line 622.
@@ -2067,7 +2057,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 641--646
 
  []
 
-<../5/known/Minimize/model2.png, id=431, 1104.125pt x 913.4125pt>
+<../5/known/Minimize/model2.png, id=435, 1104.125pt x 913.4125pt>
 File: ../5/known/Minimize/model2.png Graphic file (type png)
 <use ../5/known/Minimize/model2.png>
 Package pdftex.def Info: ../5/known/Minimize/model2.png  used on input line 650
@@ -2103,7 +2093,7 @@ Underfull \hbox (badness 2205) in paragraph at lines 656--657
 \OT1/cmr/m/n/12 and HHsearch; this without having a super
  []
 
-<../5/known/Transcripts/7.png, id=438, 1204.5pt x 700.11563pt>
+<../5/known/Transcripts/7.png, id=442, 1204.5pt x 700.11563pt>
 File: ../5/known/Transcripts/7.png Graphic file (type png)
 <use ../5/known/Transcripts/7.png>
 Package pdftex.def Info: ../5/known/Transcripts/7.png  used on input line 663.
@@ -2128,7 +2118,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [21 <../5/known/Minimize/model2.png>]
-<../5/known/AlphaFold2/Met_dioixi_ef326_plddt.png, id=450, 578.16pt x 361.35pt>
+<../5/known/AlphaFold2/Met_dioixi_ef326_plddt.png, id=454, 578.16pt x 361.35pt>
 
 File: ../5/known/AlphaFold2/Met_dioixi_ef326_plddt.png Graphic file (type png)
 <use ../5/known/AlphaFold2/Met_dioixi_ef326_plddt.png>
@@ -2174,7 +2164,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [23]
-<../5/known/Dock/best.png, id=485, 803.0pt x 803.0pt>
+<../5/known/Dock/best.png, id=489, 803.0pt x 803.0pt>
 File: ../5/known/Dock/best.png Graphic file (type png)
 <use ../5/known/Dock/best.png>
 Package pdftex.def Info: ../5/known/Dock/best.png  used on input line 720.
@@ -2184,12 +2174,12 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 719--721
 []  [] 
  []
 
-<../5/known/Dock/best2.png, id=486, 803.0pt x 803.0pt>
+<../5/known/Dock/best2.png, id=490, 803.0pt x 803.0pt>
 File: ../5/known/Dock/best2.png Graphic file (type png)
 <use ../5/known/Dock/best2.png>
 Package pdftex.def Info: ../5/known/Dock/best2.png  used on input line 726.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
-<../5/known/Dock/best3.png, id=487, 803.0pt x 803.0pt>
+<../5/known/Dock/best3.png, id=491, 803.0pt x 803.0pt>
 File: ../5/known/Dock/best3.png Graphic file (type png)
 <use ../5/known/Dock/best3.png>
 Package pdftex.def Info: ../5/known/Dock/best3.png  used on input line 732.
@@ -2199,12 +2189,12 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 731--733
 []  [] 
  []
 
-<../5/known/Dock/best4.png, id=488, 803.0pt x 803.0pt>
+<../5/known/Dock/best4.png, id=492, 803.0pt x 803.0pt>
 File: ../5/known/Dock/best4.png Graphic file (type png)
 <use ../5/known/Dock/best4.png>
 Package pdftex.def Info: ../5/known/Dock/best4.png  used on input line 738.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
-<../5/known/Dock/chimera.png, id=489, 803.0pt x 803.0pt>
+<../5/known/Dock/chimera.png, id=493, 803.0pt x 803.0pt>
 File: ../5/known/Dock/chimera.png Graphic file (type png)
 <use ../5/known/Dock/chimera.png>
 Package pdftex.def Info: ../5/known/Dock/chimera.png  used on input line 750.
@@ -2230,11 +2220,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [24 <../5/known/Dock/best.png> <../5/known/Dock/best2.png> <../5/known/Dock/bes
 t3.png> <../5/known/Dock/best4.png>]
-Underfull \hbox (badness 1755) in paragraph at lines 760--760
-[]\OT1/cmr/m/n/12 Table 7: |Docking results of ferulic acid with
- []
-
-
 Underfull \hbox (badness 6641) in paragraph at lines 781--782
 \OT1/cmr/m/n/12 pose of protoporphyrin IX with Fe as a
  []
@@ -2244,7 +2229,7 @@ Underfull \hbox (badness 1215) in paragraph at lines 781--782
 \OT1/cmr/m/n/12 Some of these aminoacids were found in the
  []
 
-<../5/known/Dock/Dock2/best.png, id=501, 803.0pt x 803.0pt>
+<../5/known/Dock/Dock2/best.png, id=505, 803.0pt x 803.0pt>
 File: ../5/known/Dock/Dock2/best.png Graphic file (type png)
 <use ../5/known/Dock/Dock2/best.png>
 Package pdftex.def Info: ../5/known/Dock/Dock2/best.png  used on input line 790
@@ -2255,13 +2240,13 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 789--791
 []  [] 
  []
 
-<../5/known/Dock/Dock2/best2.png, id=502, 803.0pt x 803.0pt>
+<../5/known/Dock/Dock2/best2.png, id=506, 803.0pt x 803.0pt>
 File: ../5/known/Dock/Dock2/best2.png Graphic file (type png)
 <use ../5/known/Dock/Dock2/best2.png>
 Package pdftex.def Info: ../5/known/Dock/Dock2/best2.png  used on input line 79
 6.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
-<../5/known/Dock/Dock2/best3.png, id=503, 803.0pt x 803.0pt>
+<../5/known/Dock/Dock2/best3.png, id=507, 803.0pt x 803.0pt>
 File: ../5/known/Dock/Dock2/best3.png Graphic file (type png)
 <use ../5/known/Dock/Dock2/best3.png>
 Package pdftex.def Info: ../5/known/Dock/Dock2/best3.png  used on input line 80
@@ -2272,7 +2257,7 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 801--803
 []  [] 
  []
 
-<../5/known/Dock/Dock2/best4.png, id=504, 803.0pt x 803.0pt>
+<../5/known/Dock/Dock2/best4.png, id=508, 803.0pt x 803.0pt>
 File: ../5/known/Dock/Dock2/best4.png Graphic file (type png)
 <use ../5/known/Dock/Dock2/best4.png>
 Package pdftex.def Info: ../5/known/Dock/Dock2/best4.png  used on input line 80
@@ -2298,7 +2283,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [25 <../5/known/Dock/chimera.png>]
-<../5/known/Dock/Dock2/chimera.png, id=513, 803.0pt x 803.0pt>
+<../5/known/Dock/Dock2/chimera.png, id=517, 803.0pt x 803.0pt>
 File: ../5/known/Dock/Dock2/chimera.png Graphic file (type png)
 <use ../5/known/Dock/Dock2/chimera.png>
 Package pdftex.def Info: ../5/known/Dock/Dock2/chimera.png  used on input line 
@@ -2327,13 +2312,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [26 <../5/known/Dock/Dock2/best.png> <../5/known/Dock/Dock2/best2.png> <../5/kn
 own/Dock/Dock2/best3.png> <../5/known/Dock/Dock2/best4.png> <../5/known/Dock/Do
 ck2/chimera.png>]
-<../5/propose/Minimize/model2.png, id=523, 903.375pt x 813.0375pt>
+<../5/propose/Minimize/model2.png, id=527, 903.375pt x 813.0375pt>
 File: ../5/propose/Minimize/model2.png Graphic file (type png)
 <use ../5/propose/Minimize/model2.png>
 Package pdftex.def Info: ../5/propose/Minimize/model2.png  used on input line 8
 33.
 (pdftex.def)             Requested size: 267.21681pt x 240.5015pt.
-<../5/propose/AlphaFold2/test_c0c6c_plddt.png, id=546, 578.16pt x 361.35pt>
+<../5/propose/AlphaFold2/test_c0c6c_plddt.png, id=550, 578.16pt x 361.35pt>
 File: ../5/propose/AlphaFold2/test_c0c6c_plddt.png Graphic file (type png)
 <use ../5/propose/AlphaFold2/test_c0c6c_plddt.png>
 Package pdftex.def Info: ../5/propose/AlphaFold2/test_c0c6c_plddt.png  used on 
@@ -2379,7 +2364,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [28 <../5/propose/AlphaFold2/test_c0c6c_plddt.png>]
-<../5/propose/Dock/best.png, id=564, 803.0pt x 803.0pt>
+<../5/propose/Dock/best.png, id=568, 803.0pt x 803.0pt>
 File: ../5/propose/Dock/best.png Graphic file (type png)
 <use ../5/propose/Dock/best.png>
 Package pdftex.def Info: ../5/propose/Dock/best.png  used on input line 891.
@@ -2389,12 +2374,12 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 890--892
 []  [] 
  []
 
-<../5/propose/Dock/best2.png, id=565, 803.0pt x 803.0pt>
+<../5/propose/Dock/best2.png, id=569, 803.0pt x 803.0pt>
 File: ../5/propose/Dock/best2.png Graphic file (type png)
 <use ../5/propose/Dock/best2.png>
 Package pdftex.def Info: ../5/propose/Dock/best2.png  used on input line 897.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
-<../5/propose/Dock/best3.png, id=566, 803.0pt x 803.0pt>
+<../5/propose/Dock/best3.png, id=570, 803.0pt x 803.0pt>
 File: ../5/propose/Dock/best3.png Graphic file (type png)
 <use ../5/propose/Dock/best3.png>
 Package pdftex.def Info: ../5/propose/Dock/best3.png  used on input line 903.
@@ -2404,12 +2389,12 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 902--904
 []  [] 
  []
 
-<../5/propose/Dock/best4.png, id=567, 803.0pt x 803.0pt>
+<../5/propose/Dock/best4.png, id=571, 803.0pt x 803.0pt>
 File: ../5/propose/Dock/best4.png Graphic file (type png)
 <use ../5/propose/Dock/best4.png>
 Package pdftex.def Info: ../5/propose/Dock/best4.png  used on input line 909.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
-<../5/propose/Dock/chimera.png, id=568, 803.0pt x 803.0pt>
+<../5/propose/Dock/chimera.png, id=572, 803.0pt x 803.0pt>
 File: ../5/propose/Dock/chimera.png Graphic file (type png)
 <use ../5/propose/Dock/chimera.png>
 Package pdftex.def Info: ../5/propose/Dock/chimera.png  used on input line 921.
@@ -2436,11 +2421,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [29 <../5/propose/Dock/best.png> <../5/propose/Dock/best2.png> <../5/propose/Do
 ck/best3.png> <../5/propose/Dock/best4.png>]
-Underfull \hbox (badness 1755) in paragraph at lines 931--931
-[]\OT1/cmr/m/n/12 Table 9: |Docking results of ferulic acid with
- []
-
-
 Underfull \hbox (badness 6641) in paragraph at lines 952--953
 \OT1/cmr/m/n/12 pose of protoporphyrin IX with Fe as a
  []
@@ -2450,7 +2430,7 @@ Underfull \hbox (badness 1215) in paragraph at lines 952--953
 \OT1/cmr/m/n/12 Some of these aminoacids were found in the
  []
 
-<../5/propose/Dock/Dock2/best.png, id=582, 803.0pt x 803.0pt>
+<../5/propose/Dock/Dock2/best.png, id=586, 803.0pt x 803.0pt>
 File: ../5/propose/Dock/Dock2/best.png Graphic file (type png)
 <use ../5/propose/Dock/Dock2/best.png>
 Package pdftex.def Info: ../5/propose/Dock/Dock2/best.png  used on input line 9
@@ -2461,13 +2441,13 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 960--962
 []  [] 
  []
 
-<../5/propose/Dock/Dock2/best2.png, id=583, 803.0pt x 803.0pt>
+<../5/propose/Dock/Dock2/best2.png, id=587, 803.0pt x 803.0pt>
 File: ../5/propose/Dock/Dock2/best2.png Graphic file (type png)
 <use ../5/propose/Dock/Dock2/best2.png>
 Package pdftex.def Info: ../5/propose/Dock/Dock2/best2.png  used on input line 
 967.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
-<../5/propose/Dock/Dock2/best3.png, id=584, 803.0pt x 803.0pt>
+<../5/propose/Dock/Dock2/best3.png, id=588, 803.0pt x 803.0pt>
 File: ../5/propose/Dock/Dock2/best3.png Graphic file (type png)
 <use ../5/propose/Dock/Dock2/best3.png>
 Package pdftex.def Info: ../5/propose/Dock/Dock2/best3.png  used on input line 
@@ -2478,7 +2458,7 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 972--974
 []  [] 
  []
 
-<../5/propose/Dock/Dock2/best4.png, id=585, 803.0pt x 803.0pt>
+<../5/propose/Dock/Dock2/best4.png, id=589, 803.0pt x 803.0pt>
 File: ../5/propose/Dock/Dock2/best4.png Graphic file (type png)
 <use ../5/propose/Dock/Dock2/best4.png>
 Package pdftex.def Info: ../5/propose/Dock/Dock2/best4.png  used on input line 
@@ -2504,7 +2484,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [30 <../5/propose/Dock/chimera.png>]
-<../5/propose/Dock/Dock2/chimera.png, id=593, 803.0pt x 803.0pt>
+<../5/propose/Dock/Dock2/chimera.png, id=597, 803.0pt x 803.0pt>
 File: ../5/propose/Dock/Dock2/chimera.png Graphic file (type png)
 <use ../5/propose/Dock/Dock2/chimera.png>
 Package pdftex.def Info: ../5/propose/Dock/Dock2/chimera.png  used on input lin
@@ -2548,7 +2528,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1015--1019
 
  []
 
-<../6/known/Minimize/model2.png, id=606, 1003.75pt x 873.2625pt>
+<../6/known/Minimize/model2.png, id=610, 1003.75pt x 873.2625pt>
 File: ../6/known/Minimize/model2.png Graphic file (type png)
 <use ../6/known/Minimize/model2.png>
 Package pdftex.def Info: ../6/known/Minimize/model2.png  used on input line 102
@@ -2584,7 +2564,7 @@ Underfull \hbox (badness 4673) in paragraph at lines 1029--1030
 \OT1/cmr/m/n/12 with HHblits, a protein sequence searching
  []
 
-<../6/known/Transcripts/7.png, id=616, 1204.5pt x 700.11563pt>
+<../6/known/Transcripts/7.png, id=620, 1204.5pt x 700.11563pt>
 File: ../6/known/Transcripts/7.png Graphic file (type png)
 <use ../6/known/Transcripts/7.png>
 Package pdftex.def Info: ../6/known/Transcripts/7.png  used on input line 1034.
@@ -2609,7 +2589,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [32
 
  <../6/known/Minimize/model2.png>]
-<../6/known/Swiss/Local_quality_estimate.png, id=627, 1383.1675pt x 727.71875pt
+<../6/known/Swiss/Local_quality_estimate.png, id=631, 1383.1675pt x 727.71875pt
 >
 File: ../6/known/Swiss/Local_quality_estimate.png Graphic file (type png)
 <use ../6/known/Swiss/Local_quality_estimate.png>
@@ -2658,7 +2638,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [34
 
 ]
-<../6/known/Dock/best.png, id=658, 803.0pt x 803.0pt>
+<../6/known/Dock/best.png, id=662, 803.0pt x 803.0pt>
 File: ../6/known/Dock/best.png Graphic file (type png)
 <use ../6/known/Dock/best.png>
 Package pdftex.def Info: ../6/known/Dock/best.png  used on input line 1087.
@@ -2668,12 +2648,12 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 1086--1088
 []  [] 
  []
 
-<../6/known/Dock/best2.png, id=659, 803.0pt x 803.0pt>
+<../6/known/Dock/best2.png, id=663, 803.0pt x 803.0pt>
 File: ../6/known/Dock/best2.png Graphic file (type png)
 <use ../6/known/Dock/best2.png>
 Package pdftex.def Info: ../6/known/Dock/best2.png  used on input line 1093.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
-<../6/known/Dock/best3.png, id=660, 803.0pt x 803.0pt>
+<../6/known/Dock/best3.png, id=664, 803.0pt x 803.0pt>
 File: ../6/known/Dock/best3.png Graphic file (type png)
 <use ../6/known/Dock/best3.png>
 Package pdftex.def Info: ../6/known/Dock/best3.png  used on input line 1099.
@@ -2683,12 +2663,12 @@ Overfull \hbox (59.51659pt too wide) in paragraph at lines 1098--1100
 []  [] 
  []
 
-<../6/known/Dock/best4.png, id=661, 803.0pt x 803.0pt>
+<../6/known/Dock/best4.png, id=665, 803.0pt x 803.0pt>
 File: ../6/known/Dock/best4.png Graphic file (type png)
 <use ../6/known/Dock/best4.png>
 Package pdftex.def Info: ../6/known/Dock/best4.png  used on input line 1105.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
-<../6/known/Dock/chimera.png, id=662, 803.0pt x 803.0pt>
+<../6/known/Dock/chimera.png, id=666, 803.0pt x 803.0pt>
 File: ../6/known/Dock/chimera.png Graphic file (type png)
 <use ../6/known/Dock/chimera.png>
 Package pdftex.def Info: ../6/known/Dock/chimera.png  used on input line 1118.
@@ -2711,7 +2691,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [35 <../6/known/Dock/best.png> <../6/known/Dock/best2.png> <../6/known/Dock/bes
 t3.png> <../6/known/Dock/best4.png> <../6/known/Dock/chimera.png>]
-<../6/propose/Minimize/model2.png, id=673, 1003.75pt x 873.2625pt>
+<../6/propose/Minimize/model2.png, id=677, 1003.75pt x 873.2625pt>
 File: ../6/propose/Minimize/model2.png Graphic file (type png)
 <use ../6/propose/Minimize/model2.png>
 Package pdftex.def Info: ../6/propose/Minimize/model2.png  used on input line 1
@@ -2727,7 +2707,7 @@ Underfull \hbox (badness 1874) in paragraph at lines 1137--1138
 \OT1/cmr/m/n/12 template was found with HHblits, a protein
  []
 
-<../6/propose/Swiss/Local_quality_estimate.png, id=696, 1383.1675pt x 727.71875
+<../6/propose/Swiss/Local_quality_estimate.png, id=700, 1383.1675pt x 727.71875
 pt>
 File: ../6/propose/Swiss/Local_quality_estimate.png Graphic file (type png)
 <use ../6/propose/Swiss/Local_quality_estimate.png>
@@ -2757,11 +2737,11 @@ Underfull \hbox (badness 3815) in paragraph at lines 1175--1176
 
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 1177.
+Package pdftex.def Info: ../Images/SB.png  used on input line 1178.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 1177.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 1178.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2772,67 +2752,49 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
 [37 <../6/propose/Swiss/Local_quality_estimate.png>]
-File: ../Images/SB.png Graphic file (type png)
-<use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 1177.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
-File: ../Images/IDL.png Graphic file (type png)
-<use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 1177.
-(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
-
-[38]
 <../6/propose/Dock/best.png, id=721, 803.0pt x 803.0pt>
 File: ../6/propose/Dock/best.png Graphic file (type png)
 <use ../6/propose/Dock/best.png>
-Package pdftex.def Info: ../6/propose/Dock/best.png  used on input line 1184.
+Package pdftex.def Info: ../6/propose/Dock/best.png  used on input line 1183.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
 
-Overfull \hbox (59.51659pt too wide) in paragraph at lines 1183--1185
+Overfull \hbox (59.51659pt too wide) in paragraph at lines 1182--1184
 []  [] 
  []
 
 <../6/propose/Dock/best2.png, id=722, 803.0pt x 803.0pt>
 File: ../6/propose/Dock/best2.png Graphic file (type png)
 <use ../6/propose/Dock/best2.png>
-Package pdftex.def Info: ../6/propose/Dock/best2.png  used on input line 1190.
+Package pdftex.def Info: ../6/propose/Dock/best2.png  used on input line 1189.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
 <../6/propose/Dock/best3.png, id=723, 803.0pt x 803.0pt>
 File: ../6/propose/Dock/best3.png Graphic file (type png)
 <use ../6/propose/Dock/best3.png>
-Package pdftex.def Info: ../6/propose/Dock/best3.png  used on input line 1196.
+Package pdftex.def Info: ../6/propose/Dock/best3.png  used on input line 1195.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
 
-Overfull \hbox (59.51659pt too wide) in paragraph at lines 1195--1197
+Overfull \hbox (59.51659pt too wide) in paragraph at lines 1194--1196
 []  [] 
  []
 
 <../6/propose/Dock/best4.png, id=724, 803.0pt x 803.0pt>
 File: ../6/propose/Dock/best4.png Graphic file (type png)
 <use ../6/propose/Dock/best4.png>
-Package pdftex.def Info: ../6/propose/Dock/best4.png  used on input line 1202.
+Package pdftex.def Info: ../6/propose/Dock/best4.png  used on input line 1201.
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
 <../6/propose/Dock/chimera.png, id=725, 803.0pt x 803.0pt>
 File: ../6/propose/Dock/chimera.png Graphic file (type png)
 <use ../6/propose/Dock/chimera.png>
-Package pdftex.def Info: ../6/propose/Dock/chimera.png  used on input line 1215
+Package pdftex.def Info: ../6/propose/Dock/chimera.png  used on input line 1214
 .
 (pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 1221.
+Package pdftex.def Info: ../Images/SB.png  used on input line 1220.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 1221.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 1220.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2842,9 +2804,134 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[39 <../6/propose/Dock/best.png> <../6/propose/Dock/best2.png> <../6/propose/Do
+[38 <../6/propose/Dock/best.png> <../6/propose/Dock/best2.png> <../6/propose/Do
 ck/best3.png> <../6/propose/Dock/best4.png> <../6/propose/Dock/chimera.png>]
-(Docking.bbl
+(../Images/chem/cadaverine.tex) (../Images/chem/aminopentanal.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1231--1232
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1233--1238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1244
+
+ []
+
+<../8/Minimize/model2.png, id=736, 1505.625pt x 803.0pt>
+File: ../8/Minimize/model2.png Graphic file (type png)
+<use ../8/Minimize/model2.png>
+Package pdftex.def Info: ../8/Minimize/model2.png  used on input line 1248.
+(pdftex.def)             Requested size: 267.21681pt x 142.51205pt.
+
+Underfull \hbox (badness 2865) in paragraph at lines 1254--1255
+\OT1/cmr/m/n/12 PDB ID: []1UI8[]; this protein has a 38.72%
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 1254--1255
+\OT1/cmr/m/n/12 template was found with HHblits, a protein
+ []
+
+<../8/Swiss/Local_quality_estimate.png, id=755, 1383.1675pt x 727.71875pt>
+File: ../8/Swiss/Local_quality_estimate.png Graphic file (type png)
+<use ../8/Swiss/Local_quality_estimate.png>
+Package pdftex.def Info: ../8/Swiss/Local_quality_estimate.png  used on input l
+ine 1261.
+(pdftex.def)             Requested size: 484.43364pt x 254.87193pt.
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 1265.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 1265.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+
+[39 <../8/Minimize/model2.png>]
+Underfull \hbox (badness 1215) in paragraph at lines 1291--1292
+\OT1/cmr/m/n/12 Some of these aminoacids were found in the
+ []
+
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 1293.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 1293.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+
+[40 <../8/Swiss/Local_quality_estimate.png>]
+<../8/Dock/best.png, id=775, 803.0pt x 803.0pt>
+File: ../8/Dock/best.png Graphic file (type png)
+<use ../8/Dock/best.png>
+Package pdftex.def Info: ../8/Dock/best.png  used on input line 1300.
+(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+
+Overfull \hbox (59.51659pt too wide) in paragraph at lines 1299--1301
+[]  [] 
+ []
+
+<../8/Dock/best2.png, id=776, 803.0pt x 803.0pt>
+File: ../8/Dock/best2.png Graphic file (type png)
+<use ../8/Dock/best2.png>
+Package pdftex.def Info: ../8/Dock/best2.png  used on input line 1306.
+(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+<../8/Dock/best3.png, id=777, 803.0pt x 803.0pt>
+File: ../8/Dock/best3.png Graphic file (type png)
+<use ../8/Dock/best3.png>
+Package pdftex.def Info: ../8/Dock/best3.png  used on input line 1312.
+(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+
+Overfull \hbox (59.51659pt too wide) in paragraph at lines 1311--1313
+[]  [] 
+ []
+
+<../8/Dock/best4.png, id=778, 803.0pt x 803.0pt>
+File: ../8/Dock/best4.png Graphic file (type png)
+<use ../8/Dock/best4.png>
+Package pdftex.def Info: ../8/Dock/best4.png  used on input line 1318.
+(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+File: ../6/known/Dock/chimera.png Graphic file (type png)
+<use ../6/known/Dock/chimera.png>
+Package pdftex.def Info: ../6/known/Dock/chimera.png  used on input line 1331.
+(pdftex.def)             Requested size: 187.05502pt x 187.0509pt.
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 1337.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 1337.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+
+[41 <../8/Dock/best.png> <../8/Dock/best2.png> <../8/Dock/best3.png> <../8/Dock
+/best4.png>] (Docking.bbl
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 86.
@@ -2862,14 +2949,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[40]
+[42]
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 166.
+Package pdftex.def Info: ../Images/SB.png  used on input line 167.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 166.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 167.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 
@@ -2880,7 +2967,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[41]
+[43]
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 249.
@@ -2898,14 +2985,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[42])
+[44])
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 1226.
+Package pdftex.def Info: ../Images/SB.png  used on input line 1342.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 1226.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 1342.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 
@@ -2916,7 +3003,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[43] (Docking.toc)
+[45] (Docking.toc)
 \tf@toc=\write6
 \openout6 = `Docking.toc'.
 
@@ -2938,14 +3025,13 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 14.
 Package tocbasic Info: Using my definition of `\numberline' on input line 15.
 Package tocbasic Info: Using my definition of `\numberline' on input line 16.
 Package tocbasic Info: Using my definition of `\numberline' on input line 17.
-Package tocbasic Info: Using my definition of `\numberline' on input line 18.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 19.
+Package pdftex.def Info: ../Images/SB.png  used on input line 18.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 19.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 18.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 
@@ -2956,7 +3042,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[44]
+[46]
+Package tocbasic Info: Using my definition of `\numberline' on input line 18.
 Package tocbasic Info: Using my definition of `\numberline' on input line 19.
 Package tocbasic Info: Using my definition of `\numberline' on input line 20.
 Package tocbasic Info: Using my definition of `\numberline' on input line 21.
@@ -2981,21 +3068,22 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 39.
 Package tocbasic Info: Using my definition of `\numberline' on input line 40.
 Package tocbasic Info: Using my definition of `\numberline' on input line 41.
 Package tocbasic Info: Using my definition of `\numberline' on input line 42.
+Package tocbasic Info: Using my definition of `\numberline' on input line 43.
+Package tocbasic Info: Using my definition of `\numberline' on input line 44.
+Package tocbasic Info: Using my definition of `\numberline' on input line 45.
+Package tocbasic Info: Using my definition of `\numberline' on input line 46.
 )
 \tf@lof=\write7
 \openout7 = `Docking.lof'.
 
- (Docking.lot)
-\tf@lot=\write8
-\openout8 = `Docking.lot'.
-
+ (Docking.lot
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
-Package pdftex.def Info: ../Images/SB.png  used on input line 1231.
+Package pdftex.def Info: ../Images/SB.png  used on input line 8.
 (pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
-Package pdftex.def Info: ../Images/IDL.png  used on input line 1231.
+Package pdftex.def Info: ../Images/IDL.png  used on input line 8.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 
@@ -3006,18 +3094,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
 
-[45] (Docking.aux)
+[47])
+\tf@lot=\write8
+\openout8 = `Docking.lot'.
+
+File: ../Images/SB.png Graphic file (type png)
+<use ../Images/SB.png>
+Package pdftex.def Info: ../Images/SB.png  used on input line 1347.
+(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+File: ../Images/IDL.png Graphic file (type png)
+<use ../Images/IDL.png>
+Package pdftex.def Info: ../Images/IDL.png  used on input line 1347.
+(pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 34.5968pt, for example:
+(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+
+[48] (Docking.aux)
 Package rerunfilecheck Info: File `Docking.out' has not changed.
-(rerunfilecheck)             Checksum: A4E60DF89B73BD878B739EEBCBC9A02F;2079.
+(rerunfilecheck)             Checksum: 9BD3FE7D9C2BA930AF7121EF66C36F3D;2177.
  ) 
 Here is how much of TeX's memory you used:
- 37694 strings out of 480272
- 814242 string characters out of 2888247
- 1096889 words of memory out of 3000000
- 55074 multiletter control sequences out of 15000+600000
+ 37794 strings out of 480272
+ 816515 string characters out of 2888247
+ 1097512 words of memory out of 3000000
+ 55154 multiletter control sequences out of 15000+600000
  483930 words of font info for 81 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 95i,16n,92p,1675b,1737s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 95i,17n,92p,1675b,1737s stack positions out of 10000i,1000n,20000p,200000b,80000s
  </home/gerardo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm12
 00.pk></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx
 12.pfb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmm
@@ -3031,9 +3140,9 @@ r7.pfb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr
 y8.pfb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/symbo
 ls/msbm10.pfb>
-Output written on Docking.pdf (45 pages, 17035727 bytes).
+Output written on Docking.pdf (48 pages, 17691548 bytes).
 PDF statistics:
- 922 PDF objects out of 1000 (max. 8388607)
- 169 named destinations out of 1000 (max. 500000)
- 539 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 986 PDF objects out of 1000 (max. 8388607)
+ 180 named destinations out of 1000 (max. 500000)
+ 577 words of extra memory for PDF output out of 10000 (max. 10000000)
 

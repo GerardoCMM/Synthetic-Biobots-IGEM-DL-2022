@@ -96,6 +96,12 @@ Jumper, J., Evans, R., Pritzel, A., Green, T., Figurnov, M., Ronneberger, O.,
 \newblock Highly accurate protein structure prediction with alphafold.
 \newblock {\em Nature}, 596(7873):583--589.
 
+\bibitem[Kriv{\'a}k and Hoksza, 2018]{krivak2018p2rank}
+Kriv{\'a}k, R. and Hoksza, D. (2018).
+\newblock P2rank: machine learning based tool for rapid and accurate prediction
+  of ligand binding sites from protein structure.
+\newblock {\em Journal of cheminformatics}, 10(1):1--12.
+
 \bibitem[Landrum et~al., 2013]{rdkit}
 Landrum, G. et~al. (2013).
 \newblock Rdkit: A software suite for cheminformatics, computational chemistry,
