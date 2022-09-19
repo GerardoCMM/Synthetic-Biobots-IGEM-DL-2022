@@ -70,6 +70,12 @@ Goddard, T.~D., Huang, C.~C., Meng, E.~C., Pettersen, E.~F., Couch, G.~S.,
   analysis.
 \newblock {\em Protein Science}, 27(1):14--25.
 
+\bibitem[Gough et~al., 2001]{gough2001assignment}
+Gough, J., Karplus, K., Hughey, R., and Chothia, C. (2001).
+\newblock Assignment of homology to genome sequences using a library of hidden
+  markov models that represent all proteins of known structure.
+\newblock {\em Journal of molecular biology}, 313(4):903--919.
+
 \bibitem[Hu et~al., 2019]{genome}
 Hu, L., Xu, Z., Wang, M., Fan, R., Yuan, D., Wu, B., Wu, H., Qin, X., Yan, L.,
   Tan, L., et~al. (2019).
@@ -158,6 +164,13 @@ O'Boyle, N.~M., Banck, M., James, C.~A., Morley, C., Vandermeersch, T., and
 \newblock Open babel: An open chemical toolbox.
 \newblock {\em Journal of cheminformatics}, 3(1):1--14.
 
+\bibitem[Pandurangan et~al., 2019]{pandurangan2019superfamily}
+Pandurangan, A.~P., Stahlhacke, J., Oates, M.~E., Smithers, B., and Gough, J.
+  (2019).
+\newblock The superfamily 2.0 database: a significant proteome update and a new
+  webserver.
+\newblock {\em Nucleic acids research}, 47(D1):D490--D494.
+
 \bibitem[Pettersen et~al., 2021]{chimera}
 Pettersen, E.~F., Goddard, T.~D., Huang, C.~C., Meng, E.~C., Couch, G.~S.,
   Croll, T.~I., Morris, J.~H., and Ferrin, T.~E. (2021).
@@ -192,8 +205,15 @@ Ronquist, F., Teslenko, M., Van Der~Mark, P., Ayres, D.~L., Darling, A.,
   choice across a large model space.
 \newblock {\em Systematic biology}, 61(3):539--542.
 
-\bibitem[Schnabel et~al., 2021]{methylenedioxy}
-Schnabel, A., Cotinguiba, F., Athmer, B., and Vogt, T. (2021).
+\bibitem[Schnabel et~al., 2021a]{pipsynthase}
+Schnabel, A., Athmer, B., Manke, K., Schumacher, F., Cotinguiba, F., and Vogt,
+  T. (2021a).
+\newblock Identification and characterization of piperine synthase from black
+  pepper, piper nigrum l.
+\newblock {\em Communications biology}, 4(1):1--10.
+
+\bibitem[Schnabel et~al., 2021b]{methylenedioxy}
+Schnabel, A., Cotinguiba, F., Athmer, B., and Vogt, T. (2021b).
 \newblock Piper nigrum cyp719a37 catalyzes the decisive methylenedioxy bridge
   formation in piperine biosynthesis.
 \newblock {\em Plants}, 10(1):128.
@@ -245,6 +265,13 @@ Vass, M., Tarcsay, {\'A}., and Keser{\H{u}}, G.~M. (2012).
 \newblock Multiple ligand docking by glide: implications for virtual
   second-site screening.
 \newblock {\em Journal of computer-aided molecular design}, 26(7):821--834.
+
+\bibitem[Wall et~al., 2007]{wall2007planttribes}
+Wall, P.~K., Leebens-Mack, J., M{\"u}ller, K.~F., Field, D., Altman, N.~S., and
+  Depamphilis, C.~W. (2007).
+\newblock Planttribes: a gene and gene family resource for comparative genomics
+  in plants.
+\newblock {\em Nucleic acids research}, 36(suppl\_1):D970--D976.
 
 \bibitem[Waterhouse et~al., 2018]{swiss}
 Waterhouse, A., Bertoni, M., Bienert, S., Studer, G., Tauriello, G., Gumienny,

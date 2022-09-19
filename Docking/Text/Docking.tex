@@ -149,7 +149,7 @@
 	\end{figure}
 	\FloatBarrier
 	
-	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standar residues, for non standard residues the semi-empirical AM1-BCC model that uses an additive bond charge corrections was selected since it has shown higher success rate than other force fields in docking methods. \cite{am1_bcc,am1_bcc_2,am1_bcc_3} In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}
+	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standard residues, for non standard residues the semi-empirical AM1-BCC model that uses an additive bond charge corrections was selected since it has shown higher success rate than other force fields in docking methods. \cite{am1_bcc,am1_bcc_2,am1_bcc_3} In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}
 	
 	The preparation of the molecules for docking was made on AutoDockTools and Autodock Vina version 1.2.3 docked the protein and the ligand. \cite{adt,vina,vina_2} The grid box for the docking was selected based on the conserved domains found with the NCBI conserved domain search interface; we found the tetramer interface and active site conserved domains for phenylalanine ammonia-lyase from the CDD database. \cite{cdd,cdd_2}.  CASTp3 found the protein's pockets, which are cavities on its surface into which solvent can enter; CASTp3 uses computational geometry to find these pockets mainly using Delaunay triangulation, alpha shape, and discrete flow. \cite{castp} As a result of molecular docking with Vina, nine different conformations of the ligand in the protein were found, these results are shown in Table \ref{table1}.
 	
@@ -254,7 +254,7 @@
 	\end{figure}
 	\FloatBarrier
 	
-	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standar residues, for non standard residues the semi-empirical AM1-BCC model. \cite{am1_bcc,am1_bcc_2,am1_bcc_3}\ \ In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}
+	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standard residues, for non standard residues the semi-empirical AM1-BCC model. \cite{am1_bcc,am1_bcc_2,am1_bcc_3}\ \ In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}
 	
 	The preparation of the molecules for docking was made on AutoDockTools and Autodock Vina version 1.2.3 docked the protein and the ligand. \cite{adt,vina,vina_2} The grid box for the docking was selected based on the conserved domains found with the NCBI conserved domain search interface; we found the heme binding site and putative chemical substrate binding pocket conserved domains for trans-cinnamate 4-hydroxylase from the NCBI-Curated Domains database; additionally, active site residues were selected from the template structure, which included mainly Arg 213, Ser 214 and Gln 218. \cite{cdd,cdd_2}.  CASTp3 found the protein's pockets. \cite{castp} To perform an adequate docking of both the heme group and the cinnamate molecule a sequential docking workflow was used as described in \textcite{sequential}; in this methodology the protein and ligand were prepared (energy minimized) before the docking was performed, then the first molecule was  docked to the protein, the best pose was merged with the protein and this complex was used as a the receptor to dock the next compound.
 	
@@ -443,7 +443,7 @@
 	\end{wrapfigure}
 	\FloatBarrier
 	
-	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standar residues, for non standard residues the semi-empirical AM1-BCC model. \cite{am1_bcc,am1_bcc_2,am1_bcc_3} In the same way the ligands were energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}
+	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standard residues, for non standard residues the semi-empirical AM1-BCC model. \cite{am1_bcc,am1_bcc_2,am1_bcc_3} In the same way the ligands were energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}
 	
 	The preparation of the molecules for docking was made on AutoDockTools and Autodock Vina version 1.2.3 docked the protein and the ligand. \cite{adt,vina,vina_2} The grid box for the SAM docking was selected based on the conserved binding site for SAH found by homology modeling. In order to know the binding site for caffeic acid, blastp against PDB database was used to obtain similar protein sequences to Pn1.1317; 11 sequences with identity higher than 50\% were selected. \cite{blastp,blastp_2} Muscle aligned the sequences and based on the MSA (Multiple Sequence Alignment) a search for the best aminoacid substitution model was carried out using MEGA 11; the selected model was LG+G (lnL: -4126.121) this decision was supported by Bayesian Information Criterion (BIC: 8436.596) and Akaike's Information Criterion (8296.475). \cite{muscle,mega11} With the selected model and the MSA a Maximum Likelihood tree (ML) was build using MEGA 11, an heuristic search using Nearest Neighbour Interchange was performed and the branch support values were obtained from 100 Bootstrap pseudoreplicates. \cite{mega11} Using the ML tree topology as a start point, a Bayesian Inference tree (BI) was build using MrBayes; two runs of four chains (1 cold chain and 3 heated chains) were run for one million generations and sampled every one thousand generations with a burn in of 25\%, the amino acid substitution model was selected by sampling all of the fixed-rate models implemented in the program, in this way each model will contribute in proportion to its posterior probability. \cite{mrbayes}
 	
@@ -677,7 +677,7 @@
 	
 	\newpage
 	
-	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standar residues, for non standard residues the semi-empirical AM1-BCC model. \cite{am1_bcc,am1_bcc_2,am1_bcc_3} In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}
+	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standard residues, for non standard residues the semi-empirical AM1-BCC model. \cite{am1_bcc,am1_bcc_2,am1_bcc_3} In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}
 	
 	The preparation of the molecules for docking was made on AutoDockTools and Autodock Vina version 1.2.3 docked the protein and the ligand. \cite{adt,vina,vina_2} The grid box for the docking was selected based on the conserved domains found with the NCBI conserved domain search interface; we found the heme binding site and putative chemical substrate binding pocket conserved domains for cytochrome P450 family protein from the NCBI-Curated Domains database. \cite{cdd,cdd_2}  CASTp3 found the protein's pockets. \cite{castp} To perform an adequate docking of both the heme group and the ferulic acid molecule, a sequential docking workflow was used as described in \textcite{sequential} and in section \ref{ssec:Pn2.84}.
 	
@@ -840,7 +840,7 @@
 	
 	The enzyme requires an heme molecule as a coenzyme for its correct catalytic activity; in this case the protoporphyrin IX containing Fe was selected based on the heme group present in the template for a ``SWISS-MODEL'' structure prediction that was made, the template was the CYP-450 17A1 protein from \textit{Danio rerio} with PDB ID: \href{https://www.rcsb.org/structure/6b82}{6b82}; this model was not selected because of the low sequence identity with Pn7.1626 (24.01\%). The ligand 3D conformer structure was obtained from PubChem with CID: \href{https://pubchem.ncbi.nlm.nih.gov/compound/445858}{445858}.
 	
-	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standar residues, for non standard residues the semi-empirical AM1-BCC model. \cite{am1_bcc,am1_bcc_2,am1_bcc_3} In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}
+	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standard residues, for non standard residues the semi-empirical AM1-BCC model. \cite{am1_bcc,am1_bcc_2,am1_bcc_3} In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}
 	
 	The preparation of the molecules for docking was made on AutoDockTools and Autodock Vina version 1.2.3 docked the protein and the ligand. \cite{adt,vina,vina_2} The grid box for the docking was selected based on the conserved domains found with the NCBI conserved domain search interface; we found the heme binding site and putative chemical substrate binding pocket conserved domains for cytochrome P450 family protein from the NCBI-Curated Domains database. \cite{cdd,cdd_2}  CASTp3 found the protein's pockets. \cite{castp} To perform an adequate docking of both the heme group and the ferulic acid molecule, a sequential docking workflow was used as described in \textcite{sequential} and in section \ref{ssec:Pn2.84}.
 	
@@ -1048,7 +1048,7 @@
 	
 	\newpage
 	
-	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standar residues, for non standard residues the semi-empirical AM1-BCC model. \cite{am1_bcc,am1_bcc_2,am1_bcc_3} In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}	The preparation of the molecules for docking was made on AutoDockTools and Autodock Vina version 1.2.3 docked the protein and the ligand. \cite{adt,vina,vina_2} The grid box for the docking was selected based on the conserved domains found with the NCBI conserved domain search interface; we found the AMP binding site [chemical binding site] conserved domain for 4-coumarate--CoA ligase family protein. \cite{cdd,cdd_2}  CASTp3 found the protein's pockets.
+	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standard residues, for non standard residues the semi-empirical AM1-BCC model. \cite{am1_bcc,am1_bcc_2,am1_bcc_3} In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}	The preparation of the molecules for docking was made on AutoDockTools and Autodock Vina version 1.2.3 docked the protein and the ligand. \cite{adt,vina,vina_2} The grid box for the docking was selected based on the conserved domains found with the NCBI conserved domain search interface; we found the AMP binding site [chemical binding site] conserved domain for 4-coumarate--CoA ligase family protein. \cite{cdd,cdd_2}  CASTp3 found the protein's pockets.
 	
 	\begin{wraptable}{r}{0.5\textwidth}
 		\centering
@@ -1221,7 +1221,7 @@
 	
 	\subsection{Pn4.3222}
 	
-	The eighth reaction of the pathway (Eq. \ref{eq6}) is catalyzed by a enzime called primary-amine oxidase, which is part of the tropane, piperidine and pyridine alkaloid pathway. The gene Pn4.3222 was selected as the best candidate for enzyme 8, this selection was based on the fact that it obtained the highest score (889) over the threshold (550.3) for KEGG Orthology ID K00276, with E-value $= 2\times 10^{-267}$ . This annotation was made with KofamKOALA. \cite{kofamkoala} With the exon usage analysis no relevant results were found.
+	The eighth reaction of the pathway (Eq. \ref{eq6}) is catalyzed by a enzyme called primary-amine oxidase, which is part of the tropane, piperidine and pyridine alkaloid pathway. The gene Pn4.3222 was selected as the best candidate for enzyme 8, this selection was based on the fact that it obtained the highest score (889) over the threshold (550.3) for KEGG Orthology ID K00276, with E-value $= 2\times 10^{-267}$ . This annotation was made with KofamKOALA. \cite{kofamkoala} With the exon usage analysis no relevant results were found.
 	
 	\begin{equation}
 	\schemestart
@@ -1253,7 +1253,7 @@
 	
 	All the 12 exons of the gene were considered when modeling the three-dimensional structure of the protein. The structure modeling was made by using an homology based methodology ``SWISS-MODEL''. \cite{swiss} The selected template was a copper amine oxidase from \textit{Arthrobacter globiformis} with PDB ID: \href{https://www.rcsb.org/structure/1UI8}{1UI8}; this protein has a 38.72\% sequence identity to our query protein Pn4.3222 which makes it an appropriate template. The template was found with HHblits, a protein sequence searching algorithm that uses hmm-hmm alignment. \cite{hhblits} The model (Fig. \ref{fig8_1}) is found in a dimeric state, as the template is; it has a GMQE value of 0.64 and a QMEANDisCo Global value of 0.72 ± 0.05 (Fig. \ref{fig8_2}). \cite{qmeandisco_swiss} The ligand 3D conformer structure was obtained from PubChem with CID: \href{https://pubchem.ncbi.nlm.nih.gov/compound/273}{273}.
 	
-	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standar residues, for non standard residues the semi-empirical AM1-BCC model. \cite{am1_bcc,am1_bcc_2,am1_bcc_3} In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}	The preparation of the molecules for docking was made on AutoDockTools and Autodock Vina version 1.2.3 docked the protein and the ligand. \cite{adt,vina,vina_2} The grid box for the docking was selected based on the predictetd binding sites, this prediction was performed by using P2Rank, which is a template free tool for prediction of ligand binding sites based on machine learning; it outperforms other programs such as Fpocket, SiteHound, MetaPocket and DeepSite. \cite{krivak2018p2rank} CASTp3 found the protein's pockets.
+	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standard residues, for non standard residues the semi-empirical AM1-BCC model. \cite{am1_bcc,am1_bcc_2,am1_bcc_3} In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}	The preparation of the molecules for docking was made on AutoDockTools and Autodock Vina version 1.2.3 docked the protein and the ligand. \cite{adt,vina,vina_2} The grid box for the docking was selected based on the predictetd binding sites, this prediction was performed by using P2Rank, which is a template free tool for prediction of ligand binding sites based on machine learning; it outperforms other programs such as Fpocket, SiteHound, MetaPocket and DeepSite. \cite{krivak2018p2rank} CASTp3 found the protein's pockets.
 	
 	\FloatBarrier
 	\begin{figure}
@@ -1328,9 +1328,127 @@
 	\FloatBarrier
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.35\textwidth]{../6/known/Dock/chimera.png}
+		\includegraphics[width=0.35\textwidth]{../8/Dock/chimera.png}
 		\caption{\centering Cadaverine in pocket of Pn4.3222.}
 		\label{fig8_4}
+	\end{figure}
+	\FloatBarrier
+	
+	\newpage
+	
+	\subsection{Pn2.2377}
+	
+	The ninth reaction of the pathway (Eq. \ref{eq7}) is catalyzed by a enzyme not yet characterized, which is part of the tropane, piperidine and pyridine alkaloid pathway (KEGG ID: R06741). The gene Pn2.2377 was selected as the best candidate for enzyme 9, this selection was based on the fact that it has the highest expression value in mature fruit (significantly higher in comparison with the other tissues studied) between the genes annotated as Terpenoid cyclases/Protein prenyltransferases superfamily protein, the annotation was made using GeneFamilyClassifier tool, which is part of PlantTribes. \cite{wall2007planttribes} It is also the second highest overexpressed gene overall with a log2FoldChange  value of 12.69 and an adjusted p-value of $9.74\times10^{-129}$. With the exon usage analysis no relevant results were found. It is important to mention that the expected activity of this protein has not been tested in the laboratory and should be proved before its usage in the construct, either way, the differential expression analysis and the molecular docking provide somo insight into the biosynthetic pathway of piperine. Other enzymes of the route have been discovered thanks to differential expression analysis of \textit{P. nigrum}. \cite{pipsynthase,methylenedioxy,coaligase}
+	
+	\begin{equation}
+	\centering
+	\hspace{-100pt}
+	\schemestart
+	\chemname{\footnotesize\input{../Images/chem/aminopentanal.tex}}{\vspace{-90pt}}\arrow{->[ 8]}\chemname{\footnotesize\input{../Images/chem/piperideine.tex}}{\vspace{-50pt}}
+	\label{eq7}
+	\schemestop
+	\end{equation}\\
+	
+	\vspace{-45pt}\hspace{0.5\paperwidth-20pt}
+	\begin{minipage}{0.345\paperwidth}
+		\centering
+		piperideine
+	\end{minipage}\\
+	
+	\vspace{-30pt}\hspace{30pt}
+	\begin{minipage}{0.345\paperwidth}
+		\centering
+		5-aminopentanal
+	\end{minipage}\\
+	
+	\FloatBarrier
+	\begin{wrapfigure}{r}{0.5\textwidth}
+		\centering
+		\includegraphics[width=0.5\textwidth]{../9/Minimize/model2.png}
+		\caption{\centering Pn2.2377 three-dimensional model.}
+		\label{fig9_1}
+	\end{wrapfigure}
+	\FloatBarrier
+	
+	All the six exons of the gene were considered when modeling the three-dimensional structure of the protein. The structure modeling was made by using an homology based methodology ``SWISS-MODEL''. \cite{swiss} The selected template was a 5-epi-aristolochene synthase from \textit{Nicotiana tabacum} with PDB ID: \href{https://www.rcsb.org/structure/5IKH}{5IKH}; this protein has a 37.98\% sequence identity to our query protein Pn2.2377 which makes it an appropriate template. The template was found with HHblits, a protein sequence searching algorithm that uses hmm-hmm alignment. \cite{hhblits} The model (Fig. \ref{fig9_1}) is found in a monomeric state, as the template is; it has a GMQE value of 0.74 and a QMEANDisCo Global value of 0.71 ± 0.05 (Fig. \ref{fig9_2}). \cite{qmeandisco_swiss} The Terpenoid cyclases/Protein prenyltransferases superfamily is found in the Superfamily database, a database of structural and functional annotation for all proteins and genomes based on a collection of hidden Markov models. \cite{gough2001assignment, pandurangan2019superfamily} This superfamily includes the Enzyme Commission Term ``acting on phosphates'' as other terpenoid cyclases do, like 5-epi-aristolochene synthase, which was also the template selected for modelling the protein. The 5-epi-aristolochene synthase uses farnesyl-PP as substrate, that's why the selected docked molecule for Pn2.2377 was 5-aminopentyl-PP intead of 5-aminopentanal, it was manually written in SMILES format and then the required format conversions were made by using OpenBabel. \cite{obabel}
+	
+	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standard residues, for non standard residues the semi-empirical AM1-BCC model. \cite{am1_bcc,am1_bcc_2,am1_bcc_3} In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}	The preparation of the molecules for docking was made on AutoDockTools and Autodock Vina version 1.2.3 docked the protein and the ligand. \cite{adt,vina,vina_2} The grid box for the docking was selected based on the conserved domains found with the NCBI conserved domain search interface; we found the substrate binding pocket [chemical binding site] and active site lid residues [active site] conserved domains for Plant Terpene Cyclases from the CDD database. \cite{cdd,cdd_2}. CASTp3 found the protein's pockets. \cite{castp}
+	
+	\FloatBarrier
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=\textwidth-50pt]{../9/Swiss/Local_quality_estimate.png}
+		\caption{\centering Pn2.2377 model QMEANDisCo.}
+		\label{fig9_2}
+	\end{figure}
+	\FloatBarrier
+	
+	
+	\begin{table}[h!]
+		\centering
+		\caption{\centering Docking results of 5-aminopentyl-PP with Pn2.2377}
+		\label{table9}
+		\begin{tabular}{cccc}
+			\toprule
+			\multirow{2}{*}{Mode} & Affinity & \multicolumn{2}{c}{Dist. from best mode}\\
+			&  (kcal/mol) & RMSD l.b & RMSD u.b\\
+			\midrule
+			1 & -6.227 & 0     & 0     \\
+			2 & -6.072 & 1.652 & 2.531 \\
+			3 & -5.714 & 4.665 & 5.81  \\
+			4 & -5.533 & 2.028 & 2.99  \\
+			5 & -5.485 & 2.635 & 3.466 \\
+			6 & -5.469 & 1.406 & 2.119 \\
+			7 & -5.443 & 3.669 & 4.773 \\
+			8 & -5.401 & 3.549 & 5.131 \\
+			9 & -5.243 & 3.823 & 5.071 \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	
+	As a result of molecular docking with Vina, nine different conformations of the molecule in the protein were found, these results are shown in Table \ref{table8}. The docked positions of the 5-aminopentyl-PP in the Pn2.2377 structure interacted with different aminoacid residues of the protein (Fig. \ref{fig9_3}). Some of these aminoacids were found in the conserved domains of the enzyme, like Arg 386, Asp 389, Asp 390, Gly 393, Glu 397, His 402, Ala 404, Ser 405 and Ser 406; other aminoacids were not marked in the conserved domains but were present in the pockets found by CASTp3: Glu 323, Trp 326, Tyr 338, Ala 342, Thr 345 and His 394. In Fig. \ref{fig9_4} the 5-aminopentyl-PP in its pocket is shown, the surface of the protein is colored based on its hydrophobicity using Kyte-Doolittle scale from lower (blue) to higher hydrophobicity (red).
+	
+	\newpage
+	
+	\FloatBarrier
+	\begin{figure}[h!]
+		\centering
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{2cm}
+			\includegraphics[width=\textwidth]{../9/Dock/best.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{-2cm}
+			\includegraphics[width=\textwidth]{../9/Dock/best2.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{2cm}
+			\includegraphics[width=\textwidth]{../9/Dock/best3.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{-2cm}
+			\includegraphics[width=\textwidth]{../9/Dock/best4.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\caption[Interactions between 5-aminopentyl-PP and Pn2.2377]{\centering Interactions between 5-aminopentyl-PP and Pn2.2377. Best four poses are shown in order a-d.}
+		\label{fig9_3}
+	\end{figure}
+	\FloatBarrier
+	
+	
+	\FloatBarrier
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.35\textwidth]{../9/Dock/chimera.png}
+		\caption{\centering 5-aminopentyl-PP in pocket of Pn2.2377.}
+		\label{fig9_4}
 	\end{figure}
 	\FloatBarrier
 
