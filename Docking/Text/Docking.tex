@@ -1451,7 +1451,171 @@
 		\label{fig9_4}
 	\end{figure}
 	\FloatBarrier
+	
+	\subsection{2CWH}
+	
+	The next reaction of the pathway (Eq. \ref{eq8}) is catalyzed by an unknown protein with similar activity to delta1-piperideine-2-carboxylate reductase, which performs a reaction with the same molecular reaction but delta1-piperideine-2-carboxylate as substrate instead of piperideine. AAO55870 (NCBI accesion number) is a well caracterized enzyme  from \textit{Pseudomonas syringae} pv. tomato str. DC3000 that has this function (Pip2C/Pyr2C reductase), this is why we chose this protein as a possible enzyme to perform the required reaction. This protein can be foun in the RCSB PDB with accesion number \href{https://www.rcsb.org/structure/2CWH}{2CWH}. The ligand 3D conformer structure was obtained from PubChem with CID: \href{https://pubchem.ncbi.nlm.nih.gov/compound/68161}{68161}.
+	
+	\begin{equation}
+	\schemestart
+	\label{eq8}
+	\chemname{\footnotesize\input{../Images/chem/piperideine.tex}}{\vspace{-30pt}}\arrow{->[ 10]}\chemname{\footnotesize\input{../Images/chem/piperidine.tex}}{\vspace{-30pt}}
+	\schemestop
+	\end{equation}\\
+	
+	\vspace{-30pt}\hspace{0.5\paperwidth-91pt}
+	\begin{minipage}{0.345\paperwidth}
+		\centering
+		piperidine
+	\end{minipage}\\
+	
+	\vspace{-35pt}\hspace{81pt}
+	\begin{minipage}{0.345\paperwidth}
+		\centering
+		piperideine
+	\end{minipage}\\
+	
+	Before docking was performed the protein and the ligand were energy minimized. The protein structure was minimized using UCSF ChimeraX software \cite{chimera,chimera_2} and the steepest descent algorithm for 1000 steps with a step size of 0.02 \r{A}; the force field AMBER ff14SB was used for standard residues, for non standard residues the semi-empirical AM1-BCC model. \cite{am1_bcc,am1_bcc_2,am1_bcc_3}\ \ In the same way the ligand was energy minimized by using using the python library ``rdkit'' and the MMFF94 force field implemented within it. \cite{rdkit,rdkit_mmff}
+	
+	The preparation of the molecules for docking was made on AutoDockTools and Autodock Vina version 1.2.3 docked the protein and the ligand. \cite{adt,vina,vina_2} The grid box for the docking was selected based on the active site residues and NAPH binding site residues reported in \textcite{goto2005crystal}. CASTp3 found the protein's pockets. \cite{castp} To perform an adequate docking of both the NADPH and the piperideine molecule a sequential docking workflow was used as described in \textcite{sequential} and in subsection \ref{ssec:Pn2.84}.
+	
+	\subsubsection{NADPH}
+	
+	The first molecule docked was the NADPH, as a result of molecular docking with Vina, nine different conformations of the molecule in the protein were found, these results are shown in Table \ref{table10_1}. The docked positions of the NADPH with 2CWH structure interacted with different aminoacid residues of the protein (Fig. \ref{fig10_1}). Some of these aminoacids were found in the NADPH binding site of the enzyme, like His 54, Ala 129, His 157, Pro 168, Asp 184, Ala 186, Ala 191, Asp 194, His 236, Lys 237, Arg 309, Leu 310, Pro 311, Gly 312, Arg 314 and Arg 315; the rest of the aminoacids were not marked as NADPH binding site domain but were present in the pockets found by CASTp3: Ser 51, Ser 53, Trp 131, Phe 183, Leu 185, Ala 189, Ile 190, Ser 239, Ala 240 and Gln 307. In Fig. \ref{fig10_2} the NADPH in its pocket is shown, the surface of the protein is colored based on its hydrophobicity using Kyte-Doolittle scale from lower (blue) to higher hydrophobicity (red).
+		
+		
+	\begin{table}[h!]
+		\centering
+		\caption{\centering Docking results of NADPH with 2CWH}
+		\label{table10_1}
+		\begin{tabular}{cccc}
+			\toprule
+			\multirow{2}{*}{Mode} & Affinity & \multicolumn{2}{c}{Dist. from best mode}\\
+			&  (kcal/mol) & RMSD l.b & RMSD u.b\\
+			\midrule
+			1 & -10.63 & 0     & 0     \\
+			2 & -10.26 & 2.432 & 5.241 \\
+			3 & -10.05 & 1.99  & 4.399 \\
+			4 & -9.846 & 2.155 & 9.406 \\
+			5 & -9.756 & 3.095 & 5.54  \\
+			6 & -9.688 & 2.619 & 7.235 \\
+			7 & -9.497 & 2.382 & 8.539 \\
+			8 & -9.382 & 3.767 & 7.571 \\
+			9 & -9.29  & 2.286 & 5.313 \\
+			\bottomrule
+			
+		\end{tabular}
+	\end{table}
+	
+	\FloatBarrier
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.4\textwidth]{../10/Dock/chimera.png}
+		\caption{\centering NADPH in pocket of 2CWH.}
+		\label{fig10_2}
+	\end{figure}
+	\FloatBarrier
+	
+	\FloatBarrier
+	\begin{figure}
+		\centering
+		\begin{subfigure}[h!]{0.47\textwidth}
+			\includegraphics[width=\textwidth]{../10/Dock/best.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.47\textwidth}
+			\includegraphics[width=\textwidth]{../10/Dock/best2.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.47\textwidth}
+			\includegraphics[width=\textwidth]{../10/Dock/best3.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.47\textwidth}
+			\includegraphics[width=\textwidth]{../10/Dock/best4.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\caption[Interactions between NADPH and 2CWH]{\centering Interactions between NADPH and 2CWH. Best four poses are shown in order a-d.}
+		\label{fig10_1}
+	\end{figure}
+	\FloatBarrier
+	
+	\newpage
+	
+	\subsubsection{Piperideine}
+	
+	\begin{wraptable}{r}{0.5\textwidth}
+		\centering
+		\caption{\centering Docking results of piperideine with NADPH-2CWH complex}
+		\label{table10_2}
+		\begin{tabular}{cccc}
+			\toprule
+			\multirow{2}{*}{Mode} & Affinity & \multicolumn{2}{c}{Dist. from best mode}\\
+			&  (kcal/mol) & RMSD l.b & RMSD u.b\\
+			\midrule
+			1 & -3.889   &    0.000  &    0.000\\
+			2 & -3.822   &   0.844   &   2.069\\
+			3 &  -3.752  &    2.023  &    3.246\\
+			4 & -3.740   &   2.421   &   3.732\\
+			5 & -3.728   &   1.953   &   3.008\\
+			6 &  -3.590  &    1.855  &    3.532\\
+			7 & -3.572   &   2.281   &   3.501\\
+			8 & -3.556   &   13.199  &   13.976\\
+			9 & -3.527   &  12.950   &  13.321\\
+			\bottomrule
+			
+		\end{tabular}
+	\end{wraptable}
+	
+	With the 2CWH protein and the best docked pose of NADPH as a complex, molecular docking using Vina was carried out for piperideine resulting in nine different conformations, these results are shown in Table \ref{table10_2} The docked positions of piperideine in the receptor structure interacted with different aminoacid residues of the protein (Fig. \ref{fig10_3}). Some of these aminoacids were found in the  active site of the enzyme, like His 54, Arg 58, Phe 127, Ser 150, Thr 166 and Pro 272; the rest of the aminoacids were not marked in the active site domain but were present in the pockets found by CASTp3: His 126, Ala 128, Leu 130, Pro 168, Ala 186 and Ala 191. In Fig. \ref{fig10_4} the NADPH in its pocket is shown, the surface of the protein is colored based on its hydrophobicity using Kyte-Doolittle scale from lower (blue) to higher hydrophobicity (red). In the structure reported by \textcite{goto2005crystal} the distance between the N atom involve in the reducction and the H atom of His 54 is 2.9 \r{A}, the distances of this two atoms in the 4 best docked positions were respectively 3.0, 2.3, 2.2 and 2.5 \r{A}; this fact provides some support to the hypothesis that 2CWH can perform the reaction shown in Eq. \ref{eq8}.
+	
 
+	\FloatBarrier
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.4\textwidth]{../10/Dock/Dock2/chimera.png}
+		\caption{\centering Piperideine inin pocket of NADPH-2CWH complex.}
+		\label{fig10_4}
+	\end{figure}
+	\FloatBarrier
+	
+	\FloatBarrier
+	\begin{figure}[h!]
+		\centering
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{2cm}
+			\includegraphics[width=\textwidth]{../10/Dock/Dock2/best.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{-2cm}
+			\includegraphics[width=\textwidth]{../10/Dock/Dock2/best2.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{2cm}
+			\includegraphics[width=\textwidth]{../10/Dock/Dock2/best3.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.35\textwidth}
+			\hspace{-2cm}
+			\includegraphics[width=\textwidth]{../10/Dock/Dock2/best4.png}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\caption[Interactions between piperideine and NADPH-2CWH complex.]{\centering Interactions between piperideine and NADPH-2CWH complex. Best four poses are shown in order a-d.}
+		\label{fig10_3}
+	\end{figure}
+	\FloatBarrier
+	
+	\newpage
 	\newpage
 	
 	\bibliographystyle{apalike}
