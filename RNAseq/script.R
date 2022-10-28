@@ -271,7 +271,28 @@ venn_up <- list("Up vs fruit_20d" = fullTable$Row.names[fullTable$f40vsf20_log2F
 ggvenn(
   venn_up, 
   fill_color = c("#FF0000", "#00FF00", "#0000FF"),
-  stroke_size = 0.5, set_name_size = 4,fill_alpha = 0.3
+  stroke_size = 0.5, set_name_size = 10,fill_alpha = 0.3,text_size = 7
+)
+
+venn_dif <- list("DE vs fruit_20d" = fullTable$Row.names[abs(fullTable$f40vsf20_log2FoldChange) > 1 & fullTable$f40vsf20_padj < 0.05],
+                 "DE vs Panicle" = fullTable$Row.names[abs(fullTable$f40vspan_log2FoldChange) > 1 & fullTable$f40vspan_padj < 0.05],
+                 "DE vs Leaf" = fullTable$Row.names[abs(fullTable$f40vsleaf_log2FoldChange) > 1 & fullTable$f40vsleaf_padj < 0.05])
+ggvenn(
+  venn_dif, 
+  fill_color = c("#FF0000", "#00FF00", "#0000FF"),
+  stroke_size = 0.5, set_name_size = 10,fill_alpha = 0.3,text_size = 7
+)
+
+
+######  With LRT
+
+venn_up <- list("Up vs fruit_20d" = fullTable$Row.names[fullTable$f40vsf20_log2FoldChange > 1 & fullTable$f40vsf20_padj < 0.05 & fullTable$Row.names%in%sigChanges],
+                "Up vs Panicle" = fullTable$Row.names[fullTable$f40vspan_log2FoldChange > 1 & fullTable$f40vspan_padj < 0.05 & fullTable$Row.names%in%sigChanges],
+                "Up vs Leaf" = fullTable$Row.names[fullTable$f40vsleaf_log2FoldChange > 1 & fullTable$f40vsleaf_padj < 0.05 & fullTable$Row.names%in%sigChanges])
+ggvenn(
+  venn_up, 
+  fill_color = c("#FF0000", "#00FF00", "#0000FF"),
+  stroke_size = 0.5, set_name_size = 10,fill_alpha = 0.3,text_size = 7
 )
 
 venn_dif <- list("DE vs fruit_20d" = fullTable$Row.names[abs(fullTable$f40vsf20_log2FoldChange) > 1 & fullTable$f40vsf20_padj < 0.05 & fullTable$Row.names%in%sigChanges],
@@ -280,7 +301,7 @@ venn_dif <- list("DE vs fruit_20d" = fullTable$Row.names[abs(fullTable$f40vsf20_
 ggvenn(
   venn_dif, 
   fill_color = c("#FF0000", "#00FF00", "#0000FF"),
-  stroke_size = 0.5, set_name_size = 4,fill_alpha = 0.3
+  stroke_size = 0.5, set_name_size = 10,fill_alpha = 0.3,text_size = 7
 )
 
 #######################################################################################################################
