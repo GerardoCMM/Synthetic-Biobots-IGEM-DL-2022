@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.8.3)  29 SEP 2022 12:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.30)  30 OCT 2022 15:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./Docking.tex
 (Docking.tex
 LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-07-15>
+L3 programming layer <2022-09-28>
 (/home/gerardo/.miktex/texmfs/install/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (/home/gerardo/.miktex/texmfs/install/tex/latex/base/size12.clo
@@ -42,10 +42,12 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen139
+\stockheight=\dimen140
 ))
-\Gin@req@height=\dimen139
-\Gin@req@width=\dimen140
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
 )
 (/home/gerardo/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
 Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
@@ -55,14 +57,14 @@ Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/caption/caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen141
-\captionmargin=\dimen142
-\caption@leftmargin=\dimen143
-\caption@rightmargin=\dimen144
-\caption@width=\dimen145
-\caption@indent=\dimen146
-\caption@parindent=\dimen147
-\caption@hangindent=\dimen148
+\caption@tempdima=\dimen143
+\captionmargin=\dimen144
+\caption@leftmargin=\dimen145
+\caption@rightmargin=\dimen146
+\caption@width=\dimen147
+\caption@indent=\dimen148
+\caption@parindent=\dimen149
+\caption@hangindent=\dimen150
 Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count193
@@ -77,8 +79,8 @@ Package caption Info: Standard document class detected.
 (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.
 tex
 \pgfutil@everybye=\toks17
-\pgfutil@tempdima=\dimen149
-\pgfutil@tempdimb=\dimen150
+\pgfutil@tempdima=\dimen151
+\pgfutil@tempdimb=\dimen152
 
 (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common-
 lists.tex))
@@ -107,16 +109,16 @@ x
 .code.tex
 \pgfkeys@tmptoks=\toks20
 ))
-\pgf@x=\dimen151
-\pgf@y=\dimen152
-\pgf@xa=\dimen153
-\pgf@ya=\dimen154
-\pgf@xb=\dimen155
-\pgf@yb=\dimen156
-\pgf@xc=\dimen157
-\pgf@yc=\dimen158
-\pgf@xd=\dimen159
-\pgf@yd=\dimen160
+\pgf@x=\dimen153
+\pgf@y=\dimen154
+\pgf@xa=\dimen155
+\pgf@ya=\dimen156
+\pgf@xb=\dimen157
+\pgf@yb=\dimen158
+\pgf@xc=\dimen159
+\pgf@yc=\dimen160
+\pgf@xd=\dimen161
+\pgf@yd=\dimen162
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
 \c@pgf@counta=\count197
@@ -158,7 +160,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 
-(/home/gerardo/.miktex/texmfs/install/tex/latex-dev/graphics/mathcolor.ltx)
+(/home/gerardo/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -182,7 +184,7 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 )
 (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.t
 ex
-\pgfmath@dimen=\dimen161
+\pgfmath@dimen=\dimen163
 \pgfmath@count=\count270
 \pgfmath@box=\box52
 \pgfmath@toks=\toks24
@@ -214,32 +216,32 @@ x
 (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.
 code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen162
-\pgf@picmaxx=\dimen163
-\pgf@picminy=\dimen164
-\pgf@picmaxy=\dimen165
-\pgf@pathminx=\dimen166
-\pgf@pathmaxx=\dimen167
-\pgf@pathminy=\dimen168
-\pgf@pathmaxy=\dimen169
-\pgf@xx=\dimen170
-\pgf@xy=\dimen171
-\pgf@yx=\dimen172
-\pgf@yy=\dimen173
-\pgf@zx=\dimen174
-\pgf@zy=\dimen175
+\pgf@picminx=\dimen164
+\pgf@picmaxx=\dimen165
+\pgf@picminy=\dimen166
+\pgf@picmaxy=\dimen167
+\pgf@pathminx=\dimen168
+\pgf@pathmaxx=\dimen169
+\pgf@pathminy=\dimen170
+\pgf@pathmaxy=\dimen171
+\pgf@xx=\dimen172
+\pgf@xy=\dimen173
+\pgf@yx=\dimen174
+\pgf@yy=\dimen175
+\pgf@zx=\dimen176
+\pgf@zy=\dimen177
 )
 (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathcon
 struct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen176
-\pgf@path@lasty=\dimen177
+\pgf@path@lastx=\dimen178
+\pgf@path@lasty=\dimen179
 )
 (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathusa
 ge.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen178
-\pgf@shorten@start@additional=\dimen179
+\pgf@shorten@end@additional=\dimen180
+\pgf@shorten@start@additional=\dimen181
 )
 (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes.
 code.tex
@@ -252,14 +254,14 @@ File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphic
 state.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen180
+\pgflinewidth=\dimen182
 )
 (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransfo
 rmations.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen181
-\pgf@pt@y=\dimen182
-\pgf@pt@temp=\dimen183
+\pgf@pt@x=\dimen183
+\pgf@pt@y=\dimen184
+\pgf@pt@temp=\dimen185
 )
 (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.c
 ode.tex
@@ -276,12 +278,12 @@ File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows.
 code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen184
+\pgfarrowsep=\dimen186
 )
 (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.c
 ode.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen185
+\pgf@max=\dimen187
 \pgf@sys@shading@range@num=\count273
 \pgf@shadingcount=\count274
 )
@@ -322,8 +324,8 @@ File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versi
 on-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen186
-\pgf@nodesepend=\dimen187
+\pgf@nodesepstart=\dimen188
+\pgf@nodesepend=\dimen189
 )
 (/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-versi
 on-1-18.sty
@@ -337,8 +339,8 @@ x)) (/home/gerardo/.miktex/texmfs/install/tex/latex/pgf/math/pgfmath.sty
 (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen188
-\pgffor@skip=\dimen189
+\pgffor@iter=\dimen190
+\pgffor@skip=\dimen191
 \pgffor@stack=\toks27
 \pgffor@toks=\toks28
 ))
@@ -350,16 +352,16 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 andlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@plot@mark@count=\count275
-\pgfplotmarksize=\dimen190
+\pgfplotmarksize=\dimen192
 )
-\tikz@lastx=\dimen191
-\tikz@lasty=\dimen192
-\tikz@lastxsaved=\dimen193
-\tikz@lastysaved=\dimen194
-\tikz@lastmovetox=\dimen195
-\tikz@lastmovetoy=\dimen196
-\tikzleveldistance=\dimen197
-\tikzsiblingdistance=\dimen198
+\tikz@lastx=\dimen193
+\tikz@lasty=\dimen194
+\tikz@lastxsaved=\dimen195
+\tikz@lastysaved=\dimen196
+\tikz@lastmovetox=\dimen197
+\tikz@lastmovetoy=\dimen198
+\tikzleveldistance=\dimen199
+\tikzsiblingdistance=\dimen256
 \tikz@figbox=\box58
 \tikz@figbox@bg=\box59
 \tikz@tempbox=\box60
@@ -383,7 +385,7 @@ ies/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (/home/gerardo/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
+Package: hyperref 2022-09-22 v7.00t Hypertext links for LaTeX
 
 (/home/gerardo/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
@@ -402,8 +404,8 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/home/gerardo/.miktex/texmfs/install/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+(/home/gerardo/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
 (/home/gerardo/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -433,11 +435,11 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count284
 )
-\@linkdim=\dimen199
+\@linkdim=\dimen257
 \Hy@linkcounter=\count285
 \Hy@pagecounter=\count286
 (/home/gerardo/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -450,7 +452,7 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 \Hy@SavedSpaceFactor=\count287
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
-File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -460,15 +462,15 @@ Package hyperref Info: Hyper index ON on input line 4170.
 Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4408.
+Package hyperref Info: Bookmarks ON on input line 4410.
 \c@Hy@tempcnt=\count288
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4746.
-\XeTeXLinkMargin=\dimen256
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen258
 
 (/home/gerardo/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -478,15 +480,15 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count289
-\Field@Width=\dimen257
-\Fld@charsize=\dimen258
-Package hyperref Info: Hyper figures OFF on input line 6024.
-Package hyperref Info: Link nesting OFF on input line 6029.
-Package hyperref Info: Hyper index ON on input line 6032.
-Package hyperref Info: backreferencing OFF on input line 6039.
-Package hyperref Info: Link coloring OFF on input line 6044.
-Package hyperref Info: Link coloring with OCG OFF on input line 6049.
-Package hyperref Info: PDF/A mode OFF on input line 6054.
+\Field@Width=\dimen259
+\Fld@charsize=\dimen260
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
@@ -499,7 +501,7 @@ package with kernel methods
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2022-06-20 v7.00s Hyperref driver for pdfTeX
+File: hpdftex.def 2022-09-22 v7.00t Hyperref driver for pdfTeX
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
@@ -521,7 +523,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
 \Hy@SectionHShift=\skip49
-) (/home/gerardo/.miktex/texmfs/install/tex/latex/natbib/natbib.sty
+) (/usr/local/share/miktex-texmf/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip50
 \bibsep=\skip51
@@ -540,14 +542,14 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count296
 \Gm@cntv=\count297
 \c@Gm@tempcnt=\count298
-\Gm@bindingoffset=\dimen259
-\Gm@wd@mp=\dimen260
-\Gm@odd@mp=\dimen261
-\Gm@even@mp=\dimen262
-\Gm@layoutwidth=\dimen263
-\Gm@layoutheight=\dimen264
-\Gm@layouthoffset=\dimen265
-\Gm@layoutvoffset=\dimen266
+\Gm@bindingoffset=\dimen261
+\Gm@wd@mp=\dimen262
+\Gm@odd@mp=\dimen263
+\Gm@even@mp=\dimen264
+\Gm@layoutwidth=\dimen265
+\Gm@layoutheight=\dimen266
+\Gm@layouthoffset=\dimen267
+\Gm@layoutvoffset=\dimen268
 \Gm@dimlist=\toks29
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
@@ -568,24 +570,24 @@ rs
 \f@nch@O@orf=\skip60
 )
 (/home/gerardo/.miktex/texmfs/install/tex/latex/tools/multicol.sty
-Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \c@tracingmulticols=\count299
 \mult@box=\box62
-\multicol@leftmargin=\dimen267
+\multicol@leftmargin=\dimen269
 \c@unbalance=\count300
 \c@collectmore=\count301
 \doublecol@number=\count302
 \multicoltolerance=\count303
 \multicolpretolerance=\count304
-\full@width=\dimen268
-\page@free=\dimen269
-\premulticols=\dimen270
-\postmulticols=\dimen271
+\full@width=\dimen270
+\page@free=\dimen271
+\premulticols=\dimen272
+\postmulticols=\dimen273
 \multicolsep=\skip61
 \multicolbaselineskip=\skip62
 \partial@page=\box63
 \last@line=\box64
-\maxbalancingoverflow=\dimen272
+\maxbalancingoverflow=\dimen274
 \mult@rightbox=\box65
 \mult@grightbox=\box66
 \mult@firstbox=\box67
@@ -629,29 +631,29 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \c@minrows=\count305
 \c@columnbadness=\count306
 \c@finalcolumnbadness=\count307
-\last@try=\dimen273
-\multicolovershoot=\dimen274
-\multicolundershoot=\dimen275
+\last@try=\dimen275
+\multicolovershoot=\dimen276
+\multicolundershoot=\dimen277
 \mult@nat@firstbox=\box105
 \colbreak@box=\box106
 \mc@col@check@num=\count308
 )
 (/home/gerardo/.miktex/texmfs/install/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2022/07/04 v3.37 KOMA-Script package (handling toc-files)
+Package: tocbasic 2022/10/12 v3.38 KOMA-Script package (handling toc-files)
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2022/07/04 v3.37 KOMA-Script package (KOMA-Script-independent 
+Package: scrbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2022/07/04 v3.37 KOMA-Script package (file load hooks)
+Package: scrlfile 2022/10/12 v3.38 KOMA-Script package (file load hooks)
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/koma-script/scrlfile-hook.sty
-Package: scrlfile-hook 2022/07/04 v3.37 KOMA-Script package (using LaTeX hooks)
+Package: scrlfile-hook 2022/10/12 v3.38 KOMA-Script package (using LaTeX hooks)
 
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/koma-script/scrlogo.sty
-Package: scrlogo 2022/07/04 v3.37 KOMA-Script package (logo)
+Package: scrlogo 2022/10/12 v3.38 KOMA-Script package (logo)
 )))
 Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line
@@ -662,21 +664,21 @@ Already applied: [0000/00/00] Usage of raw or classic option list on input line
 )
 \scr@dte@figure@maxnumwidth=\skip64
 
-(/home/gerardo/.miktex/texmfs/install/tex/latex/mol2chemfig/mol2chemfig.sty
+(/usr/local/share/miktex-texmf/tex/latex/mol2chemfig/mol2chemfig.sty
 Package: mol2chemfig 2019/11/24 v1.5
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/chemfig/chemfig.sty
 (/home/gerardo/.miktex/texmfs/install/tex/generic/chemfig/chemfig.tex
 (/home/gerardo/.miktex/texmfs/install/tex/generic/simplekv/simplekv.tex
-Package: simplekv 2020/04/27 v0.2 Simple keyval package (CT)
+Package: simplekv 2022/10/01 v0.2a Simple keyval package (CT)
 )
 (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryarrow
 s.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen276
-\pgfarrowlength=\dimen277
-\pgfarrowwidth=\dimen278
-\pgfarrowlinewidth=\dimen279
+\pgfarrowinset=\dimen278
+\pgfarrowlength=\dimen279
+\pgfarrowwidth=\dimen280
+\pgfarrowlinewidth=\dimen281
 )
 \CF_cntatomgroup=\count309
 \CF_cntgroup=\count310
@@ -684,16 +686,16 @@ File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \CF_cntcycle=\count312
 \CF_cntcyclebonds=\count313
 \CF_cntcompound=\count314
-\CF_dim=\dimen280
-\CF_arrowsize=\dimen281
-\CF_zero=\dimen282
+\CF_dim=\dimen282
+\CF_arrowsize=\dimen283
+\CF_zero=\dimen284
 \CF_box=\box108
 \CF_boxstuff=\box109
 \CF_testbox=\box110
 \CF_chargebox=\box111
 \CF_substtoks=\toks30
 )
-Package: chemfig 2021/08/01 v1.6b Draw molecule with an easy syntax (CT)
+Package: chemfig 2022/09/27 v1.6c Draw molecule with an easy syntax (CT)
 )
 (/home/gerardo/.miktex/texmfs/install/tex/latex/oberdiek/twoopt.sty
 Package: twoopt 2016/05/16 v1.6 Definitions with two optional arguments (HO)
@@ -705,8 +707,8 @@ Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count315
 \calc@Bcount=\count316
-\calc@Adimen=\dimen283
-\calc@Bdimen=\dimen284
+\calc@Adimen=\dimen285
+\calc@Bdimen=\dimen286
 \calc@Askip=\skip65
 \calc@Bskip=\skip66
 LaTeX Info: Redefining \setlength on input line 80.
@@ -725,14 +727,14 @@ Package: xstring 2021/07/21 v1.84 String manipulations (CT)
 ies/tikzlibrarydecorations.code.tex
 (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduledecorati
 ons.code.tex
-\pgfdecoratedcompleteddistance=\dimen285
-\pgfdecoratedremainingdistance=\dimen286
-\pgfdecoratedinputsegmentcompleteddistance=\dimen287
-\pgfdecoratedinputsegmentremainingdistance=\dimen288
-\pgf@decorate@distancetomove=\dimen289
+\pgfdecoratedcompleteddistance=\dimen287
+\pgfdecoratedremainingdistance=\dimen288
+\pgfdecoratedinputsegmentcompleteddistance=\dimen289
+\pgfdecoratedinputsegmentremainingdistance=\dimen290
+\pgf@decorate@distancetomove=\dimen291
 \pgf@decorate@repeatstate=\count320
-\pgfdecorationsegmentamplitude=\dimen290
-\pgfdecorationsegmentlength=\dimen291
+\pgfdecorationsegmentamplitude=\dimen292
+\pgfdecorationsegmentlength=\dimen293
 )
 \tikz@lib@dec@box=\box112
 )
@@ -743,10 +745,10 @@ ons.code.tex
 (/home/gerardo/.miktex/texmfs/install/tex/latex/chemmacros/chemmacros.sty
 (/home/gerardo/.miktex/texmfs/install/tex/latex/l3packages/l3keys2e/l3keys2e.st
 y (/home/gerardo/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-07-15 L3 programming layer (loader) 
+Package: expl3 2022-09-28 L3 programming layer (loader) 
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count321
 \l__pdf_internal_box=\box113
 ))
@@ -754,9 +756,9 @@ Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
 )
 Package: chemmacros 2022/03/11 v6.2a comprehensive support for typesetting chem
 istry documents (CN & SK)
-\l__chemmacros_tmpa_dim=\dimen292
-\l__chemmacros_tmpb_dim=\dimen293
-\l__chemmacros_tmpc_dim=\dimen294
+\l__chemmacros_tmpa_dim=\dimen294
+\l__chemmacros_tmpb_dim=\dimen295
+\l__chemmacros_tmpc_dim=\dimen296
 \l__chemmacros_tmpa_int=\count322
 \l__chemmacros_tmpb_int=\count323
 \l__chemmacros_tmpc_int=\count324
@@ -767,7 +769,7 @@ Loading the chemmacros module `base' ...
 
 Loading the chemmacros module `base' ...
 (/home/gerardo/.miktex/texmfs/install/tex/latex/tools/bm.sty
-Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup4
 \symboldletters=\mathgroup5
 \symboldsymbols=\mathgroup6
@@ -780,7 +782,7 @@ Package: amstext 2021/08/26 v2.01 AMS text
 (/home/gerardo/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks31
-\ex@=\dimen295
+\ex@=\dimen297
 ))
 Loading the chemmacros module `errorcheck' ...
 
@@ -818,16 +820,16 @@ Loading the chemmacros module `symbols' ...
 Loading the chemmacros module `symbols' ...
 Loading the chemmacros module `particles' ...
 Loading the chemmacros module `particles' ...
-\l__chemmacros_nucleophile_dim=\dimen296
+\l__chemmacros_nucleophile_dim=\dimen298
 Loading the chemmacros module `phases' ...
 Loading the chemmacros module `phases' ...
-\l__chemmacros_phases_space_dim=\dimen297
+\l__chemmacros_phases_space_dim=\dimen299
 Loading the chemmacros module `nomenclature' ...
 Loading the chemmacros module `nomenclature' ...
-\l__chemmacros_cip_kern_dim=\dimen298
-\l__chemmacros_iupac_hyphen_pre_dim=\dimen299
-\l__chemmacros_iupac_hyphen_post_dim=\dimen300
-\l__chemmacros_iupac_break_dim=\dimen301
+\l__chemmacros_cip_kern_dim=\dimen300
+\l__chemmacros_iupac_hyphen_pre_dim=\dimen301
+\l__chemmacros_iupac_hyphen_post_dim=\dimen302
+\l__chemmacros_iupac_break_dim=\dimen303
 \l__chemmacros_iupac_break_skip=\skip71
 Loading the chemmacros module `tikz' ...
 Loading the chemmacros module `tikz' ...
@@ -840,7 +842,7 @@ File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ies/tikzlibrarydecorations.pathmorphing.code.tex
 (/home/gerardo/.miktex/texmfs/install/tex/generic/pgf/libraries/decorations/pgf
 librarydecorations.pathmorphing.code.tex))
-\l__chemmacros_el_length_dim=\dimen302
+\l__chemmacros_el_length_dim=\dimen304
 Loading the chemmacros module `isotopes' ...
 
 Loading the chemmacros module `isotopes' ...
@@ -858,8 +860,8 @@ Loading the chemmacros module `orbital' ...
 Loading the chemmacros module `orbital' ...
 Loading the chemmacros module `polymers' ...
 Loading the chemmacros module `polymers' ...
-\l__chemmacros_polymer_delimiter_height_dim=\dimen303
-\l__chemmacros_polymer_delimiter_depth_dim=\dimen304
+\l__chemmacros_polymer_delimiter_height_dim=\dimen305
+\l__chemmacros_polymer_delimiter_depth_dim=\dimen306
 Loading the chemmacros module `reactions' ...
 Loading the chemmacros module `reactions' ...
 \c@reaction=\count330
@@ -877,7 +879,7 @@ For additional information on amsmath, use the `?' option.
 (/home/gerardo/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 LaTeX Info: Redefining \boldsymbol on input line 28.
-\pmbraise@=\dimen305
+\pmbraise@=\dimen307
 )
 (/home/gerardo/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
@@ -899,7 +901,7 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen306
+\big@size=\dimen308
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count336
@@ -917,12 +919,12 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \column@=\count341
 \maxfields@=\count342
 \andhelp@=\toks33
-\eqnshift@=\dimen307
-\alignsep@=\dimen308
-\tagshift@=\dimen309
-\tagwidth@=\dimen310
-\totwidth@=\dimen311
-\lineht@=\dimen312
+\eqnshift@=\dimen309
+\alignsep@=\dimen310
+\tagshift@=\dimen311
+\tagwidth@=\dimen312
+\totwidth@=\dimen313
+\lineht@=\dimen314
 \@envbody=\toks34
 \multlinegap=\skip73
 \multlinetaggap=\skip74
@@ -931,18 +933,18 @@ LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
 \g_MT_multlinerow_int=\count343
-\l_MT_multwidth_dim=\dimen313
+\l_MT_multwidth_dim=\dimen315
 \origjot=\skip75
-\l_MT_shortvdotswithinadjustabove_dim=\dimen314
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen315
-\l_MT_above_intertext_sep=\dimen316
-\l_MT_below_intertext_sep=\dimen317
-\l_MT_above_shortintertext_sep=\dimen318
-\l_MT_below_shortintertext_sep=\dimen319
+\l_MT_shortvdotswithinadjustabove_dim=\dimen316
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen317
+\l_MT_above_intertext_sep=\dimen318
+\l_MT_below_intertext_sep=\dimen319
+\l_MT_above_shortintertext_sep=\dimen320
+\l_MT_below_shortintertext_sep=\dimen321
 \xmathstrut@box=\box119
-\xmathstrut@dim=\dimen320
+\xmathstrut@dim=\dimen322
 )
-Package tocbasic Info: babel extension for `lor' omitted
+Package tocbasic Info: omitting babel extension for `lor'
 (tocbasic)             because of missing \bbl@set@language on input line 4064.
 
 Loading the chemmacros module `redox' ...
@@ -952,9 +954,9 @@ Loading the chemmacros module `redox' ...
 Package: relsize 2013/03/29 ver 4.1
 )
 \l__chemmacros_ox_number_int=\count344
-\l__chemmacros_redox_sep_dim=\dimen321
-\l__chemmacros_redox_sep_default_dim=\dimen322
-\l__chemmacros_redox_dist_dim=\dimen323
+\l__chemmacros_redox_sep_dim=\dimen323
+\l__chemmacros_redox_sep_default_dim=\dimen324
+\l__chemmacros_redox_dist_dim=\dimen325
 Loading the chemmacros module `xfrac' ...
 
 Loading the chemmacros module `xfrac' ...
@@ -965,7 +967,7 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 (/home/gerardo/.miktex/texmfs/install/tex/latex/l3packages/xtemplate/xtemplate.
 sty
 Package: xtemplate 2022-06-22 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen324
+\l__xtemplate_tmp_dim=\dimen326
 \l__xtemplate_tmp_int=\count345
 \l__xtemplate_tmp_muskip=\muskip18
 \l__xtemplate_tmp_skip=\skip76
@@ -973,11 +975,11 @@ Package: xtemplate 2022-06-22 L3 Experimental prototype document functions
 Package: xfrac 2022-06-22 L3 Experimental split-level fractions
 \l__xfrac_slash_box=\box120
 \l__xfrac_tmp_box=\box121
-\l__xfrac_denominator_bot_sep_dim=\dimen325
-\l__xfrac_numerator_bot_sep_dim=\dimen326
-\l__xfrac_numerator_top_sep_dim=\dimen327
-\l__xfrac_slash_left_sep_dim=\dimen328
-\l__xfrac_slash_right_sep_dim=\dimen329
+\l__xfrac_denominator_bot_sep_dim=\dimen327
+\l__xfrac_numerator_bot_sep_dim=\dimen328
+\l__xfrac_numerator_top_sep_dim=\dimen329
+\l__xfrac_slash_left_sep_dim=\dimen330
+\l__xfrac_slash_right_sep_dim=\dimen331
 \l__xfrac_slash_left_muskip=\muskip19
 \l__xfrac_slash_right_muskip=\muskip20
 
@@ -1009,8 +1011,8 @@ Loading the chemmacros module `spectroscopy' ...
 
 Loading the chemmacros module `spectroscopy' ...
 (/home/gerardo/.miktex/texmfs/install/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2022-07-23 v3.1.5 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen330
+Package: siunitx 2022-10-04 v3.1.8 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen332
 \l__siunitx_angle_marker_box=\box122
 \l__siunitx_angle_unit_box=\box123
 \l__siunitx_compound_count_int=\count354
@@ -1022,23 +1024,23 @@ Package: siunitx 2022-07-23 v3.1.5 A comprehensive (SI) units package
 \l__siunitx_number_group_size_int=\count360
 \l__siunitx_number_group_minimum_int=\count361
 \l__siunitx_table_tmp_box=\box124
-\l__siunitx_table_tmp_dim=\dimen331
-\l__siunitx_table_column_width_dim=\dimen332
+\l__siunitx_table_tmp_dim=\dimen333
+\l__siunitx_table_column_width_dim=\dimen334
 \l__siunitx_table_integer_box=\box125
 \l__siunitx_table_decimal_box=\box126
 \l__siunitx_table_before_box=\box127
 \l__siunitx_table_after_box=\box128
-\l__siunitx_table_before_dim=\dimen333
-\l__siunitx_table_carry_dim=\dimen334
+\l__siunitx_table_before_dim=\dimen335
+\l__siunitx_table_carry_dim=\dimen336
 \l__siunitx_unit_tmp_int=\count362
 \l__siunitx_unit_position_int=\count363
 \l__siunitx_unit_total_int=\count364
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/tools/array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen335
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen337
 \ar@mcellbox=\box129
-\extrarowheight=\dimen336
+\extrarowheight=\dimen338
 \NC@list=\toks36
 \extratabsurround=\skip77
 \backup@length=\skip78
@@ -1071,35 +1073,35 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip80
 \multirow@cntb=\count365
 \multirow@dima=\skip81
-\bigstrutjot=\dimen337
+\bigstrutjot=\dimen339
 )
 (/home/gerardo/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen338
-\lightrulewidth=\dimen339
-\cmidrulewidth=\dimen340
-\belowrulesep=\dimen341
-\belowbottomsep=\dimen342
-\aboverulesep=\dimen343
-\abovetopsep=\dimen344
-\cmidrulesep=\dimen345
-\cmidrulekern=\dimen346
-\defaultaddspace=\dimen347
+\heavyrulewidth=\dimen340
+\lightrulewidth=\dimen341
+\cmidrulewidth=\dimen342
+\belowrulesep=\dimen343
+\belowbottomsep=\dimen344
+\aboverulesep=\dimen345
+\abovetopsep=\dimen346
+\cmidrulesep=\dimen347
+\cmidrulekern=\dimen348
+\defaultaddspace=\dimen349
 \@cmidla=\count366
 \@cmidlb=\count367
-\@aboverulesep=\dimen348
-\@belowrulesep=\dimen349
+\@aboverulesep=\dimen350
+\@belowrulesep=\dimen351
 \@thisruleclass=\count368
 \@lastruleclass=\count369
-\@thisrulewidth=\dimen350
+\@thisrulewidth=\dimen352
 )
 (/home/gerardo/.miktex/texmfs/install/tex/latex/threeparttable/threeparttable.s
 ty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box131
 ) (/home/gerardo/.miktex/texmfs/install/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen351
-\WF@size=\dimen352
+\wrapoverhang=\dimen353
+\WF@size=\dimen354
 \c@WF@wrappedlines=\count370
 \WF@box=\box132
 \WF@everypar=\toks37
@@ -1124,42 +1126,42 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ))
 Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions 
 (CN)
-\l__chemformula_tmpa_dim=\dimen353
-\l__chemformula_tmpb_dim=\dimen354
-\l__chemformula_tmpc_dim=\dimen355
+\l__chemformula_tmpa_dim=\dimen355
+\l__chemformula_tmpb_dim=\dimen356
+\l__chemformula_tmpc_dim=\dimen357
 \l__chemformula_tmpa_int=\count371
 \l__chemformula_tmpb_int=\count372
 \l__chemformula_tmpc_int=\count373
 \l__chemformula_tmpa_box=\box133
 \l__chemformula_tmpb_box=\box134
-\l__chemformula_arrow_length_dim=\dimen356
-\l__chemformula_arrow_label_height_dim=\dimen357
-\l__chemformula_arrow_label_offset_dim=\dimen358
-\l__chemformula_arrow_minimum_length_dim=\dimen359
-\l__chemformula_arrow_shortage_dim=\dimen360
-\l__chemformula_arrow_offset_dim=\dimen361
-\l__chemformula_arrow_yshift_dim=\dimen362
-\l__chemformula_radical_radius_dim=\dimen363
-\l__chemformula_radical_hshift_dim=\dimen364
-\l__chemformula_radical_vshift_dim=\dimen365
-\l__chemformula_radical_space_dim=\dimen366
-\l__chemformula_arrow_head_dim=\dimen367
-\l__chemformula_name_dim=\dimen368
-\l__chemformula_adduct_space_dim=\dimen369
-\l__chemformula_charge_shift_dim=\dimen370
-\l__chemformula_subscript_shift_dim=\dimen371
-\l__chemformula_superscript_shift_dim=\dimen372
-\l__chemformula_subscript_dim=\dimen373
-\l__chemformula_superscript_dim=\dimen374
-\l__chemformula_bond_dim=\dimen375
-\l__chemformula_bond_space_dim=\dimen376
-\l__chemformula_elspec_pair_distance_dim=\dimen377
-\l__chemformula_elspec_pair_line_length_dim=\dimen378
-\l__chemformula_elspec_pair_width_dim=\dimen379
-\l__chemformula_kroegervink_positive_radius_dim=\dimen380
-\l__chemformula_kroegervink_positive_hshift_dim=\dimen381
-\l__chemformula_kroegervink_positive_vshift_dim=\dimen382
-\l__chemformula_kroegervink_positive_space_dim=\dimen383
+\l__chemformula_arrow_length_dim=\dimen358
+\l__chemformula_arrow_label_height_dim=\dimen359
+\l__chemformula_arrow_label_offset_dim=\dimen360
+\l__chemformula_arrow_minimum_length_dim=\dimen361
+\l__chemformula_arrow_shortage_dim=\dimen362
+\l__chemformula_arrow_offset_dim=\dimen363
+\l__chemformula_arrow_yshift_dim=\dimen364
+\l__chemformula_radical_radius_dim=\dimen365
+\l__chemformula_radical_hshift_dim=\dimen366
+\l__chemformula_radical_vshift_dim=\dimen367
+\l__chemformula_radical_space_dim=\dimen368
+\l__chemformula_arrow_head_dim=\dimen369
+\l__chemformula_name_dim=\dimen370
+\l__chemformula_adduct_space_dim=\dimen371
+\l__chemformula_charge_shift_dim=\dimen372
+\l__chemformula_subscript_shift_dim=\dimen373
+\l__chemformula_superscript_shift_dim=\dimen374
+\l__chemformula_subscript_dim=\dimen375
+\l__chemformula_superscript_dim=\dimen376
+\l__chemformula_bond_dim=\dimen377
+\l__chemformula_bond_space_dim=\dimen378
+\l__chemformula_elspec_pair_distance_dim=\dimen379
+\l__chemformula_elspec_pair_line_length_dim=\dimen380
+\l__chemformula_elspec_pair_width_dim=\dimen381
+\l__chemformula_kroegervink_positive_radius_dim=\dimen382
+\l__chemformula_kroegervink_positive_hshift_dim=\dimen383
+\l__chemformula_kroegervink_positive_vshift_dim=\dimen384
+\l__chemformula_kroegervink_positive_space_dim=\dimen385
 \l__chemformula_stoich_space_skip=\skip85
 \l__chemformula_math_space_skip=\skip86
 \l__chemformula_additions_symbol_space_skip=\skip87
@@ -1175,7 +1177,7 @@ Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions
 
 Package chemmacros Info: Using float defining method `tocbasic'.
 
-Package tocbasic Info: babel extension for `los' omitted
+Package tocbasic Info: omitting babel extension for `los'
 (tocbasic)             because of missing \bbl@set@language on input line 83.
 \c@scheme=\count376
  (Docking.aux)
@@ -1202,13 +1204,13 @@ LaTeX Font Info:    ... okay on input line 83.
  (/home/gerardo/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count377
-\scratchdimen=\dimen384
+\scratchdimen=\dimen386
 \scratchbox=\box139
 \nofMPsegments=\count378
 \nofMParguments=\count379
 \everyMPshowfont=\toks38
 \MPscratchCnt=\count380
-\MPscratchDim=\dimen385
+\MPscratchDim=\dimen387
 \MPnumerator=\count381
 \makeMPintoPDFobject=\count382
 \everyMPtoPDFconversion=\toks39
@@ -1288,11 +1290,11 @@ Package chemmacros Warning: You haven't loaded any package for upright Greek
 
 (/home/gerardo/.miktex/texmfs/install/tex/latex/elements/elements_names_english
 .def)
-<../Images/SB.png, id=94, 1268.0976pt x 604.8999pt>
+<../Images/SB.png, id=94, 1804.49156pt x 624.08156pt>
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 86.
-(pdftex.def)             Requested size: 380.43222pt x 181.47136pt.
+(pdftex.def)             Requested size: 504.23468pt x 174.3893pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
 
  (/home/gerardo/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
@@ -1329,7 +1331,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 112.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 <../Images/IDL.png, id=114, 417.56pt x 203.76125pt>
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
@@ -1337,11 +1339,11 @@ Package pdftex.def Info: ../Images/IDL.png  used on input line 112.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [2 <../Images/IDL.png>]
 
@@ -1350,18 +1352,18 @@ LaTeX Warning: Text page 3 contains only floats.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 112.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 112.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [3 <../Images/Pathway2.png>] (../Images/chem/phenylalanine.tex)
 (../Images/chem/cinnamic.tex)
@@ -1397,18 +1399,18 @@ Underfull \hbox (badness 1303) in paragraph at lines 140--141
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 141.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 141.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [4 <../1/Minimize/model.png>]
 <../1/Swiss/Local_quality_estimate.png, id=164, 1383.1675pt x 727.71875pt>
@@ -1429,18 +1431,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 182.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 182.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [5 <../1/Swiss/Local_quality_estimate.png>]
 <../1/Dock/best.png, id=205, 803.0pt x 803.0pt>
@@ -1479,18 +1481,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 214.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 214.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [6]
 <../1/Dock/chimera.png, id=215, 803.0pt x 803.0pt>
@@ -1507,18 +1509,18 @@ Overfull \hbox (10.29959pt too wide) in paragraph at lines 227--228
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 228.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 228.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [7 <../1/Dock/best.png> <../1/Dock/best2.png> <../1/Dock/best3.png> <../1/Dock/
 best4.png> <../1/Dock/chimera.png>] (../Images/chem/cinnamic.tex)
@@ -1559,24 +1561,24 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 255.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 255.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [8 <../2/Minimize/model.png>]
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 261.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 261.
@@ -1584,11 +1586,11 @@ Package pdftex.def Info: ../Images/IDL.png  used on input line 261.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [9 <../2/Swiss/Local_quality_estimate.png>]
 <../2/Dock/best.png, id=273, 803.0pt x 803.0pt>
@@ -1627,18 +1629,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 322.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 322.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [10]
 <../2/Dock/chimera.png, id=284, 803.0pt x 803.0pt>
@@ -1653,18 +1655,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 331.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 331.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [11 <../2/Dock/best.png> <../2/Dock/best2.png> <../2/Dock/best3.png> <../2/Dock
 /best4.png> <../2/Dock/chimera.png>]
@@ -1704,18 +1706,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 394.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 394.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [12
 
@@ -1732,18 +1734,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 403.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 403.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [13 <../2/Dock/Dock2/best.png> <../2/Dock/Dock2/best2.png> <../2/Dock/Dock2/bes
 t3.png> <../2/Dock/Dock2/best4.png> <../2/Dock/Dock2/chimera.png>]
@@ -1794,18 +1796,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 435.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 435.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [14
 
@@ -1828,18 +1830,18 @@ Underfull \hbox (badness 3088) in paragraph at lines 448--449
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 449.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 449.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [15 <../4/Swiss/Local_quality_estimate.png> <../4/Swiss/sah.png>]
 <../4/Phylogeny/trace.png, id=371, 1535.7375pt x 903.375pt>
@@ -1860,18 +1862,18 @@ Underfull \hbox (badness 5970) in paragraph at lines 474--475
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 478.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 478.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [16 <../4/Phylogeny/trace.png> <../4/Phylogeny/tree.png>]
 <../4/Phylogeny/hfl.png, id=397, 803.0pt x 803.0pt>
@@ -1935,18 +1937,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 546.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 546.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [17 <../4/Phylogeny/hfl.png>]
 <../4/Dock/chimera.png, id=413, 803.0pt x 803.0pt>
@@ -1957,7 +1959,7 @@ Package pdftex.def Info: ../4/Dock/chimera.png  used on input line 551.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 562.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 562.
@@ -1965,11 +1967,11 @@ Package pdftex.def Info: ../Images/IDL.png  used on input line 562.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [18 <../4/Dock/best.png> <../4/Dock/best2.png> <../4/Dock/best3.png> <../4/Dock
 /best4.png> <../4/Dock/chimera.png>]
@@ -2009,18 +2011,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 617.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 617.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [19]
 <../4/Dock/Dock2/chimera.png, id=439, 803.0pt x 803.0pt>
@@ -2031,7 +2033,7 @@ Package pdftex.def Info: ../4/Dock/Dock2/chimera.png  used on input line 622.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 628.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 628.
@@ -2039,11 +2041,11 @@ Package pdftex.def Info: ../Images/IDL.png  used on input line 628.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [20 <../4/Dock/Dock2/best.png> <../4/Dock/Dock2/best2.png> <../4/Dock/Dock2/bes
 t3.png> <../4/Dock/Dock2/best4.png> <../4/Dock/Dock2/chimera.png>]
@@ -2104,18 +2106,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 667.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 667.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [21 <../5/known/Minimize/model2.png>]
 <../5/known/AlphaFold2/Met_dioixi_ef326_plddt.png, id=470, 578.16pt x 361.35pt>
@@ -2128,7 +2130,7 @@ Package pdftex.def Info: ../5/known/AlphaFold2/Met_dioixi_ef326_plddt.png  used
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 678.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 678.
@@ -2136,11 +2138,11 @@ Package pdftex.def Info: ../Images/IDL.png  used on input line 678.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [22 <../5/known/Transcripts/7.png (PNG copy)> <../5/known/AlphaFold2/Met_dioixi
 _ef326_plddt.png>]
@@ -2150,18 +2152,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 715.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 715.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [23]
 <../5/known/Dock/best.png, id=505, 803.0pt x 803.0pt>
@@ -2205,18 +2207,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 754.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 754.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [24 <../5/known/Dock/best.png> <../5/known/Dock/best2.png> <../5/known/Dock/bes
 t3.png> <../5/known/Dock/best4.png>]
@@ -2269,18 +2271,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 815.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 815.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [25 <../5/known/Dock/chimera.png>]
 <../5/known/Dock/Dock2/chimera.png, id=533, 803.0pt x 803.0pt>
@@ -2296,18 +2298,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 824.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 824.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [26 <../5/known/Dock/Dock2/best.png> <../5/known/Dock/Dock2/best2.png> <../5/kn
 own/Dock/Dock2/best3.png> <../5/known/Dock/Dock2/best4.png> <../5/known/Dock/Do
@@ -2327,7 +2329,7 @@ input line 850.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 854.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 854.
@@ -2335,11 +2337,11 @@ Package pdftex.def Info: ../Images/IDL.png  used on input line 854.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [27
 
@@ -2350,18 +2352,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 886.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 886.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [28 <../5/propose/AlphaFold2/test_c0c6c_plddt.png>]
 <../5/propose/Dock/best.png, id=584, 803.0pt x 803.0pt>
@@ -2406,18 +2408,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 925.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 925.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [29 <../5/propose/Dock/best.png> <../5/propose/Dock/best2.png> <../5/propose/Do
 ck/best3.png> <../5/propose/Dock/best4.png>]
@@ -2470,18 +2472,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 986.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 986.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [30 <../5/propose/Dock/chimera.png>]
 <../5/propose/Dock/Dock2/chimera.png, id=613, 803.0pt x 803.0pt>
@@ -2497,18 +2499,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 995.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 995.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [31 <../5/propose/Dock/Dock2/best.png> <../5/propose/Dock/Dock2/best2.png> <../
 5/propose/Dock/Dock2/best3.png> <../5/propose/Dock/Dock2/best4.png> <../5/propo
@@ -2573,18 +2575,18 @@ Package pdftex.def Info: ../6/known/Transcripts/7.png  used on input line 1034.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1038.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1038.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [32
 
@@ -2599,7 +2601,7 @@ nput line 1043.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1047.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1047.
@@ -2607,11 +2609,11 @@ Package pdftex.def Info: ../Images/IDL.png  used on input line 1047.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [33 <../6/known/Transcripts/7.png (PNG copy)> <../6/known/Swiss/Local_quality_e
 stimate.png>]
@@ -2622,18 +2624,18 @@ Underfull \hbox (badness 4505) in paragraph at lines 1076--1077
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1080.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1080.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [34
 
@@ -2676,18 +2678,18 @@ Package pdftex.def Info: ../6/known/Dock/chimera.png  used on input line 1118.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1127.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1127.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [35 <../6/known/Dock/best.png> <../6/known/Dock/best2.png> <../6/known/Dock/bes
 t3.png> <../6/known/Dock/best4.png> <../6/known/Dock/chimera.png>]
@@ -2717,18 +2719,18 @@ Package pdftex.def Info: ../6/propose/Swiss/Local_quality_estimate.png  used on
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1148.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1148.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [36 <../6/propose/Minimize/model2.png>]
 Underfull \hbox (badness 3815) in paragraph at lines 1175--1176
@@ -2738,18 +2740,18 @@ Underfull \hbox (badness 3815) in paragraph at lines 1175--1176
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1178.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1178.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [37 <../6/propose/Swiss/Local_quality_estimate.png>]
 <../6/propose/Dock/best.png, id=737, 803.0pt x 803.0pt>
@@ -2791,18 +2793,18 @@ Package pdftex.def Info: ../6/propose/Dock/chimera.png  used on input line 1214
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1220.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1220.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [38 <../6/propose/Dock/best.png> <../6/propose/Dock/best2.png> <../6/propose/Do
 ck/best3.png> <../6/propose/Dock/best4.png> <../6/propose/Dock/chimera.png>]
@@ -2845,18 +2847,18 @@ ine 1261.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1265.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1265.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [39 <../8/Minimize/model2.png>]
 Underfull \hbox (badness 1215) in paragraph at lines 1291--1292
@@ -2866,18 +2868,18 @@ Underfull \hbox (badness 1215) in paragraph at lines 1291--1292
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1293.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1293.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [40 <../8/Swiss/Local_quality_estimate.png>]
 <../8/Dock/best.png, id=791, 803.0pt x 803.0pt>
@@ -2918,18 +2920,18 @@ Package pdftex.def Info: ../8/Dock/chimera.png  used on input line 1331.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1337.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1337.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [41 <../8/Dock/best.png> <../8/Dock/best2.png> <../8/Dock/best3.png> <../8/Dock
 /best4.png> <../8/Dock/chimera.png>] (../Images/chem/aminopentanal.tex)
@@ -2961,18 +2963,18 @@ Underfull \hbox (badness 1874) in paragraph at lines 1373--1374
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1374.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1374.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [42 <../9/Minimize/model2.png>]
 <../9/Swiss/Local_quality_estimate.png, id=843, 1383.1675pt x 727.71875pt>
@@ -2988,18 +2990,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1411.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1411.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [43 <../9/Swiss/Local_quality_estimate.png>]
 <../9/Dock/best.png, id=855, 803.0pt x 803.0pt>
@@ -3043,18 +3045,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1453.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1453.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [44 <../9/Dock/best.png> <../9/Dock/best2.png> <../9/Dock/best3.png> <../9/Dock
 /best4.png>] (../Images/chem/piperideine.tex) (../Images/chem/piperidine.tex)
@@ -3075,18 +3077,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 1472--1477
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1482.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1482.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [45 <../9/Dock/chimera.png>]
 <../10/Dock/chimera.png, id=897, 903.375pt x 878.28125pt>
@@ -3117,7 +3119,7 @@ Package pdftex.def Info: ../10/Dock/best4.png  used on input line 1538.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1545.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1545.
@@ -3125,17 +3127,17 @@ Package pdftex.def Info: ../Images/IDL.png  used on input line 1545.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [46 <../10/Dock/chimera.png>]
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1545.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1545.
@@ -3143,11 +3145,11 @@ Package pdftex.def Info: ../Images/IDL.png  used on input line 1545.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [47 <../10/Dock/best.png> <../10/Dock/best2.png> <../10/Dock/best3.png> <../10/
 Dock/best4.png>]
@@ -3197,24 +3199,24 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1616.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1616.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [48 <../10/Dock/Dock2/chimera.png>] (Docking.bbl
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 29.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 29.
@@ -3222,18 +3224,18 @@ Package pdftex.def Info: ../Images/IDL.png  used on input line 29.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [49 <../10/Dock/Dock2/best.png> <../10/Dock/Dock2/best2.png> <../10/Dock/Dock2/
 best3.png> <../10/Dock/Dock2/best4.png>]
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 108.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 108.
@@ -3241,17 +3243,17 @@ Package pdftex.def Info: ../Images/IDL.png  used on input line 108.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [50]
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 190.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 190.
@@ -3259,11 +3261,11 @@ Package pdftex.def Info: ../Images/IDL.png  used on input line 190.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [51]
 Underfull \hbox (badness 1708) in paragraph at lines 219--224
@@ -3274,24 +3276,24 @@ lack pepper, piper nigrum l.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 272.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 272.
 (pdftex.def)             Requested size: 41.75844pt x 20.3773pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [52])
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1624.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1624.
@@ -3299,11 +3301,11 @@ Package pdftex.def Info: ../Images/IDL.png  used on input line 1624.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [53] (Docking.toc)
 \tf@toc=\write6
@@ -3326,7 +3328,7 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 13.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 14.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 14.
@@ -3334,11 +3336,11 @@ Package pdftex.def Info: ../Images/IDL.png  used on input line 14.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [54]
 Package tocbasic Info: Using my definition of `\numberline' on input line 14.
@@ -3384,7 +3386,7 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 53.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 54.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 54.
@@ -3392,11 +3394,11 @@ Package pdftex.def Info: ../Images/IDL.png  used on input line 54.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [55]
 Package tocbasic Info: Using my definition of `\numberline' on input line 54.
@@ -3411,7 +3413,7 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 54.
 File: ../Images/SB.png Graphic file (type png)
 <use ../Images/SB.png>
 Package pdftex.def Info: ../Images/SB.png  used on input line 1629.
-(pdftex.def)             Requested size: 63.40858pt x 30.24677pt.
+(pdftex.def)             Requested size: 63.16365pt x 21.84508pt.
 File: ../Images/IDL.png Graphic file (type png)
 <use ../Images/IDL.png>
 Package pdftex.def Info: ../Images/IDL.png  used on input line 1629.
@@ -3419,24 +3421,24 @@ Package pdftex.def Info: ../Images/IDL.png  used on input line 1629.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 34.5968pt, for example:
-(fancyhdr)                \setlength{\headheight}{34.5968pt}.
+(fancyhdr)                Make it at least 26.19511pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.19511pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-22.5968pt}.
+(fancyhdr)                \addtolength{\topmargin}{-14.19511pt}.
 
 [56] (Docking.aux)
 Package rerunfilecheck Info: File `Docking.out' has not changed.
 (rerunfilecheck)             Checksum: CE1A0260B332207B1A08F3576DA07513;2574.
  ) 
 Here is how much of TeX's memory you used:
- 37997 strings out of 480272
- 821651 string characters out of 2888247
- 1098892 words of memory out of 3000000
- 55312 multiletter control sequences out of 15000+600000
+ 37996 strings out of 477320
+ 821746 string characters out of 2828486
+ 1141615 words of memory out of 3000000
+ 58261 multiletter control sequences out of 15000+600000
  483930 words of font info for 81 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 95i,16n,92p,1675b,1737s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 95i,16n,92p,1675b,1734s stack positions out of 10000i,1000n,20000p,200000b,80000s
  </home/gerardo/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm12
 00.pk></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx
 12.pfb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmm
@@ -3450,7 +3452,7 @@ r7.pfb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr
 y8.pfb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb></home/gerardo/.miktex/texmfs/install/fonts/type1/public/amsfonts/symbo
 ls/msbm10.pfb>
-Output written on Docking.pdf (56 pages, 22893203 bytes).
+Output written on Docking.pdf (56 pages, 22723645 bytes).
 PDF statistics:
  1164 PDF objects out of 1200 (max. 8388607)
  210 named destinations out of 1000 (max. 500000)
